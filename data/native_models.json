@@ -1,0 +1,77 @@
+{
+  "description": "The three original native executor configurations. Only machine-specific model paths are replaced by cache-relative paths.",
+  "executor_configs": [
+    {
+      "communication_mb_per_call": 0.0,
+      "config_id": "CFG_MASKRCNN_1280",
+      "energy_j_per_call": 52.050000000000004,
+      "kind": "torch_instance_segmentation",
+      "mission_latency_s": 3.47,
+      "model_strategy_id": "maskrcnn_resnet50_fpn_v2_1280x960",
+      "parameters": {
+        "device": "cpu",
+        "dtype": "float32",
+        "input_height_px": 960,
+        "input_width_px": 1280,
+        "latency_mode": "configured",
+        "min_component_px": 0,
+        "model_id": "maskrcnn_resnet50_fpn_v2",
+        "probability_threshold": 0.5,
+        "score_threshold": 0.5,
+        "task_class": "person",
+        "warmup_runs": 1,
+        "weights_id": "COCO_V1"
+      },
+      "quality_tier": "high"
+    },
+    {
+      "communication_mb_per_call": 0.0,
+      "config_id": "CFG_YOLO11S_960_ROT0",
+      "energy_j_per_call": 3.9000000000000004,
+      "kind": "lake_ultralytics_segmentation",
+      "mission_latency_s": 0.26,
+      "model_strategy_id": "yolo11s_960_views_0",
+      "parameters": {
+        "checkpoint": "models/yolo11s-seg.pt",
+        "checkpoint_sha256": "1caa81c0195412efa411b632bcfb8c184939dddb6ae41f6a80c41b211ff257c3",
+        "device": "cpu",
+        "dtype": "float32",
+        "fixed_views_ccw": "0",
+        "imgsz": 960,
+        "max_det": 300,
+        "nms_iou": 0.7,
+        "rect": true,
+        "retina_masks": true,
+        "score_threshold": 0.5,
+        "task_class": "person"
+      },
+      "quality_tier": "high"
+    },
+    {
+      "communication_mb_per_call": 0.0,
+      "config_id": "CFG_CABINET_UAVID_1280",
+      "energy_j_per_call": 5.3999999999999995,
+      "kind": "torch_cabinet_segmentation",
+      "mission_latency_s": 0.36,
+      "model_strategy_id": "cabinet_uavid_small_1280",
+      "parameters": {
+        "bundle_manifest": "models/cabinet_uavid_small/manifest.json",
+        "bundle_sha256": "defe6058340cf7ae414c08758ab591fe930afc68b1730b6a1d62e8981a978ace",
+        "device": "cpu",
+        "dtype": "float32",
+        "input_height_px": 960,
+        "input_width_px": 1280,
+        "latency_mode": "configured",
+        "min_component_px": 0,
+        "model_id": "cabinet_mobilenetv3_small_uavid",
+        "probability_threshold": 0.5,
+        "task_class": "person",
+        "warmup_runs": 1,
+        "weights_id": "25e46666435fd59d2033e0c47cc089cad5cf7da5"
+      },
+      "quality_tier": "medium"
+    }
+  ],
+  "path_base": "model_cache_root",
+  "schema_version": "perception_native_models_v1"
+}

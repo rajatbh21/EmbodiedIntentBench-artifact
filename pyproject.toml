@@ -1,0 +1,69 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "missionbench"
+version = "0.1.0"
+description = "EmbodiedIntentBench: benchmarking intent-driven runtime adaptation for mobile robotic missions."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Rajat Bhattacharjya" }]
+keywords = ["benchmark", "uav", "mission-fulfillment", "intent-driven-adaptation", "edge-computing"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+# The synthetic core has no runtime dependencies. Stored-prediction replay
+# uses the lightweight replay extra; neural inference uses the native extra.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+replay = ["numpy>=1.26,<3", "pillow>=10,<13"]
+report = ["matplotlib>=3.8", "reportlab>=4"]
+native = ["torch>=2.2", "torchvision>=0.17", "ultralytics>=8.3", "pillow>=10", "numpy>=1.26"]
+# V2 visual closed loop only. The V1 core stays runtime-dependency-free; nothing under
+# missionbench/ imports these unless the missionbench.v2 subpackage is used.
+# rasterio is needed only for GeoTIFF worlds (windowed reads); PNG/JPEG worlds need Pillow.
+v2 = ["numpy>=2.0", "pillow>=10.0", "rasterio>=1.4"]
+# V2.1 real model-strategies (torchvision semantic segmentation). Heavy on purpose and
+# never imported unless a torch_semantic_segmentation executor is actually requested;
+# the default install and the default test suite need none of this.
+v2-real-models = ["torch>=2.2", "torchvision>=0.17"]
+
+[project.scripts]
+missionbench = "missionbench.run_benchmark:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["missionbench", "experiments"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = "-ra --strict-markers -m 'not real_models and not real_assets'"
+markers = [
+    "real_models: opt-in tests that load actual pretrained weights (run: pytest -m real_models)",
+    "real_assets: opt-in tests that need separately acquired simulation assets",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+# The embedded HTML/CSS/JS viewer template: physical line length is part of the
+# emitted page, not Python style.
+"missionbench/v2/replay_viewer.py" = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["missionbench"]

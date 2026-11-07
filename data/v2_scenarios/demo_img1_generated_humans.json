@@ -1,0 +1,188 @@
+{
+  "scenario_schema_version": "2.0",
+  "scenario_id": "V2_DEMO_IMG1_GENERATED_HUMANS",
+  "random_seed": 42,
+  "world": {
+    "image_path": "src/v2_img/img_1.tif",
+    "source_id": "img_1",
+    "meters_per_pixel": 0.0295,
+    "invalid_pixel_rule": "all_zero",
+    "valid_region_m": [
+      260.0,
+      210.0,
+      360.0,
+      270.0
+    ]
+  },
+  "drone": {
+    "initial_position_m": [
+      280.0,
+      240.0
+    ],
+    "altitude_m": 40.0,
+    "speed_mps": 4.0,
+    "battery_capacity_wh": 5.0,
+    "flight_power_w": 120.0
+  },
+  "trajectory": {
+    "type": "lawnmower",
+    "region_m": [
+      280.0,
+      240.0,
+      320.0,
+      246.75
+    ],
+    "lane_spacing_m": 6.75
+  },
+  "camera": {
+    "projection": "orthographic",
+    "footprint_width_m": 9.0,
+    "footprint_height_m": 6.75,
+    "output_width_px": 256,
+    "output_height_px": 192
+  },
+  "simulation": {
+    "observation_interval_s": 1.0,
+    "fallback_config_id": "local_light_real",
+    "matching_iou_threshold": 0.3,
+    "network": {
+      "bandwidth_mbps": 20.0,
+      "rtt_ms": 30.0,
+      "packet_loss_frac": 0.0
+    }
+  },
+  "objects": [
+    {
+      "object_id": "TGT_EASY_STAND",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_standing_001",
+      "position_m": [
+        290.0,
+        240.5
+      ],
+      "width_m": 1.42,
+      "height_m": 2.25,
+      "rotation_deg": 15.0,
+      "z_order": 10
+    },
+    {
+      "object_id": "TGT_MED_WALK",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_walking_001",
+      "position_m": [
+        305.0,
+        246.2
+      ],
+      "width_m": 0.755,
+      "height_m": 1.5,
+      "rotation_deg": -40.0,
+      "z_order": 10
+    },
+    {
+      "object_id": "TGT_HARD_CROUCH",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_crouching_001",
+      "position_m": [
+        316.0,
+        243.3
+      ],
+      "width_m": 0.778,
+      "height_m": 1.0,
+      "rotation_deg": 70.0,
+      "z_order": 10
+    },
+    {
+      "object_id": "DIS_DEBRIS",
+      "class_id": "debris",
+      "is_target": false,
+      "render_mode": "procedural_marker",
+      "position_m": [
+        298.0,
+        241.0
+      ],
+      "width_m": 1.4,
+      "height_m": 0.9,
+      "rotation_deg": 20.0,
+      "z_order": 5,
+      "appearance": {
+        "shape": "rect",
+        "body_rgb": [
+          146,
+          95,
+          100
+        ],
+        "stripe": false,
+        "alpha": 1.0
+      }
+    }
+  ],
+  "executor_configs": [
+    {
+      "config_id": "local_light_real",
+      "model_strategy_id": "TORCHVISION_LRASPP_MOBILENETV3",
+      "kind": "torch_semantic_segmentation",
+      "mission_latency_s": 0.15,
+      "energy_j_per_call": 2.0,
+      "communication_mb_per_call": 0.0,
+      "quality_tier": "low",
+      "parameters": {
+        "model_id": "lraspp_mobilenet_v3_large",
+        "weights_id": "official_default",
+        "task_class": "person",
+        "input_width_px": 512,
+        "input_height_px": 384,
+        "probability_threshold": 0.5,
+        "device": "auto",
+        "dtype": "float32",
+        "latency_mode": "measured",
+        "warmup_runs": 1,
+        "min_component_px": 0
+      }
+    },
+    {
+      "config_id": "local_strong_real",
+      "model_strategy_id": "TORCHVISION_DEEPLABV3_RESNET50",
+      "kind": "torch_semantic_segmentation",
+      "mission_latency_s": 0.8,
+      "energy_j_per_call": 10.0,
+      "communication_mb_per_call": 0.0,
+      "quality_tier": "high",
+      "parameters": {
+        "model_id": "deeplabv3_resnet50",
+        "weights_id": "official_default",
+        "task_class": "person",
+        "input_width_px": 768,
+        "input_height_px": 576,
+        "probability_threshold": 0.5,
+        "device": "auto",
+        "dtype": "float32",
+        "latency_mode": "measured",
+        "warmup_runs": 1,
+        "min_component_px": 0
+      }
+    }
+  ],
+  "mission_contract": {
+    "contract_id": "V2_DEMO_CONTRACT",
+    "quality_metric": "target_recall",
+    "quality_operator": ">=",
+    "quality_threshold": 0.6,
+    "deadline_s": 45.0,
+    "communication_budget_mb": 50.0,
+    "min_final_battery_frac": 0.2
+  },
+  "provenance": {
+    "label": "synthetic generated aerial-human mission diagnostic",
+    "assets": "OpenAI-generated synthetic humans (owner-supplied); NOT real people, NOT real aerial data",
+    "note": "results are integration/observability diagnostics, never real UAV-human performance",
+    "source_registry": "data/v2_scenarios/aerial_sources.json"
+  },
+  "evaluation_purpose": "controlled_observability",
+  "assets_manifest": "data/v2_assets/manifest.json"
+}

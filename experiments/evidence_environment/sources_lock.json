@@ -1,0 +1,98 @@
+{
+  "files": [
+    {
+      "dataset": "swarm_steward",
+      "name": "LICENSE",
+      "url": "https://zenodo.org/api/records/20643214/files/LICENSE/content",
+      "bytes": 2066,
+      "md5": "6445befc66fa448f2cb233e95db8be45",
+      "sha256": "a6bdfc4568f667a2c85df881540cb05fde85028c53ad3d9accc633e89687b21c",
+      "license": "CC-BY-4.0",
+      "record_file": "swarm_steward_record.json"
+    },
+    {
+      "dataset": "swarm_steward",
+      "name": "README.md",
+      "url": "https://zenodo.org/api/records/20643214/files/README.md/content",
+      "bytes": 3535,
+      "md5": "66e960ea6ebd3a75d8f09ac82b27118a",
+      "sha256": "cf602b7eb2057e85b1888ed70821976a124611401a165516118005821c7cc289",
+      "license": "CC-BY-4.0",
+      "record_file": "swarm_steward_record.json"
+    },
+    {
+      "dataset": "swarm_steward",
+      "name": "CITATION.cff",
+      "url": "https://zenodo.org/api/records/20643214/files/CITATION.cff/content",
+      "bytes": 1213,
+      "md5": "86c450dd234302cb3cf6278ff6bb009f",
+      "sha256": "3dfa364dcafbf171836bb5ce6446f317aae2458e1a900b8359ac9061bf3d5ca2",
+      "license": "CC-BY-4.0",
+      "record_file": "swarm_steward_record.json"
+    },
+    {
+      "dataset": "swarm_steward",
+      "name": "C_search_experiments.zip",
+      "url": "https://zenodo.org/api/records/20643214/files/C_search_experiments.zip/content",
+      "bytes": 10628,
+      "md5": "8ce39b1eb3157c10bb84bab61391673d",
+      "sha256": "d1c3c282cc144e3c9b29a4705ebf5df069edf6ae0065a9093ad24235503ffbb8",
+      "license": "CC-BY-4.0",
+      "record_file": "swarm_steward_record.json"
+    },
+    {
+      "dataset": "cmu_m100",
+      "name": "parameters.csv",
+      "url": "https://ndownloader.figshare.com/files/26385034",
+      "bytes": 7867,
+      "md5": "7daa897a1af7847b592ccb7a459477ee",
+      "sha256": "568dffaed11a4d335ef4f8a932b342c836907af2f4aa54da9b4a0e2ffef2108a",
+      "license": "CC-BY-4.0",
+      "record_file": "cmu_record.json"
+    },
+    {
+      "dataset": "cmu_m100",
+      "name": "flights.zip",
+      "url": "https://ndownloader.figshare.com/files/26385070",
+      "bytes": 41274360,
+      "md5": "cd1d267fd9b025219f9633b95158eea2",
+      "sha256": "98f65a1ab54a8b618c169fdf49311a53ff1fefed86fdc3f440d6a0166ce49fb1",
+      "license": "CC-BY-4.0",
+      "record_file": "cmu_record.json"
+    },
+    {
+      "dataset": "cmu_m100",
+      "name": "README.txt",
+      "url": "https://ndownloader.figshare.com/files/26405786",
+      "bytes": 25101,
+      "md5": "af6afbb550286df945c9ecaf4c5f72a4",
+      "sha256": "8601dd211d6c297c5411992dc34923bdb98b72cdc287517ed18e479f0e9540fd",
+      "license": "CC-BY-4.0",
+      "record_file": "cmu_record.json"
+    },
+    {
+      "dataset": "",
+      "name": "sarenv_features_1.geojson",
+      "url": "https://media.githubusercontent.com/media/namurproject/SAREnv/0f2d344d17c0b9c18cec2176dd9b171beba727d6/sarenv_dataset/1/features.geojson",
+      "bytes": 10935942,
+      "sha256": "ace6610cb9f0725b5f95e29b7ae2fa3e80178337d72ebd962b2e9e8b4ef98773",
+      "license": "OSM-derived geography; preserve attribution/ODbL"
+    },
+    {
+      "dataset": "",
+      "name": "sarenv_license.txt",
+      "url": "https://raw.githubusercontent.com/namurproject/SAREnv/0f2d344d17c0b9c18cec2176dd9b171beba727d6/LICENSE",
+      "bytes": 1290,
+      "sha256": "89d542d75046cb88255e9bc3d8881fad0b0a6f6e891d58ad97391f587dbb1670",
+      "license": "MIT repository notice; not a replacement for OSM terms"
+    }
+  ],
+  "sarenv_manifest": {
+    "url": "https://media.githubusercontent.com/media/namurproject/SAREnv/0f2d344d17c0b9c18cec2176dd9b171beba727d6/sarenv_dataset/1/features.geojson",
+    "revision": "0f2d344d17c0b9c18cec2176dd9b171beba727d6",
+    "sha256": "ace6610cb9f0725b5f95e29b7ae2fa3e80178337d72ebd962b2e9e8b4ef98773",
+    "bytes": 10935942,
+    "source": "https://github.com/namurproject/SAREnv",
+    "license_note": "Repository MIT; geographic features derive from OpenStreetMap and retain upstream attribution/ODbL obligations."
+  }
+}

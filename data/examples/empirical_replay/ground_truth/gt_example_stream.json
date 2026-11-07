@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "ground_truth_id": "EMPIRICAL_EXAMPLE_GT",
+  "frame_stream_id": "EXAMPLE_STREAM",
+  "task_id": "HUMAN_SEARCH_SEGMENTATION",
+  "frames": [
+    {
+      "frame_id": 0,
+      "instances": [
+        {
+          "track_id": "GT_A",
+          "category": "person",
+          "mask": {
+            "height": 8,
+            "width": 8,
+            "rows": [
+              "00000000",
+              "01111000",
+              "01111000",
+              "01111000",
+              "01111000",
+              "00000000",
+              "00000000",
+              "00000000"
+            ]
+          }
+        },
+        {
+          "track_id": "GT_B",
+          "category": "person",
+          "mask": {
+            "height": 8,
+            "width": 8,
+            "rows": [
+              "00000000",
+              "00000000",
+              "00000000",
+              "00000000",
+              "00000000",
+              "00000111",
+              "00000111",
+              "00000111"
+            ]
+          }
+        },
+        {
+          "track_id": "GT_IGNORE",
+          "category": "person",
+          "ignore": true,
+          "mask": {
+            "height": 8,
+            "width": 8,
+            "rows": [
+              "00000011",
+              "00000000",
+              "00000000",
+              "00000000",
+              "00000000",
+              "00000000",
+              "00000000",
+              "00000000"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 1,
+      "instances": [
+        {
+          "track_id": "GT_A",
+          "category": "person",
+          "mask": {
+            "height": 8,
+            "width": 8,
+            "rows": [
+              "00000000",
+              "01111000",
+              "01111000",
+              "01111000",
+              "01111000",
+              "00000000",
+              "00000000",
+              "00000000"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 2,
+      "instances": [
+        {
+          "track_id": "GT_C",
+          "category": "person",
+          "mask": {
+            "height": 8,
+            "width": 8,
+            "rows": [
+              "00000000",
+              "01111000",
+              "01111000",
+              "01111000",
+              "01111000",
+              "00000000",
+              "00000000",
+              "00000000"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

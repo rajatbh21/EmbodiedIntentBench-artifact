@@ -1,0 +1,38 @@
+name: Verify artifact
+on:
+  push:
+    branches: [main, release]
+  pull_request:
+    branches: [main, release]
+  workflow_dispatch:
+    inputs:
+      full_validation:
+        description: Reproduce all released validation tables (CPU intensive)
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -e '.[dev,replay]'
+      - run: python tools/check_release.py --tracked-only
+      - run: python -m pytest -q
+      - run: python tools/artifact.py verify
+      - run: python tools/artifact.py smoke --workers 2 --output results/ci-smoke
+      - if: ${{ inputs.full_validation == true }}
+        run: python tools/artifact.py full --workers 2 --output results/ci-full
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reproduction-receipts
+          path: |
+            results/ci-smoke/artifact_validation.json
+            results/ci-full/artifact_validation.json

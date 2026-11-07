@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "path_id": "EXAMPLE_PATH",
+  "length_m": 100.0,
+  "description": "Short survey leg for the empirical-replay correctness example. Kept long enough that path completion never terminates the three-frame mission before its deadline does. Synthetic value."
+}

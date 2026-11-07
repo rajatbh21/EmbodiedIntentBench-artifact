@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-03",
+  "fresh_environment": true,
+  "python": "3.12.14",
+  "suite": {
+    "passed": 775,
+    "skipped": 17,
+    "failed": 0,
+    "elapsed_s": 17.23
+  },
+  "subsequently_added_model_downloader_tests": {
+    "passed": 13,
+    "failed": 0
+  },
+  "skips": "Archived experiment artifacts absent; portable release648run replay separately executed in full.",
+  "environment": "NumPy and Pillow installed from declared replay extras; inherited external Python paths removed.",
+  "subsequently_added_simulation_integrity_tests": {
+    "passed": 7,
+    "failed": 0
+  }
+}

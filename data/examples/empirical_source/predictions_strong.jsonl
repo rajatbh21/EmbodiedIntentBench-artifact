@@ -1,0 +1,5 @@
+{"frame_id": 0, "prediction_id": "P0a", "category": "person", "confidence": 0.95, "mask": {"height": 8, "width": 8, "rows": ["00000000", "01111000", "01111000", "01111000", "01111000", "00000000", "00000000", "00000000"]}}
+{"frame_id": 0, "prediction_id": "P0b", "category": "person", "confidence": 0.80, "mask": {"height": 8, "width": 8, "rows": ["00000000", "00000000", "00000000", "00000000", "00000000", "00000110", "00000110", "00000110"]}}
+{"frame_id": 0, "prediction_id": "P0c", "category": "person", "confidence": 0.60, "mask": {"height": 8, "width": 8, "rows": ["00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "11000000", "11000000"]}}
+{"frame_id": 1, "prediction_id": "P1a", "category": "person", "confidence": 0.93, "mask": {"height": 8, "width": 8, "rows": ["00000000", "01111000", "01111000", "01111000", "01111000", "00000000", "00000000", "00000000"]}}
+{"frame_id": 2, "prediction_id": "P2a", "category": "person", "confidence": 0.55, "mask": {"height": 8, "width": 8, "rows": ["00000000", "01100000", "01100000", "00000000", "00000000", "00000000", "00000000", "00000000"]}}

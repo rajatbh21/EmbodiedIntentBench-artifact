@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "trace_id": "NETWORK_STABLE_001",
+  "segments": [
+    {
+      "start_s": 0,
+      "end_s": 960,
+      "bandwidth_mbps": 20.0,
+      "rtt_ms": 30.0,
+      "packet_loss_frac": 0.0
+    }
+  ]
+}

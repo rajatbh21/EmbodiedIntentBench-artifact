@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "platform_id": "EXAMPLE_PLATFORM",
+  "battery_capacity_wh": 100.0,
+  "flight_power_w": 180.0,
+  "communication_energy_j_per_mb": 0.5,
+  "supported_power_modes": ["15W"]
+}

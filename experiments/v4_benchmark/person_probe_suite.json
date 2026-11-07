@@ -1,0 +1,61 @@
+{
+  "suite_schema_version": "0.1",
+  "base_scenario": "person_probe_scenario.json",
+  "routers": [
+    {
+      "name": "static:CFG_LRASPP",
+      "parameters": {}
+    },
+    {
+      "name": "static:CFG_DEEPLAB",
+      "parameters": {}
+    },
+    {
+      "name": "rule_based",
+      "parameters": {}
+    },
+    {
+      "name": "intent_visual",
+      "parameters": {}
+    },
+    {
+      "name": "resource_only",
+      "parameters": {}
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "nominal",
+      "description": "Rendered human development scene; original configured costs.",
+      "scenario_overrides": {},
+      "contract_overrides": {}
+    },
+    {
+      "case_id": "high_recall",
+      "description": "Require every target, retaining all visibility and model failures.",
+      "scenario_overrides": {},
+      "contract_overrides": {
+        "quality_threshold": 1.0
+      }
+    },
+    {
+      "case_id": "high_precision",
+      "description": "Change intent to detection precision 0.95.",
+      "scenario_overrides": {},
+      "contract_overrides": {
+        "quality_metric": "detection_precision",
+        "quality_threshold": 0.95
+      }
+    },
+    {
+      "case_id": "low_battery",
+      "description": "Carry forward the existing 0.114 battery stress input; configured energy only.",
+      "scenario_overrides": {
+        "mission": {
+          "initial_battery_frac": 0.114
+        }
+      },
+      "contract_overrides": {}
+    }
+  ]
+}

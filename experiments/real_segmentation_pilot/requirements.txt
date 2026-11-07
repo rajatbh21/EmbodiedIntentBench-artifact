@@ -1,0 +1,16 @@
+# Optional dependencies for RUNNING a real segmentation pilot, OUTSIDE the benchmark core.
+#
+# The benchmark package (missionbench) requires NONE of these and must stay installable
+# without them. Install them only into a separate pilot environment, together with your own
+# concrete DatasetAdapter and SegmentationModel:
+#
+#   python -m venv .venv-pilot
+#   .venv-pilot/bin/pip install -e ".[dev]"
+#   .venv-pilot/bin/pip install -r experiments/real_segmentation_pilot/requirements.txt
+#
+# The exact model stack is your choice -- the pilot is written against the SegmentationModel
+# protocol, not against any one library. These are common, not mandatory.
+torch>=2.2
+ultralytics>=8.2
+numpy>=1.26
+pillow>=10.0

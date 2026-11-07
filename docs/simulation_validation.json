@@ -1,0 +1,31 @@
+{
+  "asset_lock_sha256": "b50c5bacc7cdadfeab6004aecfc5acf143fc9784d1eaafa4674e5039af757b69",
+  "captures": 21,
+  "duration_s": 42,
+  "image_shape": [
+    720,
+    960,
+    3
+  ],
+  "minimum_rgb_std": 33.50862266710642,
+  "passed": true,
+  "physical_route_validation": {
+    "actual_physics_poses": 421,
+    "conservative_scenery_aabb_intersections": [],
+    "minimum_observed_terrain_clearance_m": 14.851634438026963,
+    "outside_terrain_times_s": [],
+    "passed": true,
+    "required_terrain_clearance_m": 10.0,
+    "schema_version": "wide_area_actual_route_validation_v1",
+    "scope": "10 Hz actual pose samples; conservative scenery bounds; not continuous collision proof",
+    "tracking_error_max_m": 0.23639341404038627,
+    "tracking_error_p95_m": 0.23555853387869632,
+    "tracking_tolerance_m": 5.0,
+    "uses_model_predictions": false,
+    "uses_semantic_ground_truth": false
+  },
+  "portable_scenario_sha256": "3fa7d45ed6c8e96608ea21e1ea7c800d3d47bc05092e0650f21ff489b3bfeee0",
+  "scope": "Fresh physical capture only; not a rerun of neural models or routing experiments. Published replay inputs are preserved. Pixel equality across hosts is not claimed.",
+  "scored_motion_captures": 18,
+  "settle_captures": 3
+}

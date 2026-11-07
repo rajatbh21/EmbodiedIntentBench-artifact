@@ -1,0 +1,234 @@
+{
+  "v4_schema_version": "0.1",
+  "scenario_id": "V4_RENDERED_PERSON_PROBE",
+  "contract_path": "audit_contract.json",
+  "mission": {
+    "duration_s": 8.0,
+    "observation_interval_s": 0.5,
+    "warmup_s": 1.0,
+    "initial_battery_frac": 1.0,
+    "battery_capacity_wh": 20.0,
+    "flight_power_w": 120.0,
+    "router_latency_s": 0.0,
+    "router_energy_j": 0.0,
+    "matching_iou_threshold": 0.3,
+    "fallback_config_id": "CFG_LRASPP"
+  },
+  "executor_configs": [
+    {
+      "config_id": "CFG_LRASPP",
+      "model_strategy_id": "lraspp_mobilenet_v3_large",
+      "kind": "torch_semantic_segmentation",
+      "mission_latency_s": 0.2,
+      "energy_j_per_call": 3,
+      "communication_mb_per_call": 0,
+      "quality_tier": "low",
+      "parameters": {
+        "model_id": "lraspp_mobilenet_v3_large",
+        "weights_id": "official_default",
+        "task_class": "person",
+        "input_width_px": 160,
+        "input_height_px": 128,
+        "probability_threshold": 0.5,
+        "device": "cpu",
+        "dtype": "float32",
+        "latency_mode": "configured",
+        "warmup_runs": 1,
+        "min_component_px": 0
+      }
+    },
+    {
+      "config_id": "CFG_DEEPLAB",
+      "model_strategy_id": "deeplabv3_resnet50",
+      "kind": "torch_semantic_segmentation",
+      "mission_latency_s": 0.8,
+      "energy_j_per_call": 8,
+      "communication_mb_per_call": 0,
+      "quality_tier": "high",
+      "parameters": {
+        "model_id": "deeplabv3_resnet50",
+        "weights_id": "official_default",
+        "task_class": "person",
+        "input_width_px": 160,
+        "input_height_px": 128,
+        "probability_threshold": 0.5,
+        "device": "cpu",
+        "dtype": "float32",
+        "latency_mode": "configured",
+        "warmup_runs": 1,
+        "min_component_px": 0
+      }
+    }
+  ],
+  "public_profiles": [
+    {
+      "config_id": "CFG_LRASPP",
+      "expected_latency_ms": 200.0,
+      "expected_upload_mb": 0,
+      "quality_tier": "low"
+    },
+    {
+      "config_id": "CFG_DEEPLAB",
+      "expected_latency_ms": 800.0,
+      "expected_upload_mb": 0,
+      "quality_tier": "high"
+    }
+  ],
+  "network_trace": [
+    {
+      "regime_id": "good",
+      "start_s": 0,
+      "uplink_mbps": 20,
+      "downlink_mbps": 20,
+      "rtt_ms": 20,
+      "packet_loss_frac": 0
+    }
+  ],
+  "world": {
+    "initial_position_m": [
+      0,
+      0,
+      3
+    ],
+    "objects": [
+      {
+        "object_id": "target_1",
+        "label": 1,
+        "position_m": [
+          3,
+          0,
+          0
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ],
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "mesh": {
+          "manifest": "../../results/v4_assets/standing_person/manifest.json",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "pose": [
+            0,
+            0,
+            0.02,
+            0.04,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "object_id": "target_2",
+        "label": 2,
+        "position_m": [
+          5,
+          1,
+          0
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ],
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "mesh": {
+          "manifest": "../../results/v4_assets/standing_person/manifest.json",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "pose": [
+            0,
+            0,
+            0.02,
+            0.04,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "object_id": "target_3",
+        "label": 3,
+        "position_m": [
+          7,
+          -1,
+          0
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ],
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "mesh": {
+          "manifest": "../../results/v4_assets/standing_person/manifest.json",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "pose": [
+            0,
+            0,
+            0.02,
+            0.04,
+            0,
+            0
+          ]
+        }
+      }
+    ],
+    "waypoints": [
+      {
+        "start_s": 0,
+        "position_m": [
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "start_s": 3,
+        "position_m": [
+          2,
+          0,
+          3
+        ]
+      },
+      {
+        "start_s": 6,
+        "position_m": [
+          4,
+          0,
+          3
+        ]
+      }
+    ],
+    "camera_pitch_rad": 0.7853981633974483
+  }
+}

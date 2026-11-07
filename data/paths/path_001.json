@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "path_id": "PATH_001",
+  "length_m": 4500.0,
+  "description": "Predefined survey path. At the episode velocity of 5 m/s this takes 900 s (15 min) to fly, inside the 960 s example deadline. The duration is chosen so the battery visibly traverses its range (0.80 -> ~0.34) rather than sitting near its start value, which is what makes battery-aware policy behaviour testable at all. The vehicle covers ground on wall-clock time regardless of inference cost, so a slow configuration does not fly slower -- it processes fewer frames. Synthetic value."
+}

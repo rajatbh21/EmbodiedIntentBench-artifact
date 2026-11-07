@@ -1,0 +1,52 @@
+{
+  "changed_python_sources": {
+    "missionbench/__init__.py": {
+      "new_sha256": "b115a336bb806c623407ff6e312663cd702b2f60a54d3e383faa81b07c6f989e",
+      "old_sha256": "e0e7dbef41545bcbd6241026dd96f0e9e5e36c01f4b3d450685b269197fc0c77",
+      "scope": "Documentation, CLI help, or legacy viewer title only; executable logic and scientific data unchanged."
+    },
+    "missionbench/run_benchmark.py": {
+      "new_sha256": "69c0829ac086cc9d585006d491888f3af0cfff15f4cfe236698f137fecb2e760",
+      "old_sha256": "f7e15c66346e054991d95d1d5a78b4a1ed9ab596495d648d34caecbdc10e5cf7",
+      "scope": "Documentation, CLI help, or legacy viewer title only; executable logic and scientific data unchanged."
+    },
+    "missionbench/v2/__init__.py": {
+      "new_sha256": "4106a0cbf60b3ca38dbf62997a93da678d6199b64a7e063358b0a370f080f27c",
+      "old_sha256": "2fd733f4e3c752fd175ddff180bf111df8f7ed5362aaa024d7791ca1867627a1",
+      "scope": "Documentation, CLI help, or legacy viewer title only; executable logic and scientific data unchanged."
+    },
+    "missionbench/v2/cli.py": {
+      "new_sha256": "2069ff92925d1c34dcc60c90b9f93b6893784bae9001184b5ebafe77706fb458",
+      "old_sha256": "77049d7933b5874334822abfb9180816e3d2b4750ab774af1ea5f3c831e63816",
+      "scope": "Documentation, CLI help, or legacy viewer title only; executable logic and scientific data unchanged."
+    },
+    "missionbench/v2/replay_viewer.py": {
+      "new_sha256": "30f0b75b52c9b227a310c3fbc0ff92a40fe903a698ffbc3f002e8eaad6d160ce",
+      "old_sha256": "7b5a9598a0edc6052f9f1f95632f8588b94acf6a6ba392f9e743ed7138159e3c",
+      "scope": "Documentation, CLI help, or legacy viewer title only; executable logic and scientific data unchanged."
+    }
+  },
+  "checks": {
+    "input_grid_and_validation_source_integrity": true,
+    "paper_figure_sources": {
+      "checks": 268,
+      "passed": true
+    },
+    "smoke": {
+      "exact_scientific_parity": true,
+      "fresh_execution": true,
+      "runs": 27
+    },
+    "tests": {
+      "passed": 830,
+      "skip_reason": "Historical experiment outputs not included in the reviewer artifact",
+      "skipped": 17
+    }
+  },
+  "date": "2026-11-05",
+  "full_scientific_suite_rerun": false,
+  "historical_receipts_preserved": true,
+  "paper_title": "EmbodiedIntentBench: Benchmarking Intent-Driven Runtime Adaptation for Mobile Robotic Missions",
+  "schema_version": "paper_alignment_verification_v1",
+  "scientific_runtime_or_inputs_changed": false
+}

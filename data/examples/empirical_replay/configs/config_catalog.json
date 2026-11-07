@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "catalog_id": "EMPIRICAL_EXAMPLE_CATALOG",
+  "configs": [
+    {
+      "config_id": "CFG_LOCAL_STRONG",
+      "model_id": "EXAMPLE_STRONG_SEG",
+      "strategy": {
+        "placement": "local",
+        "precision": "fp16",
+        "parameters": {}
+      }
+    },
+    {
+      "config_id": "CFG_LOCAL_LIGHT",
+      "model_id": "EXAMPLE_LIGHT_SEG",
+      "strategy": {
+        "placement": "local",
+        "precision": "int8",
+        "parameters": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,1739 @@
+[
+ {
+  "captures": [
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 3.81,
+    "index": 0,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 0.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 1,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 2.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 7.46,
+    "index": 2,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 4.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 3,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 6.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 11.46,
+    "index": 4,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 8.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 5,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 10.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 15.46,
+    "index": 6,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 12.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 7,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 14.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 19.46,
+    "index": 8,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 16.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 9,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 18.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 23.46,
+    "index": 10,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 20.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 11,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 22.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 27.46,
+    "index": 12,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 24.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 13,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 26.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 31.46,
+    "index": 14,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 28.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 15,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 30.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 35.46,
+    "index": 16,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 32.0,
+    "visible": [
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 17,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 34.0,
+    "visible": [
+     "sector_revisit_sector_3_person_3"
+    ]
+   }
+  ],
+  "focal": [
+   "sector_revisit_sector_3_person_1",
+   "sector_revisit_sector_3_person_2",
+   "sector_revisit_sector_3_person_3"
+  ],
+  "protocol": "causal",
+  "reports": [
+   {
+    "done": 31.46,
+    "evidence": [
+     24.0,
+     28.0
+    ],
+    "target": "sector_revisit_sector_3_person_3"
+   }
+  ],
+  "run_id": "sector_revisit/sector_3/no_change/good/ample/fixed_local_mask",
+  "selection": "(predeclared)",
+  "success": false,
+  "supported": [
+   "sector_revisit_sector_3_person_3"
+  ]
+ },
+ {
+  "captures": [
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 3.81,
+    "index": 0,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 0.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 5.46,
+    "index": 1,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 2.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 7.46,
+    "index": 2,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 4.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 9.46,
+    "index": 3,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 6.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 11.46,
+    "index": 4,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 8.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 13.46,
+    "index": 5,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 10.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 15.46,
+    "index": 6,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 12.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 17.46,
+    "index": 7,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 14.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 19.46,
+    "index": 8,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 16.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 21.46,
+    "index": 9,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 18.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 23.46,
+    "index": 10,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 20.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 25.46,
+    "index": 11,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 22.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 27.46,
+    "index": 12,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 24.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 29.46,
+    "index": 13,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 26.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 31.46,
+    "index": 14,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 28.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 33.46,
+    "index": 15,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 30.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 35.46,
+    "index": 16,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 32.0,
+    "visible": [
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 37.46,
+    "index": 17,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 34.0,
+    "visible": [
+     "sector_revisit_sector_3_person_3"
+    ]
+   }
+  ],
+  "focal": [
+   "sector_revisit_sector_3_person_1",
+   "sector_revisit_sector_3_person_2",
+   "sector_revisit_sector_3_person_3"
+  ],
+  "protocol": "no_skip",
+  "reports": [
+   {
+    "done": 27.46,
+    "evidence": [
+     22.0,
+     24.0
+    ],
+    "target": "sector_revisit_sector_3_person_3"
+   }
+  ],
+  "run_id": "sector_revisit/sector_3/no_change/good/ample/fixed_local_mask",
+  "selection": "(predeclared)",
+  "success": false,
+  "supported": [
+   "sector_revisit_sector_3_person_3"
+  ]
+ },
+ {
+  "captures": [
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 1.3,
+    "index": 0,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 0.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 3.25,
+    "index": 1,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 2.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 5.25,
+    "index": 2,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 4.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 7.25,
+    "index": 3,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 6.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 9.25,
+    "index": 4,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 8.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 11.24,
+    "index": 5,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 10.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 13.24,
+    "index": 6,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 12.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 15.24,
+    "index": 7,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 14.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 17.24,
+    "index": 8,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 16.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 19.24,
+    "index": 9,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 18.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 21.24,
+    "index": 10,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 20.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 23.24,
+    "index": 11,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 22.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 25.23,
+    "index": 12,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 24.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 27.23,
+    "index": 13,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 26.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 29.23,
+    "index": 14,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 28.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 31.23,
+    "index": 15,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 30.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 33.23,
+    "index": 16,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 32.0,
+    "visible": [
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 35.23,
+    "index": 17,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 34.0,
+    "visible": [
+     "sector_revisit_sector_3_person_3"
+    ]
+   }
+  ],
+  "focal": [
+   "sector_revisit_sector_3_person_1",
+   "sector_revisit_sector_3_person_2",
+   "sector_revisit_sector_3_person_3"
+  ],
+  "protocol": "causal",
+  "reports": [
+   {
+    "done": 25.23,
+    "evidence": [
+     22.0,
+     24.0
+    ],
+    "target": "sector_revisit_sector_3_person_3"
+   }
+  ],
+  "run_id": "sector_revisit/sector_3/no_change/good/ample/risk_current",
+  "selection": "(predeclared)",
+  "success": false,
+  "supported": [
+   "sector_revisit_sector_3_person_3"
+  ]
+ },
+ {
+  "captures": [
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 1.3,
+    "index": 0,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 0.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 3.25,
+    "index": 1,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 2.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 5.25,
+    "index": 2,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 4.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 7.25,
+    "index": 3,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 6.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 9.25,
+    "index": 4,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 8.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 11.24,
+    "index": 5,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 10.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 13.24,
+    "index": 6,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 12.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 15.24,
+    "index": 7,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 14.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 17.24,
+    "index": 8,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 16.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 19.24,
+    "index": 9,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 18.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 21.24,
+    "index": 10,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 20.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 23.24,
+    "index": 11,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 22.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 25.23,
+    "index": 12,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 24.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 27.23,
+    "index": 13,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 26.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 29.23,
+    "index": 14,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 28.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_2",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 31.23,
+    "index": 15,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 30.0,
+    "visible": [
+     "sector_revisit_sector_3_person_1",
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 33.23,
+    "index": 16,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_3_person_3"
+    ],
+    "processed": true,
+    "t": 32.0,
+    "visible": [
+     "sector_revisit_sector_3_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 35.23,
+    "index": 17,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 34.0,
+    "visible": [
+     "sector_revisit_sector_3_person_3"
+    ]
+   }
+  ],
+  "focal": [
+   "sector_revisit_sector_3_person_1",
+   "sector_revisit_sector_3_person_2",
+   "sector_revisit_sector_3_person_3"
+  ],
+  "protocol": "no_skip",
+  "reports": [
+   {
+    "done": 25.23,
+    "evidence": [
+     22.0,
+     24.0
+    ],
+    "target": "sector_revisit_sector_3_person_3"
+   }
+  ],
+  "run_id": "sector_revisit/sector_3/no_change/good/ample/risk_current",
+  "selection": "(predeclared)",
+  "success": false,
+  "supported": [
+   "sector_revisit_sector_3_person_3"
+  ]
+ },
+ {
+  "captures": [
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 3.81,
+    "index": 0,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 0.0,
+    "visible": []
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 1,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 2.0,
+    "visible": []
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 7.46,
+    "index": 2,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 4.0,
+    "visible": []
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 3,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 6.0,
+    "visible": [
+     "sector_revisit_sector_7_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 14.27,
+    "index": 4,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 8.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 5,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 10.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 6,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 12.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 7,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 14.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "CFG_YOLO11S_960_ROT0",
+    "admitted": true,
+    "done": 16.75,
+    "index": 8,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2"
+    ],
+    "processed": true,
+    "t": 16.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "CFG_YOLO11S_960_ROT0",
+    "admitted": true,
+    "done": 18.45,
+    "index": 9,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_7_person_1"
+    ],
+    "processed": true,
+    "t": 18.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "CFG_YOLO11S_960_ROT0",
+    "admitted": true,
+    "done": 20.45,
+    "index": 10,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 20.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "CFG_YOLO11S_960_ROT0",
+    "admitted": true,
+    "done": 22.45,
+    "index": 11,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 22.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 30.16,
+    "index": 12,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_3"
+    ],
+    "processed": true,
+    "t": 24.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 13,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 26.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 14,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 28.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 15,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 30.0,
+    "visible": [
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 35.76,
+    "index": 16,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 32.0,
+    "visible": [
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": null,
+    "index": 17,
+    "late": false,
+    "matched": [],
+    "processed": false,
+    "t": 34.0,
+    "visible": []
+   }
+  ],
+  "focal": [
+   "sector_revisit_sector_7_person_1",
+   "sector_revisit_sector_7_person_2",
+   "sector_revisit_sector_7_person_3"
+  ],
+  "protocol": "causal",
+  "reports": [
+   {
+    "done": 18.45,
+    "evidence": [
+     16.0,
+     18.0
+    ],
+    "target": "sector_revisit_sector_7_person_1"
+   }
+  ],
+  "run_id": "sector_revisit/sector_7/urgency_recovery/degraded/residual_250j/risk_current",
+  "selection": "(selected after evaluation: first causal-fail/no-skip-success)",
+  "success": false,
+  "supported": [
+   "sector_revisit_sector_7_person_1"
+  ]
+ },
+ {
+  "captures": [
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 3.81,
+    "index": 0,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 0.0,
+    "visible": []
+   },
+   {
+    "action": "CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 5.46,
+    "index": 1,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 2.0,
+    "visible": []
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 10.29,
+    "index": 2,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 4.0,
+    "visible": []
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 12.28,
+    "index": 3,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 6.0,
+    "visible": [
+     "sector_revisit_sector_7_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 14.27,
+    "index": 4,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 8.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 16.25,
+    "index": 5,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 10.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": 16.25,
+    "index": 6,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 12.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": 16.25,
+    "index": 7,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 14.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": 16.25,
+    "index": 8,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 16.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": 18.07,
+    "index": 9,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 18.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "CFG_YOLO11S_960_ROT0",
+    "admitted": true,
+    "done": 20.75,
+    "index": 10,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 20.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "CFG_YOLO11S_960_ROT0",
+    "admitted": true,
+    "done": 22.45,
+    "index": 11,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 22.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 30.16,
+    "index": 12,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_3"
+    ],
+    "processed": true,
+    "t": 24.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_2",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 32.13,
+    "index": 13,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_3"
+    ],
+    "processed": true,
+    "t": 26.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 34.09,
+    "index": 14,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_7_person_3"
+    ],
+    "processed": true,
+    "t": 28.0,
+    "visible": [
+     "sector_revisit_sector_7_person_1",
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 36.07,
+    "index": 15,
+    "late": false,
+    "matched": [
+     "sector_revisit_sector_7_person_3"
+    ],
+    "processed": true,
+    "t": 30.0,
+    "visible": [
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": null,
+    "admitted": false,
+    "done": 36.07,
+    "index": 16,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 32.0,
+    "visible": [
+     "sector_revisit_sector_7_person_3"
+    ]
+   },
+   {
+    "action": "REMOTE__CFG_MASKRCNN_1280",
+    "admitted": true,
+    "done": 40.04,
+    "index": 17,
+    "late": false,
+    "matched": [],
+    "processed": true,
+    "t": 34.0,
+    "visible": []
+   }
+  ],
+  "focal": [
+   "sector_revisit_sector_7_person_1",
+   "sector_revisit_sector_7_person_2",
+   "sector_revisit_sector_7_person_3"
+  ],
+  "protocol": "no_skip",
+  "reports": [
+   {
+    "done": 32.13,
+    "evidence": [
+     24.0,
+     26.0
+    ],
+    "target": "sector_revisit_sector_7_person_1"
+   },
+   {
+    "done": 32.13,
+    "evidence": [
+     24.0,
+     26.0
+    ],
+    "target": "sector_revisit_sector_7_person_3"
+   }
+  ],
+  "run_id": "sector_revisit/sector_7/urgency_recovery/degraded/residual_250j/risk_current",
+  "selection": "(selected after evaluation: first causal-fail/no-skip-success)",
+  "success": true,
+  "supported": [
+   "sector_revisit_sector_7_person_1",
+   "sector_revisit_sector_7_person_3"
+  ]
+ }
+]

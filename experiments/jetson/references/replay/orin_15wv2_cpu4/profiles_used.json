@@ -1,0 +1,17 @@
+{
+ "declared": null,
+ "orin_15wv2_cpu4": {
+  "CFG_MASKRCNN_1280": {
+   "latency_s": 17.818718600100002,
+   "power_w": 8.636735865667541
+  },
+  "CFG_YOLO11S_960_ROT0": {
+   "latency_s": 3.20815181779995,
+   "power_w": 8.138947952684259
+  },
+  "CFG_CABINET_UAVID_1280": {
+   "latency_s": 3.1154963095499513,
+   "power_w": 8.154146523034608
+  }
+ }
+}

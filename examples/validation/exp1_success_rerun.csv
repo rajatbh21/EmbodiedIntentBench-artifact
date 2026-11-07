@@ -1,0 +1,37 @@
+analysis,policy,label,contract,successes_feasible,conditions_feasible,rate_feasible,ci_lo,ci_hi,successes_all,conditions_all,feasible_recordings,excluded_recordings,mean_confirmed_targets,mean_timely_focal_reports,recordings_with_success
+rerun,fixed_local_yolo,Fixed local YOLO11s (fast),confirm,0,60,0,0,0,0,72,5,sector_revisit/sector_3,0.333333,0.333333,0
+rerun,fixed_local_cabinet,Fixed local CABiNet (fast),confirm,0,60,0,0,0,0,72,5,sector_revisit/sector_3,0.666667,0.166667,0
+rerun,fixed_local_mask,"Fixed local Mask R-CNN (accurate, slow)",confirm,12,60,0.2,0.166667,0.266667,12,72,5,sector_revisit/sector_3,1.16667,1.11111,5
+rerun,fixed_remote_mask,Fixed remote Mask R-CNN (accurate),confirm,38,60,0.633333,0.533333,0.733333,38,72,5,sector_revisit/sector_3,1.58333,1.55556,5
+rerun,fastest_current,Adaptive: fastest feasible,confirm,0,60,0,0,0,0,72,5,sector_revisit/sector_3,0.333333,0.333333,0
+rerun,quality_initial,"Adaptive: quality, ignores urgency",confirm,42,60,0.7,0.666667,0.766667,42,72,5,sector_revisit/sector_3,1.68056,1.66667,5
+rerun,quality_current,"Adaptive: quality, urgency-aware",confirm,41,60,0.683333,0.666667,0.716667,41,72,5,sector_revisit/sector_3,1.88889,1.73611,5
+rerun,risk_initial,"Adaptive: quality+risk, ignores urgency",confirm,42,60,0.7,0.666667,0.766667,42,72,5,sector_revisit/sector_3,1.68056,1.66667,5
+rerun,risk_current,"Adaptive: quality+risk, urgency-aware",confirm,43,60,0.716667,0.666667,0.783333,43,72,5,sector_revisit/sector_3,1.93056,1.79167,5
+rerun,fixed_local_yolo,Fixed local YOLO11s (fast),confirm_strict,0,60,0,0,0,0,72,5,sector_revisit/sector_3,0,0,0
+rerun,fixed_local_cabinet,Fixed local CABiNet (fast),confirm_strict,0,60,0,0,0,0,72,5,sector_revisit/sector_3,0.666667,0.166667,0
+rerun,fixed_local_mask,"Fixed local Mask R-CNN (accurate, slow)",confirm_strict,8,60,0.133333,0.0666667,0.166667,8,72,5,sector_revisit/sector_3,0.777778,0.777778,4
+rerun,fixed_remote_mask,Fixed remote Mask R-CNN (accurate),confirm_strict,34,60,0.566667,0.5,0.633333,34,72,5,sector_revisit/sector_3,1.30556,1.27778,5
+rerun,fastest_current,Adaptive: fastest feasible,confirm_strict,0,60,0,0,0,0,72,5,sector_revisit/sector_3,0,0,0
+rerun,quality_initial,"Adaptive: quality, ignores urgency",confirm_strict,37,60,0.616667,0.55,0.7,37,72,5,sector_revisit/sector_3,1.47222,1.45833,5
+rerun,quality_current,"Adaptive: quality, urgency-aware",confirm_strict,37,60,0.616667,0.55,0.7,37,72,5,sector_revisit/sector_3,1.625,1.52778,5
+rerun,risk_initial,"Adaptive: quality+risk, ignores urgency",confirm_strict,37,60,0.616667,0.55,0.7,37,72,5,sector_revisit/sector_3,1.47222,1.45833,5
+rerun,risk_current,"Adaptive: quality+risk, urgency-aware",confirm_strict,36,60,0.6,0.55,0.65,36,72,5,sector_revisit/sector_3,1.54167,1.51389,5
+rerun,fixed_local_yolo,Fixed local YOLO11s (fast),revisit,0,36,0,0,0,0,72,3,sector_revisit/sector_3;sector_revisit/sector_7;wide_area_search/sector_7,0,0,0
+rerun,fixed_local_cabinet,Fixed local CABiNet (fast),revisit,0,36,0,0,0,0,72,3,sector_revisit/sector_3;sector_revisit/sector_7;wide_area_search/sector_7,0.333333,0.166667,0
+rerun,fixed_local_mask,"Fixed local Mask R-CNN (accurate, slow)",revisit,0,36,0,0,0,0,72,3,sector_revisit/sector_3;sector_revisit/sector_7;wide_area_search/sector_7,0.111111,1.05556,0
+rerun,fixed_remote_mask,Fixed remote Mask R-CNN (accurate),revisit,12,36,0.333333,0,0.5,12,72,3,sector_revisit/sector_3;sector_revisit/sector_7;wide_area_search/sector_7,0.583333,1.47222,2
+rerun,fastest_current,Adaptive: fastest feasible,revisit,0,36,0,0,0,0,72,3,sector_revisit/sector_3;sector_revisit/sector_7;wide_area_search/sector_7,0,0,0
+rerun,quality_initial,"Adaptive: quality, ignores urgency",revisit,12,36,0.333333,0,0.5,12,72,3,sector_revisit/sector_3;sector_revisit/sector_7;wide_area_search/sector_7,0.611111,1.59722,2
+rerun,quality_current,"Adaptive: quality, urgency-aware",revisit,13,36,0.361111,0.0833333,0.5,13,72,3,sector_revisit/sector_3;sector_revisit/sector_7;wide_area_search/sector_7,0.722222,1.66667,3
+rerun,risk_initial,"Adaptive: quality+risk, ignores urgency",revisit,12,36,0.333333,0,0.5,12,72,3,sector_revisit/sector_3;sector_revisit/sector_7;wide_area_search/sector_7,0.611111,1.59722,2
+rerun,risk_current,"Adaptive: quality+risk, urgency-aware",revisit,13,36,0.361111,0.0833333,0.5,13,72,3,sector_revisit/sector_3;sector_revisit/sector_7;wide_area_search/sector_7,0.722222,1.66667,3
+rerun,fixed_local_yolo,Fixed local YOLO11s (fast),time_critical,0,60,0,0,0,0,72,5,sector_revisit/sector_3,0.333333,0.333333,0
+rerun,fixed_local_cabinet,Fixed local CABiNet (fast),time_critical,0,60,0,0,0,0,72,5,sector_revisit/sector_3,0.666667,0.166667,0
+rerun,fixed_local_mask,"Fixed local Mask R-CNN (accurate, slow)",time_critical,12,60,0.2,0.166667,0.266667,12,72,5,sector_revisit/sector_3,1.16667,1.11111,5
+rerun,fixed_remote_mask,Fixed remote Mask R-CNN (accurate),time_critical,38,60,0.633333,0.533333,0.733333,38,72,5,sector_revisit/sector_3,1.52778,1.5,5
+rerun,fastest_current,Adaptive: fastest feasible,time_critical,0,60,0,0,0,0,72,5,sector_revisit/sector_3,0.333333,0.333333,0
+rerun,quality_initial,"Adaptive: quality, ignores urgency",time_critical,42,60,0.7,0.666667,0.766667,42,72,5,sector_revisit/sector_3,1.68056,1.66667,5
+rerun,quality_current,"Adaptive: quality, urgency-aware",time_critical,41,60,0.683333,0.666667,0.716667,41,72,5,sector_revisit/sector_3,1.88889,1.73611,5
+rerun,risk_initial,"Adaptive: quality+risk, ignores urgency",time_critical,42,60,0.7,0.666667,0.766667,42,72,5,sector_revisit/sector_3,1.68056,1.66667,5
+rerun,risk_current,"Adaptive: quality+risk, urgency-aware",time_critical,43,60,0.716667,0.666667,0.783333,43,72,5,sector_revisit/sector_3,1.93056,1.79167,5

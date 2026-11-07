@@ -1,0 +1,49 @@
+{
+  "batteries": [
+    0.34,
+    0.65
+  ],
+  "deadline_profiles": [
+    {
+      "association_ns": 150000000,
+      "name": "perception_2s",
+      "perception_ns": 2000000000,
+      "verification_ns": 30000000
+    },
+    {
+      "association_ns": 150000000,
+      "name": "perception_4s",
+      "perception_ns": 4000000000,
+      "verification_ns": 30000000
+    },
+    {
+      "association_ns": 150000000,
+      "name": "perception_8s",
+      "perception_ns": 8000000000,
+      "verification_ns": 30000000
+    }
+  ],
+  "flights": [
+    "east_shore_day",
+    "west_rocks_day"
+  ],
+  "links": [
+    "good",
+    "constrained",
+    "intermittent"
+  ],
+  "missions": [
+    "rapid_survey",
+    "verified_inspection"
+  ],
+  "policies": [
+    "fixed_local_fast",
+    "fixed_local_heavy",
+    "fixed_remote_union",
+    "deadline_aware",
+    "resource_threshold",
+    "accuracy_latency",
+    "supervised_utility",
+    "linucb_frozen"
+  ]
+}

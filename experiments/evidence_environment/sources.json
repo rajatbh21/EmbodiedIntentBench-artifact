@@ -1,0 +1,106 @@
+{
+  "schema_version": "0.1",
+  "checked_on": "2026-10-14",
+  "scope": "primary-source evidence inventory; access status is explicit",
+  "datasets": [
+    {
+      "dataset_id": "swarm_steward",
+      "source_url": "https://zenodo.org/records/20643214",
+      "role": "field_sar_summaries",
+      "license_status": "CC-BY-4.0 data; AGPL-3.0 weights separately",
+      "access_status": "downloaded_verified",
+      "experiment_use": "12 curated outdoor runs; flight geometry, timing, tracking quality flags",
+      "limitations": "No raw RGB or masks in downloaded component C; curated/excluded cases retained; not replay GT"
+    },
+    {
+      "dataset_id": "sarenv",
+      "source_url": "https://github.com/namurproject/SAREnv",
+      "role": "geospatial_environment",
+      "license_status": "Repository MIT; upstream OpenStreetMap attribution/ODbL applies to geographic data",
+      "access_status": "one_map_downloaded_verified",
+      "experiment_use": "Real geographic features and modeled lost-person distributions",
+      "limitations": "Synthetic victim locations and probability models; no real victim footage; box extrusion heights are our assumptions"
+    },
+    {
+      "dataset_id": "cmu_m100",
+      "source_url": "https://doi.org/10.1184/R1/12683453",
+      "role": "measured_flight_energy",
+      "license_status": "CC-BY-4.0 from repository API",
+      "access_status": "downloaded_verified",
+      "experiment_use": "209 flight CSVs with current, voltage, timestamps, airflow and flight parameters",
+      "limitations": "Matrice 100 only; signed sensor offsets and idle intervals; relative airflow is not ambient wind; not inference energy"
+    },
+    {
+      "dataset_id": "seadronessee",
+      "source_url": "https://www.macvi.org/dataset",
+      "role": "maritime_rgb_detection_tracking",
+      "license_status": "verify exact data release terms separately from repository code",
+      "access_status": "identified_not_downloaded",
+      "experiment_use": "RGB, boxes, sequences and per-frame flight/gimbal metadata",
+      "limitations": "Box scorer required; test label availability varies by track; documented metadata errors; ignore regions must be respected"
+    },
+    {
+      "dataset_id": "wisard",
+      "source_url": "https://sites.google.com/uw.edu/wisard/",
+      "role": "wilderness_rgb_thermal",
+      "license_status": "MIT-style official project-page notice archived locally; sample ZIP contains no additional license file",
+      "access_status": "official_sample_downloaded_verified",
+      "experiment_use": "264 native 4K RGB images with 1022 person boxes; paired thermal preserved; real-image development probe",
+      "limitations": "One flight only; sample has no timestamps, poses or persistent IDs; thermal not evaluated; no mission success claim"
+    },
+    {
+      "dataset_id": "heridal_air",
+      "source_url": "https://zenodo.org/records/5662351",
+      "role": "land_sar_rgb_detection",
+      "license_status": "CC-BY-3.0 listed by Aalto provider for modified archive",
+      "access_status": "identified_not_downloaded",
+      "experiment_use": "Versioned PASCAL VOC-format HERIDAL derivative",
+      "limitations": "8.3 GB; static images do not establish report latency or track identity; preserve original image groups when splitting"
+    },
+    {
+      "dataset_id": "uavid",
+      "source_url": "https://uavid.nl/",
+      "role": "urban_rgb_semantic_segmentation",
+      "license_status": "CC-BY-NC-SA-4.0",
+      "access_status": "identified_not_downloaded",
+      "experiment_use": "4K street scenes, human semantic labels and video sequences",
+      "limitations": "No instance identity; CABiNet was trained on UAVid, so its training data cannot become an independent test"
+    },
+    {
+      "dataset_id": "visdrone",
+      "source_url": "https://github.com/VisDrone/VisDrone-Dataset",
+      "role": "urban_rgb_detection_tracking",
+      "license_status": "verify exact release usage conditions before redistribution",
+      "access_status": "identified_not_downloaded",
+      "experiment_use": "Urban/rural drone videos, person boxes, occlusion attributes and tracking tasks",
+      "limitations": "Detection and MOT releases differ; box labels are not masks; keep sequence-level splits and ignore regions"
+    },
+    {
+      "dataset_id": "hit_uav",
+      "source_url": "https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset",
+      "role": "thermal_detection",
+      "license_status": "verify repository release license before redistribution",
+      "access_status": "identified_not_downloaded",
+      "experiment_use": "60\u2013130 m thermal imagery, 30\u201390 degree viewpoints, day/night conditions",
+      "limitations": "Thermal-only track needs thermal executors and bbox scoring; not a drop-in RGB benchmark"
+    },
+    {
+      "dataset_id": "amovfly",
+      "source_url": "https://github.com/YujiaoHu/AMOVFLY-Dataset",
+      "role": "measured_flight_telemetry",
+      "license_status": "not verified",
+      "access_status": "identified_not_downloaded",
+      "experiment_use": "Flight state, wind and energy across varying trajectories",
+      "limitations": "Platform-specific calibration; source README energy summary wording needs dimensional checks"
+    },
+    {
+      "dataset_id": "wsar_field_failure",
+      "source_url": "https://arxiv.org/abs/2307.14527",
+      "role": "actual_operation_case_study",
+      "license_status": "paper reference only; imagery redistribution not assumed",
+      "access_status": "paper_reviewed",
+      "experiment_use": "Real WSAR deployment reported false alarms and misses despite dataset performance",
+      "limitations": "Evidence for hard negative backgrounds and domain shift; not an acquired image dataset"
+    }
+  ]
+}

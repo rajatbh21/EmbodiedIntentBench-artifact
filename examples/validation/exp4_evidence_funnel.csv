@@ -1,0 +1,10 @@
+policy,targets,visible_on_recording,visible_on_processed_capture,matched_at_least_once,confirmed_repeated_evidence,reported_on_time
+fixed_local_yolo,216,216,216,120,24,24
+fixed_local_cabinet,216,216,216,72,48,12
+fixed_local_mask,216,216,216,132,84,80
+fixed_remote_mask,216,216,216,146,114,112
+fastest_current,216,216,216,120,24,24
+quality_initial,216,216,216,153,121,120
+quality_current,216,216,216,158,136,125
+risk_initial,216,216,216,153,121,120
+risk_current,216,216,216,172,139,129

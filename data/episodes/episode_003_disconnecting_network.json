@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "EPISODE_003",
+  "platform_id": "UAV_PLATFORM_001",
+  "path_id": "PATH_001",
+  "frame_stream_id": "STREAM_001",
+  "initial_altitude_m": 40.0,
+  "velocity_mps": 5.0,
+  "initial_battery_frac": 0.75,
+  "power_mode": "15W",
+  "network_trace_id": "NETWORK_DISCONNECTING_001",
+  "allowed_config_ids": [
+    "CFG_LOCAL_LIGHT",
+    "CFG_LOCAL_STRONG",
+    "CFG_REMOTE_STRONG"
+  ],
+  "initial_config_id": null,
+  "seed": 1337
+}

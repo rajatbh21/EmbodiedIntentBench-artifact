@@ -1,0 +1,139 @@
+{
+  "fields": [
+    {
+      "json_pointer": "/exp4/urgency/0/aware_mean_nonflight_energy_j",
+      "n": 48,
+      "original": 170.98133590143223,
+      "portable": 170.98133590143223,
+      "portable_equals_original": true,
+      "python312_initial": 170.9813359014323,
+      "selected_python_builtin_mean": 170.98133590143223,
+      "sequential_equals_original": true,
+      "sequential_mean": 170.98133590143223
+    },
+    {
+      "json_pointer": "/exp4/urgency/0/blind_mean_nonflight_energy_j",
+      "n": 48,
+      "original": 198.3289067447499,
+      "portable": 198.3289067447499,
+      "portable_equals_original": true,
+      "python312_initial": 198.32890674474996,
+      "selected_python_builtin_mean": 198.3289067447499,
+      "sequential_equals_original": true,
+      "sequential_mean": 198.3289067447499
+    },
+    {
+      "json_pointer": "/exp4/urgency/1/aware_mean_nonflight_energy_j",
+      "n": 24,
+      "original": 169.19621044710416,
+      "portable": 169.19621044710416,
+      "portable_equals_original": true,
+      "python312_initial": 169.19621044710414,
+      "selected_python_builtin_mean": 169.19621044710416,
+      "sequential_equals_original": true,
+      "sequential_mean": 169.19621044710416
+    },
+    {
+      "json_pointer": "/exp4/urgency/1/blind_mean_nonflight_energy_j",
+      "n": 24,
+      "original": 199.42682044408332,
+      "portable": 199.42682044408332,
+      "portable_equals_original": true,
+      "python312_initial": 199.42682044408332,
+      "selected_python_builtin_mean": 199.42682044408332,
+      "sequential_equals_original": true,
+      "sequential_mean": 199.42682044408332
+    },
+    {
+      "json_pointer": "/exp4/urgency/2/aware_mean_nonflight_energy_j",
+      "n": 72,
+      "original": 170.38629408332287,
+      "portable": 170.38629408332287,
+      "portable_equals_original": true,
+      "python312_initial": 170.3862940833229,
+      "selected_python_builtin_mean": 170.38629408332287,
+      "sequential_equals_original": true,
+      "sequential_mean": 170.38629408332287
+    },
+    {
+      "json_pointer": "/exp4/urgency/2/blind_mean_nonflight_energy_j",
+      "n": 72,
+      "original": 198.69487797786098,
+      "portable": 198.69487797786098,
+      "portable_equals_original": true,
+      "python312_initial": 198.6948779778611,
+      "selected_python_builtin_mean": 198.69487797786098,
+      "sequential_equals_original": true,
+      "sequential_mean": 198.69487797786098
+    },
+    {
+      "json_pointer": "/exp4/urgency/3/aware_mean_nonflight_energy_j",
+      "n": 48,
+      "original": 168.03139758299474,
+      "portable": 168.03139758299474,
+      "portable_equals_original": true,
+      "python312_initial": 168.0313975829948,
+      "selected_python_builtin_mean": 168.03139758299474,
+      "sequential_equals_original": true,
+      "sequential_mean": 168.03139758299474
+    },
+    {
+      "json_pointer": "/exp4/urgency/3/blind_mean_nonflight_energy_j",
+      "n": 48,
+      "original": 198.3289067447499,
+      "portable": 198.3289067447499,
+      "portable_equals_original": true,
+      "python312_initial": 198.32890674474996,
+      "selected_python_builtin_mean": 198.3289067447499,
+      "sequential_equals_original": true,
+      "sequential_mean": 198.3289067447499
+    },
+    {
+      "json_pointer": "/exp4/urgency/4/aware_mean_nonflight_energy_j",
+      "n": 24,
+      "original": 166.1101211293542,
+      "portable": 166.1101211293542,
+      "portable_equals_original": true,
+      "python312_initial": 166.11012112935416,
+      "selected_python_builtin_mean": 166.1101211293542,
+      "sequential_equals_original": true,
+      "sequential_mean": 166.1101211293542
+    },
+    {
+      "json_pointer": "/exp4/urgency/4/blind_mean_nonflight_energy_j",
+      "n": 24,
+      "original": 199.42682044408332,
+      "portable": 199.42682044408332,
+      "portable_equals_original": true,
+      "python312_initial": 199.42682044408332,
+      "selected_python_builtin_mean": 199.42682044408332,
+      "sequential_equals_original": true,
+      "sequential_mean": 199.42682044408332
+    },
+    {
+      "json_pointer": "/exp4/urgency/5/aware_mean_nonflight_energy_j",
+      "n": 72,
+      "original": 167.39097209844783,
+      "portable": 167.39097209844783,
+      "portable_equals_original": true,
+      "python312_initial": 167.39097209844792,
+      "selected_python_builtin_mean": 167.39097209844783,
+      "sequential_equals_original": true,
+      "sequential_mean": 167.39097209844783
+    },
+    {
+      "json_pointer": "/exp4/urgency/5/blind_mean_nonflight_energy_j",
+      "n": 72,
+      "original": 198.69487797786098,
+      "portable": 198.69487797786098,
+      "portable_equals_original": true,
+      "python312_initial": 198.6948779778611,
+      "selected_python_builtin_mean": 198.69487797786098,
+      "sequential_equals_original": true,
+      "sequential_mean": 198.69487797786098
+    }
+  ],
+  "fullprecision_inputs_sha256": "3d6204529bb819c43b94f22d013adaa66d24457a0ecf70bd99843e35c1b82fb6",
+  "python": "3.10.12",
+  "reference_summary_sha256": "7456358986f696961055cab437e793cfbd9fc52cb71e5378ae26af48a56dcfa0"
+}

@@ -1,0 +1,28 @@
+{
+  "record_type": "v2_aerial_source_registry",
+  "note": "Provenance only. The tile URLs are references to the imagery's origin; the runtime simulator reads the LOCAL files listed under local_path. Large rasters are not committed (see .gitignore) and must be placed locally.",
+  "sources": [
+    {
+      "source_id": "img_1",
+      "provider": "OpenAerialMap",
+      "source_url": "https://tiles.openaerialmap.org/5d73614588556200055f10d6/0/5d73614588556200055f10d7/{z}/{x}/{y}",
+      "local_path": "src/v2_img/img_1.tif",
+      "size_px": [20891, 16356],
+      "crs": "EPSG:3857",
+      "native_resolution_m_per_px": 0.0295,
+      "resolution_note": "Web Mercator nominal metres; true ground metres differ by cos(latitude). V2 treats the raster's nominal metre as the local world metre.",
+      "nodata": "no nodata value; per-dataset mask present, corners are zero-fill"
+    },
+    {
+      "source_id": "img_2",
+      "provider": "OpenAerialMap",
+      "source_url": "https://tiles.openaerialmap.org/5d73657f88556200055f10e0/0/5d73657f88556200055f10e1/{z}/{x}/{y}",
+      "local_path": "src/v2_img/img_2.tif",
+      "size_px": [29399, 31849],
+      "crs": "EPSG:3857",
+      "native_resolution_m_per_px": 0.039,
+      "resolution_note": "Web Mercator nominal metres; true ground metres differ by cos(latitude). V2 treats the raster's nominal metre as the local world metre.",
+      "nodata": "no nodata value; per-dataset mask present, corners are zero-fill"
+    }
+  ]
+}

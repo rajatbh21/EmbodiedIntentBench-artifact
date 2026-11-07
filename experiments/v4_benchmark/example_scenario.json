@@ -1,0 +1,38 @@
+{
+  "v4_schema_version": "0.1",
+  "scenario_id": "V4_BOX_ROUTER_EXAMPLE",
+  "contract_path": "example_contract.json",
+  "mission": {
+    "duration_s": 8.0, "observation_interval_s": 0.5, "warmup_s": 1.0,
+    "initial_battery_frac": 1.0, "battery_capacity_wh": 20.0,
+    "flight_power_w": 120.0, "router_latency_s": 0.0, "router_energy_j": 0.0,
+    "matching_iou_threshold": 0.3, "fallback_config_id": "CFG_V4_LIGHT"
+  },
+  "executor_configs": [
+    {"config_id":"CFG_V4_LIGHT","model_strategy_id":"V4_LIGHT","kind":"fast_weak",
+     "mission_latency_s":0.2,"energy_j_per_call":3.0,"communication_mb_per_call":0.0,
+     "quality_tier":"low","parameters":{"downsample":4,"min_red":140,"max_blue":130,"min_red_minus_green":20}},
+    {"config_id":"CFG_V4_STRONG","model_strategy_id":"V4_STRONG","kind":"slow_strong",
+     "mission_latency_s":0.8,"energy_j_per_call":8.0,"communication_mb_per_call":0.0,
+     "quality_tier":"high","parameters":{"min_red":130,"max_blue":130,"min_red_minus_green":20,"min_component_px":4}}
+  ],
+  "public_profiles": [
+    {"config_id":"CFG_V4_LIGHT","expected_latency_ms":200,"expected_upload_mb":0,"quality_tier":"low"},
+    {"config_id":"CFG_V4_STRONG","expected_latency_ms":800,"expected_upload_mb":0,"quality_tier":"high"}
+  ],
+  "network_trace": [
+    {"regime_id":"local","start_s":0,"uplink_mbps":0,"downlink_mbps":0,"rtt_ms":0,"packet_loss_frac":0}
+  ],
+  "world": {
+    "initial_position_m":[0,0,4],
+    "objects":[
+      {"object_id":"target_1","label":1,"position_m":[0,0,0.4],"size_m":[0.6,0.6,0.8],"color_rgba":[0.9,0.15,0.1,1],"is_target":true},
+      {"object_id":"target_2","label":2,"position_m":[3,1,0.4],"size_m":[0.6,0.6,0.8],"color_rgba":[0.9,0.15,0.1,1],"is_target":true},
+      {"object_id":"target_3","label":3,"position_m":[6,-1,0.4],"size_m":[0.6,0.6,0.8],"color_rgba":[0.9,0.15,0.1,1],"is_target":true}
+    ],
+    "waypoints":[
+      {"start_s":0,"position_m":[0,0,4]},
+      {"start_s":5,"position_m":[3,1,4]}
+    ]
+  }
+}

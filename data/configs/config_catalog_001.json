@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "catalog_id": "CATALOG_001",
+  "configs": [
+    {
+      "config_id": "CFG_LOCAL_LIGHT",
+      "model_id": "LIGHT_INSTANCE_SEG",
+      "strategy": {
+        "placement": "local",
+        "precision": "int8",
+        "parameters": {}
+      }
+    },
+    {
+      "config_id": "CFG_LOCAL_STRONG",
+      "model_id": "STRONG_INSTANCE_SEG",
+      "strategy": {
+        "placement": "local",
+        "precision": "fp16",
+        "parameters": {}
+      }
+    },
+    {
+      "config_id": "CFG_REMOTE_STRONG",
+      "model_id": "SERVER_XL_INSTANCE_SEG",
+      "strategy": {
+        "placement": "remote",
+        "precision": "fp16",
+        "input_compression": "jpeg_q75",
+        "parameters": {}
+      }
+    }
+  ]
+}

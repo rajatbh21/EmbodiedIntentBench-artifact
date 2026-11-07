@@ -1,0 +1,113 @@
+{
+  "scenario_schema_version": "2.0",
+  "scenario_id": "V2_DEMO_IMG1_LAWNMOWER",
+  "random_seed": 42,
+  "world": {
+    "image_path": "src/v2_img/img_1.tif",
+    "source_id": "img_1",
+    "meters_per_pixel": 0.0295,
+    "invalid_pixel_rule": "all_zero",
+    "valid_region_m": [260.0, 210.0, 360.0, 270.0]
+  },
+  "drone": {
+    "initial_position_m": [270.0, 225.0],
+    "altitude_m": 40.0,
+    "speed_mps": 5.0,
+    "battery_capacity_wh": 5.0,
+    "flight_power_w": 120.0
+  },
+  "trajectory": {
+    "type": "lawnmower",
+    "region_m": [270.0, 225.0, 350.0, 255.0],
+    "lane_spacing_m": 12.0
+  },
+  "camera": {
+    "projection": "orthographic",
+    "footprint_width_m": 24.0,
+    "footprint_height_m": 18.0,
+    "output_width_px": 256,
+    "output_height_px": 192
+  },
+  "simulation": {
+    "observation_interval_s": 1.0,
+    "fallback_config_id": "CFG_V2_FAST",
+    "matching_iou_threshold": 0.3,
+    "network": { "bandwidth_mbps": 20.0, "rtt_ms": 30.0, "packet_loss_frac": 0.0 }
+  },
+  "objects": [
+    {
+      "object_id": "TGT_A", "class_id": "rescue_target", "is_target": true,
+      "position_m": [290.0, 225.5], "width_m": 1.8, "height_m": 1.0,
+      "rotation_deg": 20.0, "z_order": 10,
+      "appearance": { "shape": "rect", "body_rgb": [230, 70, 20], "stripe": true, "stripe_rgb": [255, 140, 40], "alpha": 1.0 }
+    },
+    {
+      "object_id": "TGT_B", "class_id": "rescue_target", "is_target": true,
+      "position_m": [330.0, 237.5], "width_m": 1.8, "height_m": 1.0,
+      "rotation_deg": -35.0, "z_order": 10,
+      "appearance": { "shape": "rect", "body_rgb": [235, 75, 25], "stripe": true, "stripe_rgb": [255, 140, 40], "alpha": 1.0 }
+    },
+    {
+      "object_id": "TGT_C", "class_id": "rescue_target", "is_target": true,
+      "position_m": [285.0, 254.0], "width_m": 1.6, "height_m": 1.0,
+      "rotation_deg": 65.0, "z_order": 10,
+      "appearance": { "shape": "ellipse", "body_rgb": [228, 68, 22], "stripe": true, "stripe_rgb": [255, 140, 40], "alpha": 1.0 }
+    },
+    {
+      "object_id": "DIS_A", "class_id": "debris", "is_target": false,
+      "position_m": [310.0, 226.0], "width_m": 1.6, "height_m": 1.0,
+      "rotation_deg": 0.0, "z_order": 5,
+      "appearance": { "shape": "rect", "body_rgb": [146, 95, 100], "stripe": false, "alpha": 1.0 }
+    },
+    {
+      "object_id": "DIS_B", "class_id": "debris", "is_target": false,
+      "position_m": [300.0, 249.5], "width_m": 1.4, "height_m": 1.2,
+      "rotation_deg": 40.0, "z_order": 5,
+      "appearance": { "shape": "ellipse", "body_rgb": [148, 96, 98], "stripe": false, "alpha": 1.0 }
+    },
+    {
+      "object_id": "DIS_C", "class_id": "debris", "is_target": false,
+      "position_m": [345.0, 254.5], "width_m": 1.7, "height_m": 0.9,
+      "rotation_deg": -15.0, "z_order": 5,
+      "appearance": { "shape": "rect", "body_rgb": [144, 92, 102], "stripe": false, "alpha": 1.0 }
+    }
+  ],
+  "executor_configs": [
+    {
+      "config_id": "CFG_V2_FAST",
+      "model_strategy_id": "V2_THRESHOLD_FAST",
+      "kind": "fast_weak",
+      "mission_latency_s": 0.4,
+      "energy_j_per_call": 3.0,
+      "communication_mb_per_call": 0.0,
+      "quality_tier": "low",
+      "parameters": { "downsample": 4, "min_red": 170, "max_blue": 110, "min_red_minus_green": 60 }
+    },
+    {
+      "config_id": "CFG_V2_STRONG",
+      "model_strategy_id": "V2_THRESHOLD_STRONG",
+      "kind": "slow_strong",
+      "mission_latency_s": 2.5,
+      "energy_j_per_call": 15.0,
+      "communication_mb_per_call": 0.0,
+      "quality_tier": "high",
+      "parameters": { "min_red": 150, "max_blue": 110, "min_red_minus_green": 40, "min_component_px": 12 }
+    }
+  ],
+  "mission_contract": {
+    "contract_id": "V2_DEMO_CONTRACT",
+    "quality_metric": "target_recall",
+    "quality_operator": ">=",
+    "quality_threshold": 0.6,
+    "deadline_s": 100.0,
+    "communication_budget_mb": 50.0,
+    "min_final_battery_frac": 0.2
+  },
+  "provenance": {
+    "source_registry": "data/v2_scenarios/aerial_sources.json",
+    "world_source_id": "img_1",
+    "objects": "synthetic rescue-target markers, NOT realistic humans",
+    "latency_energy_communication": "simulated/configured, NOT hardware measurements",
+    "coordinate_note": "local metres = raster Web Mercator nominal metres from the top-left origin"
+  }
+}

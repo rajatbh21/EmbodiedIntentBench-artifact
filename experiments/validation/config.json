@@ -1,0 +1,202 @@
+{
+  "schema_version": "validation_experiments_config_v1",
+  "frozen_note": "Declared before any outcome under a non-reference contract, protocol, multiplier, relaxation or hindsight schedule was computed. Reference (confirm/causal/1x) outcomes were already known from the released 648-run study and its aggregate failure counts.",
+  "data_root": "results/replay-full",
+  "independent_units": {
+    "recordings": 6,
+    "route_families": 3,
+    "maps": 1,
+    "note": "Six 42 s Gazebo recordings = 3 route families (shoreline_loop, wide_area_search, sector_revisit) x 2 focal sectors (3, 7) on one Lake map. Schedules, links and battery conditions are replay conditions of the same recording, not independent missions."
+  },
+  "contracts": {
+    "confirm": {
+      "title": "Reference: confirm two of three people (frozen v2 contract)",
+      "user_request": "Frozen release contract: >=2/3 focal people, each with >=2 observations spanning >=2 s, reported by 44 s.",
+      "source": "experiments/intent_mission_v2/protocol.py (unchanged)"
+    },
+    "survey": {
+      "title": "Survey: identify two of three people",
+      "user_request": "During the fixed pass, identify and report at least two of the three people in the scheduled sector. A single observation of each person suffices.",
+      "phases": [
+        {
+          "min_hits": 1,
+          "min_evidence_span_s": 0.0
+        }
+      ],
+      "source": "Coverage-only relaxation of the reference repeated-evidence rule (min_hits 2->1, span 2->0 s).",
+      "rerun_supported": false,
+      "rerun_note": "The released reporting pipeline enforces a repeated-evidence floor of two observations (experiments/mission_pipeline_routing/runtime.py:119). A single-observation survey is therefore not a supported runtime input; survey is evaluated by rescoring only."
+    },
+    "confirm_strict": {
+      "title": "Strict confirmation: three observations spanning four seconds",
+      "user_request": "Confirm and report at least two of the three people, each from at least three observations spanning at least four seconds.",
+      "phases": [
+        {
+          "min_hits": 3,
+          "min_evidence_span_s": 4.0
+        }
+      ],
+      "source": "Repeated-evidence rule of the repository's 'verified inspection' intent (docs/benchmark_overview.md)."
+    },
+    "revisit": {
+      "title": "Revisit: confirm in the first half and again with fresh evidence in the second half",
+      "user_request": "Confirm at least two of the three people in the first half of the pass, then again from fresh observations in the second half. Report at least two people by 44 s.",
+      "phases": [
+        {
+          "phase_id": "first_look",
+          "start_s": 0.0,
+          "end_s": 18.0
+        },
+        {
+          "phase_id": "revisit",
+          "start_s": 18.0,
+          "end_s": 36.0
+        }
+      ],
+      "source": "Per-phase evidence rule of the repository's rapid-survey 'fresh revisit' phase, applied to two equal halves of the 36 s pass; mission-wide raw false-component cap kept at 2."
+    },
+    "time_critical": {
+      "title": "Time-critical: deliver confirmed reports before the pass ends",
+      "user_request": "Confirm and report at least two of the three people before the observation pass ends at 36 s (instead of 44 s).",
+      "phase_deadline_s": 36.0,
+      "report_deadline_s": 36.0,
+      "source": "Reference contract with phase and report deadlines moved to the end of the observation pass."
+    }
+  },
+  "relaxations": {
+    "repeated_evidence": "min_hits 2->1 and span 2->0 s in every phase",
+    "evidence_recall": "phase required_recall 2/3->1/3",
+    "report_recall": "min_report_recall 2/3->1/3",
+    "report_deadline": "report deadline 44 s -> unbounded",
+    "report_caps": "false and duplicate report caps 2 -> unbounded",
+    "raw_false_components": "phase raw false-component cap 2 -> unbounded",
+    "battery_reserve": "final battery reserve 0.2 -> 0"
+  },
+  "causal_ablation": {
+    "protocols": [
+      "causal",
+      "no_skip"
+    ],
+    "latency_multipliers": [
+      0.5,
+      1,
+      2,
+      4
+    ],
+    "contract": "confirm",
+    "multiplier_scope": "Scales every action's configured inference/service latency_s; local compute energy scales under the declared 15 W model; load latency/energy, network transfer, encode/decode and downstream budgets unchanged; stored predictions unchanged.",
+    "timeline_cases": [
+      "sector_revisit/sector_3/no_change/good/ample/fixed_local_mask",
+      "sector_revisit/sector_3/no_change/good/ample/risk_current"
+    ],
+    "timeline_rule": "Predeclared: first transfer recording alphabetically, reference condition, slowest local fixed control and the best released adaptive policy."
+  },
+  "feasibility": {
+    "sensor_bound": "Perfect detector, zero latency, every capture: a target is observable at a capture iff any GT pixel of it is visible (most optimistic; a sound infeasibility certificate).",
+    "detectable_bound": "As sensor_bound but a target needs >= the evaluator's min_component_px (4) visible GT pixels.",
+    "model_union_bound": "All candidate models on every capture simultaneously at zero latency/cost; a target is observed iff any model's stored mask matches it under the unchanged evaluator. False-component and report caps relaxed. Infeasibility certificate for the fixed model pool.",
+    "hindsight_search": {
+      "method": "GT-aware local search over per-capture action scripts (6 actions + abstain), each candidate executed through the unchanged causal runtime with the variant contract as public input. Starts from every released policy's executed schedule and every constant schedule. Not optimal; failure is inconclusive.",
+      "max_evaluations": 600,
+      "max_sweeps": 3,
+      "actions_include_abstain": true
+    }
+  },
+  "amendments": [
+    {
+      "date": "2026-11-03",
+      "stage": "reruns",
+      "change": "survey marked rescoring-only (rerun_supported=false)",
+      "reason": "Runtime rejected min_hits=1 at the pipeline boundary before any survey rerun completed; contract definitions unchanged. No survey outcome had been inspected."
+    }
+  ],
+  "sensitivity_map": {
+    "declared": "2026-11-03, before any sweep setting was scored. Already known at declaration: the five Experiment 1 contracts and their outcomes, and per-condition descriptive diagnostics (people sighted at least once, raw false components, report counts) for the reference histories.",
+    "question": "How do strategy rankings depend on the authored mission thresholds? In particular, is there a region of the threshold space where a fast model materially beats the accurate models, and which parameters define it?",
+    "method": "Evaluation-only rescoring of the 648 reference histories (causal, 1x, executed with the reference contract as public input). The swept missions cannot be runtime inputs (the pipeline enforces a two-observation report floor), so policies cannot adapt to them; the map ranks fixed execution histories by evaluation criteria.",
+    "parameters": {
+      "people_required": {
+        "values": [
+          1,
+          2,
+          3
+        ],
+        "meaning": "focal people (of 3) that must meet the sighting rule; sets phase required_recall = k/3 and, when reports are required, min_report_recall = k/3",
+        "reference": 2
+      },
+      "sightings_per_person": {
+        "values": [
+          1,
+          2,
+          3
+        ],
+        "meaning": "matched observations per person (admitted, completed by the deadline); min_evidence_span_s = 2*(h-1), i.e. distinct captures at the 2 s cadence",
+        "reference": 2
+      },
+      "false_alarm_cap": {
+        "values": [
+          0,
+          1,
+          2,
+          null
+        ],
+        "meaning": "mission-wide cap on raw false components; null = no cap",
+        "reference": 2
+      },
+      "report_required": {
+        "values": [
+          true,
+          false
+        ],
+        "meaning": "true: k people also need timely correct reports, with the reference false/duplicate report caps (2); false: sightings alone, report caps not applied",
+        "reference": true
+      },
+      "deadline_s": {
+        "values": [
+          36.0,
+          44.0
+        ],
+        "meaning": "evidence completion and report deadline",
+        "reference": 44.0
+      }
+    },
+    "fixed": {
+      "battery_reserve": 0.2,
+      "execution_validity": "unchanged",
+      "communication_memory_privacy": "unchanged"
+    },
+    "settings": 144,
+    "order": "itertools.product in the parameter order above",
+    "consistency_checks": [
+      "(2,2,2,true,44) must reproduce the reference outcome of all 648 runs",
+      "(2,2,2,true,36) must reproduce the time_critical rescoring",
+      "(2,3,2,true,44) must reproduce the confirm_strict rescoring"
+    ],
+    "denominator": "All 72 conditions per policy in every setting (certified-infeasible conditions give 0 to every policy, so pairwise differences are unaffected); per-recording counts are reported alongside.",
+    "classes": {
+      "fast": [
+        "fixed_local_yolo",
+        "fixed_local_cabinet",
+        "fastest_current"
+      ],
+      "accurate_fixed": [
+        "fixed_local_mask",
+        "fixed_remote_mask"
+      ],
+      "adaptive": [
+        "quality_initial",
+        "quality_current",
+        "risk_initial",
+        "risk_current"
+      ]
+    },
+    "materiality": "Policy A materially beats B in a setting iff successes(A) - successes(B) >= 3 of 72 conditions AND no recording has successes(B) > successes(A). Any-difference counts are reported as well.",
+    "headline_statistics": [
+      "Fraction of the 144 settings in which the best fast strategy (max over the fast class) materially beats every accurate fixed control, and separately every adaptive policy",
+      "Fraction in which each class materially beats the others (all directions reported)",
+      "For every pair of policies: fraction of settings with each material ordering and with any reversal relative to the reference setting",
+      "Parameter drivers: share of fast-wins settings at each value of each parameter, and the minimal parameter values present in every fast-wins setting"
+    ],
+    "not_allowed": "No grid value, materiality rule or class membership may change after scoring. Any change is recorded as an amendment with the scored results preserved."
+  }
+}

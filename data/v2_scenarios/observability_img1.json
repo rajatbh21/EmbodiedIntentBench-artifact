@@ -1,0 +1,158 @@
+{
+  "observability_schema_version": "1.0",
+  "experiment_id": "V22_OBSERVABILITY_IMG1",
+  "evaluation_purpose": "controlled_observability",
+  "world": {
+    "image_path": "src/v2_img/img_1.tif",
+    "source_id": "img_1",
+    "meters_per_pixel": 0.0295,
+    "invalid_pixel_rule": "all_zero"
+  },
+  "camera": {
+    "projection": "orthographic",
+    "footprint_width_m": 24.0,
+    "footprint_height_m": 18.0,
+    "output_width_px": 256,
+    "output_height_px": 192
+  },
+  "assets_manifest": "data/v2_assets/manifest.json",
+  "matching_iou_threshold": 0.3,
+  "executor_configs": [
+    {
+      "config_id": "local_light_real",
+      "model_strategy_id": "TORCHVISION_LRASPP_MOBILENETV3",
+      "kind": "torch_semantic_segmentation",
+      "mission_latency_s": 0.15,
+      "energy_j_per_call": 2.0,
+      "communication_mb_per_call": 0.0,
+      "quality_tier": "low",
+      "parameters": {
+        "model_id": "lraspp_mobilenet_v3_large",
+        "weights_id": "official_default",
+        "task_class": "person",
+        "input_width_px": 512,
+        "input_height_px": 384,
+        "probability_threshold": 0.5,
+        "device": "auto",
+        "dtype": "float32",
+        "latency_mode": "measured",
+        "warmup_runs": 1,
+        "min_component_px": 0
+      }
+    },
+    {
+      "config_id": "local_strong_real",
+      "model_strategy_id": "TORCHVISION_DEEPLABV3_RESNET50",
+      "kind": "torch_semantic_segmentation",
+      "mission_latency_s": 0.8,
+      "energy_j_per_call": 10.0,
+      "communication_mb_per_call": 0.0,
+      "quality_tier": "high",
+      "parameters": {
+        "model_id": "deeplabv3_resnet50",
+        "weights_id": "official_default",
+        "task_class": "person",
+        "input_width_px": 768,
+        "input_height_px": 576,
+        "probability_threshold": 0.5,
+        "device": "auto",
+        "dtype": "float32",
+        "latency_mode": "measured",
+        "warmup_runs": 1,
+        "min_component_px": 0
+      }
+    }
+  ],
+  "backgrounds": [
+    {
+      "background_id": "grass_simple",
+      "position_m": [
+        285.0,
+        245.0
+      ],
+      "description": "open lawn, visually simple"
+    },
+    {
+      "background_id": "path_complex",
+      "position_m": [
+        322.0,
+        232.0
+      ],
+      "description": "path edge with tree shadow, visually complex"
+    }
+  ],
+  "conditions": [
+    {
+      "condition_id": "large_r0_grass",
+      "asset_id": "person_conventional_standing_001",
+      "background_id": "grass_simple",
+      "width_m": 1.2,
+      "height_m": 3.5,
+      "rotation_deg": 0.0
+    },
+    {
+      "condition_id": "medium_r0_grass",
+      "asset_id": "person_conventional_standing_001",
+      "background_id": "grass_simple",
+      "width_m": 0.6,
+      "height_m": 1.75,
+      "rotation_deg": 0.0
+    },
+    {
+      "condition_id": "small_r0_grass",
+      "asset_id": "person_conventional_standing_001",
+      "background_id": "grass_simple",
+      "width_m": 0.3,
+      "height_m": 0.9,
+      "rotation_deg": 0.0
+    },
+    {
+      "condition_id": "large_r0_path",
+      "asset_id": "person_conventional_standing_001",
+      "background_id": "path_complex",
+      "width_m": 1.2,
+      "height_m": 3.5,
+      "rotation_deg": 0.0
+    },
+    {
+      "condition_id": "medium_r0_path",
+      "asset_id": "person_conventional_standing_001",
+      "background_id": "path_complex",
+      "width_m": 0.6,
+      "height_m": 1.75,
+      "rotation_deg": 0.0
+    },
+    {
+      "condition_id": "small_r0_path",
+      "asset_id": "person_conventional_standing_001",
+      "background_id": "path_complex",
+      "width_m": 0.3,
+      "height_m": 0.9,
+      "rotation_deg": 0.0
+    },
+    {
+      "condition_id": "medium_r90_grass",
+      "asset_id": "person_conventional_standing_001",
+      "background_id": "grass_simple",
+      "width_m": 0.6,
+      "height_m": 1.75,
+      "rotation_deg": 90.0
+    },
+    {
+      "condition_id": "medium_r180_grass",
+      "asset_id": "person_conventional_standing_001",
+      "background_id": "grass_simple",
+      "width_m": 0.6,
+      "height_m": 1.75,
+      "rotation_deg": 180.0
+    },
+    {
+      "condition_id": "medium_r270_grass",
+      "asset_id": "person_conventional_standing_001",
+      "background_id": "grass_simple",
+      "width_m": 0.6,
+      "height_m": 1.75,
+      "rotation_deg": 270.0
+    }
+  ]
+}

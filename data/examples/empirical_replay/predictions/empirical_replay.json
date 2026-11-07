@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "record_set_id": "EMPIRICAL_EXAMPLE_REPLAY",
+  "episode_id": "EMPIRICAL_EXAMPLE_EPISODE",
+  "records": [
+    {
+      "frame_id": 0,
+      "config_id": "CFG_LOCAL_STRONG",
+      "success": true,
+      "latency_ms": 120.0,
+      "onboard_energy_j": 5.0,
+      "prediction": {
+        "frame_id": 0,
+        "instances": [
+          {
+            "prediction_id": "P0a",
+            "category": "person",
+            "confidence": 0.95,
+            "mask": {
+              "height": 8,
+              "width": 8,
+              "rows": ["00000000", "01111000", "01111000", "01111000", "01111000", "00000000", "00000000", "00000000"]
+            }
+          },
+          {
+            "prediction_id": "P0b",
+            "category": "person",
+            "confidence": 0.80,
+            "mask": {
+              "height": 8,
+              "width": 8,
+              "rows": ["00000000", "00000000", "00000000", "00000000", "00000000", "00000110", "00000110", "00000110"]
+            }
+          },
+          {
+            "prediction_id": "P0c",
+            "category": "person",
+            "confidence": 0.60,
+            "mask": {
+              "height": 8,
+              "width": 8,
+              "rows": ["00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "11000000", "11000000"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "frame_id": 1,
+      "config_id": "CFG_LOCAL_STRONG",
+      "success": true,
+      "latency_ms": 120.0,
+      "onboard_energy_j": 5.0,
+      "prediction": {
+        "frame_id": 1,
+        "instances": [
+          {
+            "prediction_id": "P1a",
+            "category": "person",
+            "confidence": 0.93,
+            "mask": {
+              "height": 8,
+              "width": 8,
+              "rows": ["00000000", "01111000", "01111000", "01111000", "01111000", "00000000", "00000000", "00000000"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "frame_id": 2,
+      "config_id": "CFG_LOCAL_STRONG",
+      "success": true,
+      "latency_ms": 120.0,
+      "onboard_energy_j": 5.0,
+      "prediction": {
+        "frame_id": 2,
+        "instances": [
+          {
+            "prediction_id": "P2a",
+            "category": "person",
+            "confidence": 0.55,
+            "mask": {
+              "height": 8,
+              "width": 8,
+              "rows": ["00000000", "01100000", "01100000", "00000000", "00000000", "00000000", "00000000", "00000000"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "frame_id": 0,
+      "config_id": "CFG_LOCAL_LIGHT",
+      "success": true,
+      "latency_ms": 90.0,
+      "onboard_energy_j": 2.0,
+      "prediction": {
+        "frame_id": 0,
+        "instances": [
+          {
+            "prediction_id": "P0a",
+            "category": "person",
+            "confidence": 0.95,
+            "mask": {
+              "height": 8,
+              "width": 8,
+              "rows": ["00000000", "01111000", "01111000", "01111000", "01111000", "00000000", "00000000", "00000000"]
+            }
+          },
+          {
+            "prediction_id": "P0b",
+            "category": "person",
+            "confidence": 0.80,
+            "mask": {
+              "height": 8,
+              "width": 8,
+              "rows": ["00000000", "00000000", "00000000", "00000000", "00000000", "00000110", "00000110", "00000110"]
+            }
+          },
+          {
+            "prediction_id": "P0c",
+            "category": "person",
+            "confidence": 0.60,
+            "mask": {
+              "height": 8,
+              "width": 8,
+              "rows": ["00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "11000000", "11000000"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "frame_id": 1,
+      "config_id": "CFG_LOCAL_LIGHT",
+      "success": true,
+      "latency_ms": 90.0,
+      "onboard_energy_j": 2.0,
+      "prediction": {
+        "frame_id": 1,
+        "instances": [
+          {
+            "prediction_id": "P1a",
+            "category": "person",
+            "confidence": 0.93,
+            "mask": {
+              "height": 8,
+              "width": 8,
+              "rows": ["00000000", "01111000", "01111000", "01111000", "01111000", "00000000", "00000000", "00000000"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "frame_id": 2,
+      "config_id": "CFG_LOCAL_LIGHT",
+      "success": true,
+      "latency_ms": 90.0,
+      "onboard_energy_j": 2.0,
+      "prediction": {
+        "frame_id": 2,
+        "instances": [
+          {
+            "prediction_id": "P2a",
+            "category": "person",
+            "confidence": 0.55,
+            "mask": {
+              "height": 8,
+              "width": 8,
+              "rows": ["00000000", "01100000", "01100000", "00000000", "00000000", "00000000", "00000000", "00000000"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

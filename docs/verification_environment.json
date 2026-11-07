@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-11-04",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "packages": {
+    "pip": "26.3",
+    "missionbench": "0.1.0",
+    "numpy": "2.5.4",
+    "pillow": "12.3.0",
+    "pytest": "9.2.0",
+    "matplotlib": "3.11.2",
+    "reportlab": "5.1.0",
+    "ruff": "0.17.3"
+  },
+  "installation": "Fresh isolated virtual environment; upgraded pip, then editable install with dev,replay,report extras. No pre-existing ML dependencies used for replay.",
+  "tests": {
+    "passed": 830,
+    "skipped": 17,
+    "skips": "Historical local result-tree tests; released replay checked separately.",
+    "command": "env -u PYTHONPATH PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 python -m pytest -q",
+    "elapsed_host_s": 36.29
+  },
+  "upstream_source": "release base 5c9c3656cc4723a75fe1626436753c03365e8181",
+  "packaging": {
+    "unused_media_report_helpers_removed": 16,
+    "reference_scientific_values_modified": false,
+    "original_rgb_and_prediction_bytes_modified": false
+  },
+  "scope": "Stored-prediction CPU replay. Fresh neural inference and simulator installation are not reverified by this check.",
+  "optional_cached_inputs": {
+    "models": {
+      "verified": true,
+      "families": 3,
+      "pinned_upstream_files": 14,
+      "fresh_download": false
+    },
+    "simulation": {
+      "asset_lock_sha256": "b50c5bacc7cdadfeab6004aecfc5acf143fc9784d1eaafa4674e5039af757b69",
+      "verified": true
+    }
+  },
+  "entrypoint_sha256": {
+    "tools/reviewer.py": "d3197c4ee0997f4aa2508568d5156c986103e65d60ae5d80658c38fe8cdb7dcb",
+    "tools/replay.py": "fe7ee8f43a804934d94ffd7ca2a6e7bd80584d70ba12bbef653e1f80f847c683",
+    "tools/check_release.py": "d66df57ac27749f8fec8cccf975c416faa773d15ff492cc3d30d464513374303"
+  },
+  "dependency_consistency": "python -m pip check: no broken requirements found"
+}

@@ -1,0 +1,401 @@
+{
+  "historical_recording_sha256": "9b3103084673b6730d267b75163b26e1630c248cfba2be984ca387c000db8545",
+  "models": {
+    "CFG_CABINET_UAVID_1280": {
+      "predictions": {
+        "01466548e180cde30987ca254b4b8be35f8a676e38a3a1bd24a62e8aac69605b": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00011_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.35070477006956935,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "029f1b043c17a9bc93f1f6442ec908d5a07118ddd447a2bca9a102297a475159": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00010_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.3457675171084702,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "150c42a897ec643dd832b0b26b90e3bdd7dcc37a8ea79a08c14a9a4559355f20": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00015_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.354274514131248,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "1700218ffd3822ad0ce06ec91e65364e143c1fcb26b8a5a5f549b1b07613ea1b": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00012_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.3434509299695492,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "1ea53923db72eee267f3f18a0cb370d41966f70f2577da4803ea8ab37e1bc879": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00002_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.3462147859390825,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "2084ddadf71120025ee2b407a4f3053e155afe2c5182b121cbbf0a109965d710": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00004_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.33670484693720937,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "2334146858530791fb6e82d8ddfea08262c73c301aebf43568825fe7d0ce6b3b": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00008_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.3361573340371251,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "36aeca1fb4a8d37d659b4aa78898b13898b2c9c0c1ecb3c721ee6002ecccc632": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00017_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.3538317419588566,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "3ed45bd81b46adaf6f84b812ea5ed317556299f6d24ab0e21da90383420d1fb1": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00003_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.3422450260259211,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "4bed6c4966d0426b785aa1ee38861c47ef6cf8a88fb9ad8222fc0813f555ef46": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00016_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.3348001891281456,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "53404071990bebe3d8f64bee536ba9885f48b24ac1635c3214dcad8285749490": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00006_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.35060050804167986,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "71deaebdfecf9ca935e7a0650e12a773a4e86c5a35361179b96fc4dc3fe7caaf": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00014_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.3532054889947176,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "7c4564a2fde8c109ef1d9f8c017e80978dc80235aa64a5f18f549f4d5b168f82": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00001_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.34846816095523536,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "909a87dbb01bfd77ecd94f95b8cfd079c47ce5fcdfd18bbc1426c203274d1e9e": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00009_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.3479707872029394,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "c0db599b72a17abdd9279b165cb55a9b3bc5a36faafbd5959327d19b84ddd541": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00000_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.34066543402150273,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "c3480450bb359b107be22445161f6770a2d81d56ad09a441683b37361035ed18": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00013_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.35082296119071543,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "d5054a8adc03aded41fa01c1f18449c87bdda5ab8a0e10717a7f6db4e0ea9650": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00007_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.33857843605801463,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "e4198c8e18dccd16699046bb643a2f06d6150be36ae7b7156e0c1b228941b779": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00005_CFG_CABINET_UAVID_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.3412164419423789,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        }
+      },
+      "signature": "77fa35e4d5705710ef61e6b1fa464dac4dd746d82b41708814353c94cc141853"
+    },
+    "CFG_MASKRCNN_1280": {
+      "predictions": {
+        "01466548e180cde30987ca254b4b8be35f8a676e38a3a1bd24a62e8aac69605b": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00011_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "f46e7296a049c61375973b2721ea21a82e7a47742f79cde8fcf88d5455ddbc6d",
+          "measured_wall_clock_s": 3.3577813608571887,
+          "sha256": "8cc905bbf7dcf64e457d4cbb4c834a773865481e20c407280871245ff56082c4"
+        },
+        "029f1b043c17a9bc93f1f6442ec908d5a07118ddd447a2bca9a102297a475159": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00010_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "3aabbba50908078466ecdc826b79e572a818bb7773bf10f918cf22a8d5b72b32",
+          "measured_wall_clock_s": 3.342252613045275,
+          "sha256": "c4a6571837cfe6a6f07abce104cb9230c83b58ccd740f824f479733f03bb9d6a"
+        },
+        "150c42a897ec643dd832b0b26b90e3bdd7dcc37a8ea79a08c14a9a4559355f20": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00015_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "9b804c5ba3e916ad232e28f9120959f5b62683e2dbaf6440098bf44fc5f349be",
+          "measured_wall_clock_s": 3.511084794998169,
+          "sha256": "17e242ce4b1c3a3b97f3cc604be998763eeeab69db6b7ef72a254d6276aa3782"
+        },
+        "1700218ffd3822ad0ce06ec91e65364e143c1fcb26b8a5a5f549b1b07613ea1b": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00012_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "d09a85c6f1038da9b04a0e3e057e3d5027dc2d58d575246bcb68283388629229",
+          "measured_wall_clock_s": 3.419003457063809,
+          "sha256": "0e9eb7baa598c3f69b176909b1bc7f2d1102e701d0b105125728a1c6830b9cbd"
+        },
+        "1ea53923db72eee267f3f18a0cb370d41966f70f2577da4803ea8ab37e1bc879": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00002_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 3.3820192348212004,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "2084ddadf71120025ee2b407a4f3053e155afe2c5182b121cbbf0a109965d710": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00004_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 3.459129573078826,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "2334146858530791fb6e82d8ddfea08262c73c301aebf43568825fe7d0ce6b3b": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00008_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "bf5a3bbdbde03954fdd389170ee01ec391d3f06b6b31d943a7e00b9ef42907b3",
+          "measured_wall_clock_s": 3.341474429005757,
+          "sha256": "f72d35eddb65c702f15e7226975d902231f27079a023f5e73ef17e1e6f3cc0f4"
+        },
+        "36aeca1fb4a8d37d659b4aa78898b13898b2c9c0c1ecb3c721ee6002ecccc632": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00017_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 3.3569785710424185,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "3ed45bd81b46adaf6f84b812ea5ed317556299f6d24ab0e21da90383420d1fb1": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00003_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 3.382496847072616,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "4bed6c4966d0426b785aa1ee38861c47ef6cf8a88fb9ad8222fc0813f555ef46": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00016_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 3.3666455869097263,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "53404071990bebe3d8f64bee536ba9885f48b24ac1635c3214dcad8285749490": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00006_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 3.442345574963838,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "71deaebdfecf9ca935e7a0650e12a773a4e86c5a35361179b96fc4dc3fe7caaf": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00014_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "68aa3ae0536f9e6132c2db3bee090c7a4c84ffc828140154c670b33114a59106",
+          "measured_wall_clock_s": 3.3925362459849566,
+          "sha256": "674c2fa8387b3260be432c4b2e9d5eb5e844802aad21f20780d47e892f61c68e"
+        },
+        "7c4564a2fde8c109ef1d9f8c017e80978dc80235aa64a5f18f549f4d5b168f82": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00001_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 3.294403958134353,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "909a87dbb01bfd77ecd94f95b8cfd079c47ce5fcdfd18bbc1426c203274d1e9e": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00009_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "d600a18839823608210bf06ab9dac852612244d454e35c6a83cf52d18ddb3fa2",
+          "measured_wall_clock_s": 3.380458622938022,
+          "sha256": "7a781254fbfcadb4ecd134eaae22d4bff44168c90e2f09fbf9c88bc9b456003c"
+        },
+        "c0db599b72a17abdd9279b165cb55a9b3bc5a36faafbd5959327d19b84ddd541": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00000_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 3.4791380879469216,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "c3480450bb359b107be22445161f6770a2d81d56ad09a441683b37361035ed18": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00013_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "96730b0cf0d98c69a42b0223196808e71e72d4227f578e2a26933c0605ab98f8",
+          "measured_wall_clock_s": 3.359498629812151,
+          "sha256": "b91d17bbdbd8023864def39116362d23dfe83da3bb9f7f6f882a759be3852be9"
+        },
+        "d5054a8adc03aded41fa01c1f18449c87bdda5ab8a0e10717a7f6db4e0ea9650": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00007_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "e3bc153ac26699a44ab5e336f21a300e4bb7320cad8ac3076712c80e4e006c3c",
+          "measured_wall_clock_s": 3.3004755650181323,
+          "sha256": "aa526b1b5840988d815f82d44ffb1d52eb3a7a4ddda378f377cf21db899465e1"
+        },
+        "e4198c8e18dccd16699046bb643a2f06d6150be36ae7b7156e0c1b228941b779": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00005_CFG_MASKRCNN_1280.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 3.2336668018251657,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        }
+      },
+      "signature": "c9c9e49e3697d4ef27671afd95bb5d9474ad7e6c1d7e0743d368a0eb4b9c268b"
+    },
+    "CFG_YOLO11S_960_ROT0": {
+      "predictions": {
+        "01466548e180cde30987ca254b4b8be35f8a676e38a3a1bd24a62e8aac69605b": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00011_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.21858070907182992,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "029f1b043c17a9bc93f1f6442ec908d5a07118ddd447a2bca9a102297a475159": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00010_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.23438243917189538,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "150c42a897ec643dd832b0b26b90e3bdd7dcc37a8ea79a08c14a9a4559355f20": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00015_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.23076404188759625,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "1700218ffd3822ad0ce06ec91e65364e143c1fcb26b8a5a5f549b1b07613ea1b": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00012_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.21833500312641263,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "1ea53923db72eee267f3f18a0cb370d41966f70f2577da4803ea8ab37e1bc879": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00002_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.21963021787814796,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "2084ddadf71120025ee2b407a4f3053e155afe2c5182b121cbbf0a109965d710": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00004_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.2207943929824978,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "2334146858530791fb6e82d8ddfea08262c73c301aebf43568825fe7d0ce6b3b": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00008_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "d08c22285826ed563c406c8e1c813124fe5913e7f2ecee58b836139d592078b4",
+          "measured_wall_clock_s": 0.22529946500435472,
+          "sha256": "7e267c770de68a51995d7a4ef9218939e7a86bb20fcbe59b14cd55ff25a74a91"
+        },
+        "36aeca1fb4a8d37d659b4aa78898b13898b2c9c0c1ecb3c721ee6002ecccc632": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00017_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.2230816709343344,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "3ed45bd81b46adaf6f84b812ea5ed317556299f6d24ab0e21da90383420d1fb1": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00003_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.21819369215518236,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "4bed6c4966d0426b785aa1ee38861c47ef6cf8a88fb9ad8222fc0813f555ef46": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00016_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.2207318558357656,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "53404071990bebe3d8f64bee536ba9885f48b24ac1635c3214dcad8285749490": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00006_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.21946633397601545,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "71deaebdfecf9ca935e7a0650e12a773a4e86c5a35361179b96fc4dc3fe7caaf": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00014_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.22044476214796305,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "7c4564a2fde8c109ef1d9f8c017e80978dc80235aa64a5f18f549f4d5b168f82": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00001_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.2207431891001761,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "909a87dbb01bfd77ecd94f95b8cfd079c47ce5fcdfd18bbc1426c203274d1e9e": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00009_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "9ca295b998955c1b692cd22d07ca7ca75724469beba9ab4f8b6d6583f50fe92e",
+          "measured_wall_clock_s": 0.22496699285693467,
+          "sha256": "6914174943372c728105c6e73d11659e3e59c607909a079862c333ce1362b724"
+        },
+        "c0db599b72a17abdd9279b165cb55a9b3bc5a36faafbd5959327d19b84ddd541": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00000_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.21975617809221148,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "c3480450bb359b107be22445161f6770a2d81d56ad09a441683b37361035ed18": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00013_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.22081195982173085,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "d5054a8adc03aded41fa01c1f18449c87bdda5ab8a0e10717a7f6db4e0ea9650": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00007_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.22470428701490164,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        },
+        "e4198c8e18dccd16699046bb643a2f06d6150be36ae7b7156e0c1b228941b779": {
+          "actual_neural_calls": 1,
+          "file": "prediction_00005_CFG_YOLO11S_960_ROT0.npz",
+          "mask_sha256": "65b095f8650bf6f8d9be6e7529fe0808bfd6068dad62aa31b2e02031e5e587d6",
+          "measured_wall_clock_s": 0.22125770198181272,
+          "sha256": "0d4a403d9f35068382ff8d05945d1a4a7367cdcf3f0535d03226d2de3c6901a6"
+        }
+      },
+      "signature": "29d3bbd7e276be2bd23e99f6da4b9ce916f16aa7f1feed1d043264a36dfdcd78"
+    }
+  },
+  "native_protocol_sha256": "4178f41a0cb4c78b36de656b60c9daba6434b0cf066b3f173eafd1511a1b89c3",
+  "recording_identity": "f99caa4de8efb8043e20959ceb77085634c5dd082d26dd4911915f495a7ca9c9",
+  "recording_sha256": "68b4530ca5d912214e3256cfbc3008a268b9630fe8a2bc49cfaa69cd04a99a05"
+}

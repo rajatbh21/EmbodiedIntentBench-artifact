@@ -1,0 +1,25 @@
+aware,blind,split,schedule,conditions,aware_successes,blind_successes,only_aware_succeeds,only_blind_succeeds,aware_deadline_misses,blind_deadline_misses,aware_mean_nonflight_energy_j,blind_mean_nonflight_energy_j,aware_unmet,blind_unmet,aware_coverage_shortfall,blind_coverage_shortfall
+quality_current,quality_initial,transfer,all,48,24,24,0,0,0,90,170.981,198.329,"{'confirmation+reporting_recall': 20, 'reporting_recall': 4}",{'confirmation+reporting_recall': 24},17,17
+quality_current,quality_initial,transfer,no_change,16,12,12,0,0,0,0,197.748,197.748,{'confirmation+reporting_recall': 4},{'confirmation+reporting_recall': 4},4,4
+quality_current,quality_initial,transfer,urgency_increase,16,6,6,0,0,0,61,141.9,197.907,"{'confirmation+reporting_recall': 8, 'reporting_recall': 2}",{'confirmation+reporting_recall': 10},8,8
+quality_current,quality_initial,transfer,urgency_recovery,16,6,6,0,0,0,29,173.296,199.332,"{'confirmation+reporting_recall': 8, 'reporting_recall': 2}",{'confirmation+reporting_recall': 10},5,5
+quality_current,quality_initial,development,all,24,17,18,0,1,0,48,169.196,199.427,"{'confirmation+reporting_recall': 6, 'confirmation': 1}",{'confirmation+reporting_recall': 6},0,3
+quality_current,quality_initial,development,no_change,8,8,8,0,0,0,0,198.798,198.798,{},{},0,0
+quality_current,quality_initial,development,urgency_increase,8,4,4,0,0,0,32,143.037,198.548,"{'confirmation+reporting_recall': 3, 'confirmation': 1}",{'confirmation+reporting_recall': 4},0,2
+quality_current,quality_initial,development,urgency_recovery,8,5,6,0,1,0,16,165.754,200.934,{'confirmation+reporting_recall': 3},{'confirmation+reporting_recall': 2},0,1
+quality_current,quality_initial,all,all,72,41,42,0,1,0,138,170.386,198.695,"{'confirmation+reporting_recall': 26, 'confirmation': 1, 'reporting_recall': 4}",{'confirmation+reporting_recall': 30},17,20
+quality_current,quality_initial,all,no_change,24,20,20,0,0,0,0,198.098,198.098,{'confirmation+reporting_recall': 4},{'confirmation+reporting_recall': 4},4,4
+quality_current,quality_initial,all,urgency_increase,24,10,10,0,0,0,93,142.279,198.12,"{'confirmation+reporting_recall': 11, 'confirmation': 1, 'reporting_recall': 2}",{'confirmation+reporting_recall': 14},8,10
+quality_current,quality_initial,all,urgency_recovery,24,11,12,0,1,0,45,170.782,199.866,"{'confirmation+reporting_recall': 11, 'reporting_recall': 2}",{'confirmation+reporting_recall': 12},5,6
+risk_current,risk_initial,transfer,all,48,25,24,1,0,0,90,168.031,198.329,"{'confirmation+reporting_recall': 18, 'reporting_recall': 5}",{'confirmation+reporting_recall': 24},10,17
+risk_current,risk_initial,transfer,no_change,16,12,12,0,0,0,0,197.748,197.748,{'confirmation+reporting_recall': 4},{'confirmation+reporting_recall': 4},4,4
+risk_current,risk_initial,transfer,urgency_increase,16,6,6,0,0,0,61,135.841,197.907,"{'confirmation+reporting_recall': 8, 'reporting_recall': 2}",{'confirmation+reporting_recall': 10},3,8
+risk_current,risk_initial,transfer,urgency_recovery,16,7,6,1,0,0,29,170.505,199.332,"{'confirmation+reporting_recall': 6, 'reporting_recall': 3}",{'confirmation+reporting_recall': 10},3,5
+risk_current,risk_initial,development,all,24,18,18,0,0,0,48,166.11,199.427,{'confirmation+reporting_recall': 6},{'confirmation+reporting_recall': 6},3,3
+risk_current,risk_initial,development,no_change,8,8,8,0,0,0,0,198.798,198.798,{},{},0,0
+risk_current,risk_initial,development,urgency_increase,8,4,4,0,0,0,32,136.774,198.548,{'confirmation+reporting_recall': 4},{'confirmation+reporting_recall': 4},2,2
+risk_current,risk_initial,development,urgency_recovery,8,6,6,0,0,0,16,162.758,200.934,{'confirmation+reporting_recall': 2},{'confirmation+reporting_recall': 2},1,1
+risk_current,risk_initial,all,all,72,43,42,1,0,0,138,167.391,198.695,"{'confirmation+reporting_recall': 24, 'reporting_recall': 5}",{'confirmation+reporting_recall': 30},13,20
+risk_current,risk_initial,all,no_change,24,20,20,0,0,0,0,198.098,198.098,{'confirmation+reporting_recall': 4},{'confirmation+reporting_recall': 4},4,4
+risk_current,risk_initial,all,urgency_increase,24,10,10,0,0,0,93,136.152,198.12,"{'confirmation+reporting_recall': 12, 'reporting_recall': 2}",{'confirmation+reporting_recall': 14},5,10
+risk_current,risk_initial,all,urgency_recovery,24,13,12,1,0,0,45,167.923,199.866,"{'confirmation+reporting_recall': 8, 'reporting_recall': 3}",{'confirmation+reporting_recall': 12},4,6

@@ -1,0 +1,288 @@
+{
+  "scenario_schema_version": "2.0",
+  "scenario_id": "V2_IMG1_REMOTE_HARD",
+  "random_seed": 42,
+  "world": {
+    "image_path": "src/v2_img/img_1.tif",
+    "source_id": "img_1",
+    "meters_per_pixel": 0.0295,
+    "invalid_pixel_rule": "all_zero",
+    "valid_region_m": [260.0, 210.0, 360.0, 270.0]
+  },
+  "drone": {
+    "initial_position_m": [280.0, 240.0],
+    "altitude_m": 40.0,
+    "speed_mps": 4.0,
+    "battery_capacity_wh": 6.0,
+    "flight_power_w": 120.0
+  },
+  "trajectory": {
+    "type": "lawnmower",
+    "region_m": [280.0, 240.0, 340.0, 249.0],
+    "lane_spacing_m": 4.5
+  },
+  "camera": {
+    "projection": "orthographic",
+    "footprint_width_m": 6.0,
+    "footprint_height_m": 4.5,
+    "output_width_px": 256,
+    "output_height_px": 192
+  },
+  "simulation": {
+    "observation_interval_s": 1.0,
+    "fallback_config_id": "local_light_real",
+    "matching_iou_threshold": 0.3,
+    "network": {
+      "bandwidth_mbps": 20.0,
+      "rtt_ms": 30.0,
+      "packet_loss_frac": 0.0
+    },
+    "network_trace": [
+      {
+        "regime_id": "5g_good",
+        "start_s": 0.0,
+        "uplink_mbps": 100.0,
+        "downlink_mbps": 200.0,
+        "rtt_ms": 20.0,
+        "packet_loss_frac": 0.0
+      },
+      {
+        "regime_id": "lte_degraded",
+        "start_s": 12.0,
+        "uplink_mbps": 2.0,
+        "downlink_mbps": 5.0,
+        "rtt_ms": 150.0,
+        "packet_loss_frac": 0.05
+      },
+      {
+        "regime_id": "disconnected",
+        "start_s": 26.0,
+        "uplink_mbps": 0.0,
+        "downlink_mbps": 0.0,
+        "rtt_ms": 0.0,
+        "packet_loss_frac": 1.0
+      },
+      {
+        "regime_id": "recovered_weak",
+        "start_s": 38.0,
+        "uplink_mbps": 5.0,
+        "downlink_mbps": 10.0,
+        "rtt_ms": 60.0,
+        "packet_loss_frac": 0.02
+      }
+    ]
+  },
+  "objects": [
+    {
+      "object_id": "TGT_S1_WALK_SMALL",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_walking_001",
+      "position_m": [296.0, 240.0],
+      "width_m": 0.378,
+      "height_m": 0.75,
+      "rotation_deg": 10.0,
+      "z_order": 10
+    },
+    {
+      "object_id": "TGT_S2_STAND_SMALL",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_standing_001",
+      "position_m": [320.0, 240.7],
+      "width_m": 0.474,
+      "height_m": 0.75,
+      "rotation_deg": -25.0,
+      "z_order": 11
+    },
+    {
+      "object_id": "TGT_S3_WALK_SMALL",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_walking_001",
+      "position_m": [324.5, 244.5],
+      "width_m": 0.378,
+      "height_m": 0.75,
+      "rotation_deg": 35.0,
+      "z_order": 12
+    },
+    {
+      "object_id": "TGT_S4_STAND_SMALL",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_standing_001",
+      "position_m": [300.5, 245.1],
+      "width_m": 0.474,
+      "height_m": 0.75,
+      "rotation_deg": -10.0,
+      "z_order": 13
+    },
+    {
+      "object_id": "TGT_E1_STAND_LATE",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_standing_001",
+      "position_m": [315.0, 249.0],
+      "width_m": 1.42,
+      "height_m": 2.25,
+      "rotation_deg": 20.0,
+      "z_order": 14
+    },
+    {
+      "object_id": "TGT_E2_WALK_LATE",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_walking_001",
+      "position_m": [323.0, 249.6],
+      "width_m": 0.755,
+      "height_m": 1.5,
+      "rotation_deg": -30.0,
+      "z_order": 15
+    },
+    {
+      "object_id": "TGT_E3_STAND_LATE",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_standing_001",
+      "position_m": [331.0, 248.4],
+      "width_m": 1.42,
+      "height_m": 2.25,
+      "rotation_deg": 45.0,
+      "z_order": 16
+    },
+    {
+      "object_id": "TGT_E4_WALK_LATE",
+      "class_id": "person",
+      "is_target": true,
+      "render_mode": "image_asset",
+      "asset_id": "person_aerial_walking_001",
+      "position_m": [339.0, 249.0],
+      "width_m": 0.755,
+      "height_m": 1.5,
+      "rotation_deg": 15.0,
+      "z_order": 17
+    },
+    {
+      "object_id": "DIS_DEBRIS",
+      "class_id": "debris",
+      "is_target": false,
+      "render_mode": "procedural_marker",
+      "position_m": [310.0, 244.0],
+      "width_m": 1.4,
+      "height_m": 0.9,
+      "rotation_deg": 20.0,
+      "z_order": 5,
+      "appearance": {
+        "shape": "rect",
+        "body_rgb": [146, 95, 100],
+        "stripe": false,
+        "alpha": 1.0
+      }
+    }
+  ],
+  "executor_configs": [
+    {
+      "config_id": "local_light_real",
+      "model_strategy_id": "TORCHVISION_LRASPP_MOBILENETV3",
+      "kind": "torch_semantic_segmentation",
+      "mission_latency_s": 0.4,
+      "energy_j_per_call": 10.0,
+      "communication_mb_per_call": 0.0,
+      "quality_tier": "low",
+      "parameters": {
+        "model_id": "lraspp_mobilenet_v3_large",
+        "weights_id": "official_default",
+        "task_class": "person",
+        "input_width_px": 512,
+        "input_height_px": 384,
+        "probability_threshold": 0.5,
+        "device": "auto",
+        "dtype": "float32",
+        "latency_mode": "configured",
+        "warmup_runs": 1,
+        "min_component_px": 0
+      }
+    },
+    {
+      "config_id": "local_strong_real",
+      "model_strategy_id": "TORCHVISION_DEEPLABV3_RESNET50",
+      "kind": "torch_semantic_segmentation",
+      "mission_latency_s": 1.4,
+      "energy_j_per_call": 600.0,
+      "communication_mb_per_call": 0.0,
+      "quality_tier": "high",
+      "parameters": {
+        "model_id": "deeplabv3_resnet50",
+        "weights_id": "official_default",
+        "task_class": "person",
+        "input_width_px": 768,
+        "input_height_px": 576,
+        "probability_threshold": 0.5,
+        "device": "auto",
+        "dtype": "float32",
+        "latency_mode": "configured",
+        "warmup_runs": 1,
+        "min_component_px": 0
+      }
+    },
+    {
+      "config_id": "remote_strong",
+      "model_strategy_id": "REMOTE_DEEPLABV3_RESNET50",
+      "kind": "simulated_remote",
+      "mission_latency_s": 0.3,
+      "energy_j_per_call": 25.0,
+      "communication_mb_per_call": 2.0,
+      "quality_tier": "high",
+      "parameters": {
+        "backend_kind": "torch_semantic_segmentation",
+        "backend_model_id": "deeplabv3_resnet50",
+        "backend_weights_id": "official_default",
+        "backend_task_class": "person",
+        "backend_input_width_px": 768,
+        "backend_input_height_px": 576,
+        "backend_probability_threshold": 0.5,
+        "backend_device": "auto",
+        "backend_dtype": "float32",
+        "backend_latency_mode": "configured",
+        "backend_warmup_runs": 1,
+        "backend_min_component_px": 0,
+        "remote_compute_s": 0.35,
+        "timeout_s": 3.0,
+        "fallback_config_id": "local_light_real",
+        "download_mb_per_call": 0.05,
+        "uplink_energy_j_per_mb": 60.0,
+        "downlink_energy_j_per_mb": 1.0,
+        "radio_activation_j": 0.5
+      }
+    }
+  ],
+  "mission_contract": {
+    "contract_id": "V2_REMOTE_HARD_CONTRACT",
+    "quality_metric": "target_recall",
+    "quality_operator": ">=",
+    "quality_threshold": 0.7,
+    "deadline_s": 55.0,
+    "communication_budget_mb": 26.0,
+    "min_final_battery_frac": 0.22,
+    "privacy_level": "remote_allowed"
+  },
+  "provenance": {
+    "label": "synthetic generated aerial-human REMOTE-AWARE hard trade-off mission diagnostic",
+    "assets": "OpenAI-generated synthetic humans (owner-supplied); NOT real people, NOT real aerial data",
+    "note": "results are integration/observability diagnostics, never real UAV, radio, or Jetson performance",
+    "design": "V2.4 hard trade-off structure with a live remote/network/privacy axis: small early targets (~32 px, validated Stage B) defeat the light model; large late targets sit in ~1.5 s windows on odd capture times so the strong executor's configured 1.4 s latency skips them; the network starts on a good link (remote inference viable) and degrades mid-mission; the communication budget is sized so an always-remote policy breaches it while an adaptive policy's affordability rule stops in time; energy_j_per_call for the strong config and uplink_energy_j_per_mb for the radio are stress-configured (simulated, modelling a power-hungry accelerator and a long-range high-power link) so always-strong breaches the battery floor and the remote phase still consumes mission-relevant battery",
+    "network": "named regimes are CONFIGURED simulation parameters, not radio measurements",
+    "remote": "simulated_remote runs the strong torchvision strategy in-process behind the deployment transport boundary; latency is DERIVED from the capture-time network snapshot (Model A) plus configured stage components; communication energy is CONFIGURED J/MB",
+    "latency_energy": "mission_latency_s and energy_j_per_call are CONFIGURED/SIMULATED for deterministic, machine-independent missions; measured wall-clock is recorded as a diagnostic only",
+    "source_registry": "data/v2_scenarios/aerial_sources.json"
+  },
+  "evaluation_purpose": "controlled_observability",
+  "assets_manifest": "data/v2_assets/manifest.json"
+}

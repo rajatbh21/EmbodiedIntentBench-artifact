@@ -1,0 +1,5 @@
+multiplier,both_succeed,both_fail,only_no_skip_succeeds,only_causal_succeeds
+0.5,272,364,12,0
+1,218,393,37,0
+2,185,392,70,1
+4,53,567,28,0

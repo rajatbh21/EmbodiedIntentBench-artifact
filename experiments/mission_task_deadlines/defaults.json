@@ -1,0 +1,39 @@
+{
+  "batteries": [
+    0.34,
+    0.65
+  ],
+  "deadline_profiles": [
+    {
+      "association_ns": 80000000,
+      "name": "tight",
+      "perception_ns": 2000000000,
+      "verification_ns": 10000000
+    },
+    {
+      "association_ns": 150000000,
+      "name": "relaxed",
+      "perception_ns": 8000000000,
+      "verification_ns": 30000000
+    }
+  ],
+  "flights": [
+    "east_shore_day",
+    "west_rocks_day"
+  ],
+  "links": [
+    "good",
+    "constrained",
+    "intermittent"
+  ],
+  "missions": [
+    "rapid_survey",
+    "verified_inspection"
+  ],
+  "policies": [
+    "fixed_local_fast",
+    "fixed_local_heavy",
+    "fixed_remote_union",
+    "deadline_aware"
+  ]
+}

@@ -1,0 +1,7 @@
+winner,loser,settings_material,fraction
+fast,accurate_fixed,0,0
+fast,adaptive,0,0
+accurate_fixed,fast,72,0.5
+accurate_fixed,adaptive,0,0
+adaptive,fast,92,0.638889
+adaptive,accurate_fixed,128,0.888889

@@ -1,0 +1,16 @@
+{
+  "rapid_search": {
+    "min_report_recall": 0.5,
+    "confirmed_report_deadline_s": 1.0
+  },
+  "careful_search": {
+    "min_report_recall": 0.5,
+    "max_false_reports": 0,
+    "max_duplicate_reports": 0
+  },
+  "timely_confirmation": {
+    "min_report_recall": 0.5,
+    "max_false_reports": 0,
+    "confirmed_report_deadline_s": 1.5
+  }
+}

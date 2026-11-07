@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "EXAMPLE_PROFILES",
+  "platform_id": "EXAMPLE_PLATFORM",
+  "profiles": {
+    "CFG_LOCAL_STRONG": {
+      "compute_latency_ms": 120.0,
+      "onboard_energy_j": 5.0,
+      "upload_mb": 0.0,
+      "download_mb": 0.0,
+      "quality_tier": "high"
+    },
+    "CFG_LOCAL_LIGHT": {
+      "compute_latency_ms": 90.0,
+      "onboard_energy_j": 2.0,
+      "upload_mb": 0.0,
+      "download_mb": 0.0,
+      "quality_tier": "low"
+    }
+  }
+}

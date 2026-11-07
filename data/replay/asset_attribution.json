@@ -1,0 +1,50 @@
+[
+  {
+    "directory": "harmonic_terrain",
+    "download": "https://fuel.gazebosim.org/1.0/OpenRobotics/models/Harmonic%20Terrain/1/Harmonic%20Terrain.zip",
+    "license": "Creative Commons Attribution 4.0 International",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "name": "Harmonic Terrain",
+    "owner": "OpenRobotics",
+    "source": "https://fuel.gazebosim.org/1.0/OpenRobotics/models/Harmonic%20Terrain",
+    "version": 1
+  },
+  {
+    "directory": "harmonic_terrain_objects",
+    "download": "https://fuel.gazebosim.org/1.0/OpenRobotics/models/Harmonic%20Terrain%20Objects/1/Harmonic%20Terrain%20Objects.zip",
+    "license": "Creative Commons Attribution 4.0 International",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "name": "Harmonic Terrain Objects",
+    "owner": "OpenRobotics",
+    "source": "https://fuel.gazebosim.org/1.0/OpenRobotics/models/Harmonic%20Terrain%20Objects",
+    "version": 1
+  },
+  {
+    "directory": "lake_house",
+    "download": "https://fuel.gazebosim.org/1.0/OpenRobotics/models/Lake%20House/3/Lake%20House.zip",
+    "license": "Creative Commons Attribution 4.0 International",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "name": "Lake House",
+    "owner": "OpenRobotics",
+    "source": "https://fuel.gazebosim.org/1.0/OpenRobotics/models/Lake%20House",
+    "version": 3
+  },
+  {
+    "directory": "coast_waves_2",
+    "download": "https://fuel.gazebosim.org/1.0/OpenRobotics/models/Coast%20Waves%202/3/Coast%20Waves%202.zip",
+    "license": "Creative Commons Attribution 4.0 International",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "name": "Coast Waves 2",
+    "owner": "OpenRobotics",
+    "source": "https://fuel.gazebosim.org/1.0/OpenRobotics/models/Coast%20Waves%202",
+    "version": 3
+  },
+  {
+    "creator": "Marina Kollmitz",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "name": "Standing person",
+    "owner": "OpenRobotics",
+    "source": "https://fuel.gazebosim.org/1.0/OpenRobotics/models/Standing%20person/3"
+  }
+]

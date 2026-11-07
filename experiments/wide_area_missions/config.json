@@ -1,0 +1,20 @@
+{
+  "schema_version": "wide_area_acquisition_settings_v1",
+  "routes": [
+    "shoreline_loop",
+    "wide_area_search",
+    "sector_revisit"
+  ],
+  "sample_spacing_m": 2.0,
+  "cruise_speed_mps": 4.0,
+  "max_horizontal_acceleration_mps2": 1.5,
+  "max_vertical_speed_mps": 1.2,
+  "clearance_m": 28.0,
+  "capture_interval_s": 2.0,
+  "warmup_s": 2.0,
+  "final_hover_s": 6.0,
+  "sector_count": 8,
+  "targets_per_sector": 3,
+  "seed": 28010,
+  "scenery_prop_count": 144
+}

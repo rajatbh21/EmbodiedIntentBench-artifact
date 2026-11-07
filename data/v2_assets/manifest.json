@@ -1,0 +1,120 @@
+{
+  "asset_schema_version": "1.0",
+  "assets": [
+    {
+      "asset_id": "person_conventional_standing_001",
+      "asset_path": "generated/person_conventional_standing_001.png",
+      "mask_source": "alpha",
+      "category": "person",
+      "view_type": "conventional",
+      "pose": "standing_front",
+      "synthetic": true,
+      "processing": "halo-removal(keep original alpha within 3px dilation of alpha>=128; zero elsewhere); crop to solid bbox +8px pad",
+      "source": {
+        "provider": "OpenAI image generation (project-owned synthetic output)",
+        "creator": "generated for Mission Routing Benchmark controlled observability; owner-supplied 2026-07-28",
+        "source_url": null,
+        "license": "synthetic generated for this project; redistribution PENDING OWNER CONFIRMATION",
+        "permitted_use": "controlled_observability / integration diagnostics only; synthetic generated human-target evaluation, NOT real aerial data and NOT real aerial-human perception evidence",
+        "redistribution_allowed": false
+      },
+      "physical": {
+        "nominal_width_m": 0.58,
+        "nominal_height_m": 1.75
+      },
+      "checksum_sha256": "9687cd85a96d04e834742effed6b48e6ff47be653eff2f3a88c03a50683bd101"
+    },
+    {
+      "asset_id": "person_aerial_standing_001",
+      "asset_path": "generated/person_aerial_standing_001.png",
+      "mask_source": "alpha",
+      "category": "person",
+      "view_type": "aerial",
+      "pose": "standing",
+      "synthetic": true,
+      "processing": "halo-removal(keep original alpha within 3px dilation of alpha>=128; zero elsewhere); crop to solid bbox +8px pad",
+      "source": {
+        "provider": "OpenAI image generation (project-owned synthetic output)",
+        "creator": "generated for Mission Routing Benchmark controlled observability; owner-supplied 2026-07-28",
+        "source_url": null,
+        "license": "synthetic generated for this project; redistribution PENDING OWNER CONFIRMATION",
+        "permitted_use": "controlled_observability / integration diagnostics only; synthetic generated human-target evaluation, NOT real aerial data and NOT real aerial-human perception evidence",
+        "redistribution_allowed": false
+      },
+      "physical": {
+        "nominal_width_m": 0.69,
+        "nominal_height_m": 1.1
+      },
+      "checksum_sha256": "5ca09ce5da7ceb49ba51ddc0fb21fc42ce19703776096506923b5881825ea609"
+    },
+    {
+      "asset_id": "person_aerial_walking_001",
+      "asset_path": "generated/person_aerial_walking_001.png",
+      "mask_source": "alpha",
+      "category": "person",
+      "view_type": "aerial",
+      "pose": "walking",
+      "synthetic": true,
+      "processing": "halo-removal(keep original alpha within 3px dilation of alpha>=128; zero elsewhere); crop to solid bbox +8px pad",
+      "source": {
+        "provider": "OpenAI image generation (project-owned synthetic output)",
+        "creator": "generated for Mission Routing Benchmark controlled observability; owner-supplied 2026-07-28",
+        "source_url": null,
+        "license": "synthetic generated for this project; redistribution PENDING OWNER CONFIRMATION",
+        "permitted_use": "controlled_observability / integration diagnostics only; synthetic generated human-target evaluation, NOT real aerial data and NOT real aerial-human perception evidence",
+        "redistribution_allowed": false
+      },
+      "physical": {
+        "nominal_width_m": 0.6,
+        "nominal_height_m": 1.2
+      },
+      "checksum_sha256": "4369464f55e510b602b5abfc053df8328b4308f139485d341114d62171af36c6"
+    },
+    {
+      "asset_id": "person_aerial_crouching_001",
+      "asset_path": "generated/person_aerial_crouching_001.png",
+      "mask_source": "alpha",
+      "category": "person",
+      "view_type": "aerial",
+      "pose": "crouching_kneeling",
+      "synthetic": true,
+      "processing": "halo-removal(keep original alpha within 3px dilation of alpha>=128; zero elsewhere); crop to solid bbox +8px pad",
+      "source": {
+        "provider": "OpenAI image generation (project-owned synthetic output)",
+        "creator": "generated for Mission Routing Benchmark controlled observability; owner-supplied 2026-07-28",
+        "source_url": null,
+        "license": "synthetic generated for this project; redistribution PENDING OWNER CONFIRMATION",
+        "permitted_use": "controlled_observability / integration diagnostics only; synthetic generated human-target evaluation, NOT real aerial data and NOT real aerial-human perception evidence",
+        "redistribution_allowed": false
+      },
+      "physical": {
+        "nominal_width_m": 0.7,
+        "nominal_height_m": 0.9
+      },
+      "checksum_sha256": "9016e219207bb31a2a9918c53d52354e850a2ad078da15451e1a8fcad665d555"
+    },
+    {
+      "asset_id": "person_conventional_standing_back_001",
+      "asset_path": "generated/person_conventional_standing_back_001.png",
+      "mask_source": "alpha",
+      "category": "person",
+      "view_type": "conventional",
+      "pose": "standing_back_AMBIGUOUS_possibly_intended_lying",
+      "synthetic": true,
+      "processing": "halo-removal(keep original alpha within 3px dilation of alpha>=128; zero elsewhere); crop to solid bbox +8px pad",
+      "source": {
+        "provider": "OpenAI image generation (project-owned synthetic output)",
+        "creator": "generated for Mission Routing Benchmark controlled observability; owner-supplied 2026-07-28",
+        "source_url": null,
+        "license": "synthetic generated for this project; redistribution PENDING OWNER CONFIRMATION",
+        "permitted_use": "controlled_observability / integration diagnostics only; synthetic generated human-target evaluation, NOT real aerial data and NOT real aerial-human perception evidence",
+        "redistribution_allowed": false
+      },
+      "physical": {
+        "nominal_width_m": 0.6,
+        "nominal_height_m": 1.75
+      },
+      "checksum_sha256": "9fd93b70517fd658cd5a166d1d0072fc62f57111bd079c5f1fb4aa674e816086"
+    }
+  ]
+}

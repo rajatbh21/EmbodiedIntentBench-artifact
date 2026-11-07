@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "EMPIRICAL_EXAMPLE_EPISODE",
+  "platform_id": "EXAMPLE_PLATFORM",
+  "path_id": "EXAMPLE_PATH",
+  "frame_stream_id": "EXAMPLE_STREAM",
+  "initial_altitude_m": 40.0,
+  "velocity_mps": 5.0,
+  "initial_battery_frac": 0.80,
+  "power_mode": "15W",
+  "network_trace_id": "EXAMPLE_TRACE",
+  "allowed_config_ids": ["CFG_LOCAL_STRONG", "CFG_LOCAL_LIGHT"],
+  "initial_config_id": null,
+  "seed": 7
+}

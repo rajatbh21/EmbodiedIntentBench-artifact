@@ -1,0 +1,40 @@
+{
+  "complete": true,
+  "declared_runs": 648,
+  "experiment_executions": 0,
+  "mode": "verify",
+  "reference_table_sha256": {
+    "exp1_decision_changes.csv": "e3e8c021fd8b99d93450d521e467fb94101c33fa6923c8d36ab88f2f9a5e18c1",
+    "exp1_evidence_completion.csv": "f9c7f0a57919ee700cf1396eb8b6e4f2b7b9e6403ee4ca96eb10c881cca79148",
+    "exp1_per_recording.csv": "169fa0aefe4e394c999e14feba54861892fcec33ffc4513bd07ed6b30377b841",
+    "exp1_ranking_reversals.csv": "d61f13bd40f760c95cd8d9dd434a2e010821efa144e17acd695823205b16d08f",
+    "exp1_sensitivity_classes.csv": "86d7e18edc72b86be932ca10957b13bac935482a4eb9f2730cb065d50852a9bc",
+    "exp1_sensitivity_drivers.csv": "6bd4409ddd55014cf7fb5b2408786a4063024ce35380e07d751198e422d587b2",
+    "exp1_sensitivity_pairs.csv": "8d542ffa153ba5446c2896ac19538c188e24c396016893bd3a4c1430b5639960",
+    "exp1_sensitivity_per_recording.csv": "fb2b25119c89e7216dfe85e82f940022aad615f216b034f8d5f5e95d59b758ab",
+    "exp1_sensitivity_settings.csv": "6ebbc4c5e14710d13f08e62a6c664c85922cafe591aa9a9529a6125552dfd077",
+    "exp1_success_rerun.csv": "8dbe8cff2ae43487449b44260543ed57f9f2ef2321d8407deb902ac8f64e6b5f",
+    "exp1_success_rescore.csv": "99c12228943fe7ec7803a6eba7e0c7e867c9a6ab282b6f48ace84dbb001aed1f",
+    "exp2_bounds.csv": "951af4e08d64cccbb99796715ba6ba7900ac4ba98340f3b776a2fbb3c15eda46",
+    "exp2_condition_classes.csv": "6679b302f819a9fba3df8e79056d2faa32a8cf0bf95aa3ed71a8799e65e4097a",
+    "exp2_policy_gap.csv": "97dc4756f0abba491e6c3ade3561d2c0503cdb557e69f4abfaf73ef3e8d5d900",
+    "exp3_metrics.csv": "e04390fe687414e439faa68d2d06975fd88152a41ed5d3b547ff196e2d5359fb",
+    "exp3_protocol_disagreement.csv": "3ebc5b137b214b7563c9d14e7f09262c83672f8a5480bd865180efdedc7995d6",
+    "exp3_success_flips.csv": "d78060e0c2563efbbe29197e70afd6c171ec7c167c88fd604a5d38b7332cbfdb",
+    "exp3_timelines.json": "1e8be07e8e0567aa56bdef315ab09d35c4bbf3b33aafddf3bcf37d490bcd89c8",
+    "exp4_counterfactual_relaxations.csv": "858f3b0a6b54fbb8b85714d11161d07a0f9a79be1b7b2089cc186abfe6fed072",
+    "exp4_evidence_funnel.csv": "fccaba2825b8eab4e0fcd5c45cec10d8dcaef9106f691181ffabcdf62a0511f3",
+    "exp4_per_run.csv": "d7e3031ad7ea5a5fc02f960ea479b669ef36a2bdb17a49edcd7295e29f6a06fa",
+    "exp4_unmet_patterns.csv": "eb780e4c7ccdc7d35b00477ac6ac7a65a9034ada1b72657e4d448648d1a7c7d8",
+    "exp4_urgency_comparison.csv": "a87b460f44d01e46594d0b361300bbafb0ef51274ddec19c4a8fe87efb066967",
+    "runs.csv": "d366464fd19857326f1c308ee1fdf8d3d43bad1df4786d80758f8083fe233996",
+    "summary.json": "7456358986f696961055cab437e793cfbd9fc52cb71e5378ae26af48a56dcfa0"
+  },
+  "release_source_changes": {
+    "figures.py": {
+      "original_sha256": "1be678f93144c59de143e7f8705811acc7800772480b6913859ddfa066afa83a",
+      "reason": "Replace a legacy project name in the deterministic SVG identifier salt with the anonymous package name. Plot values, experiment algorithms and original published reference artifacts are unchanged.",
+      "released_sha256": "4de1a464c58761eb9e236d11cc30725a3390f729cbc8f3546076b5b8118e0dc0"
+    }
+  }
+}

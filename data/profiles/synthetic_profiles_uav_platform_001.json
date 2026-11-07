@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "SYNTHETIC_PROFILES_UAV_PLATFORM_001",
+  "platform_id": "UAV_PLATFORM_001",
+  "profiles": {
+    "CFG_LOCAL_LIGHT": {
+      "compute_latency_ms": 100.0,
+      "onboard_energy_j": 3.0,
+      "upload_mb": 0.0,
+      "download_mb": 0.0,
+      "quality_tier": "low"
+    },
+    "CFG_LOCAL_STRONG": {
+      "compute_latency_ms": 450.0,
+      "onboard_energy_j": 12.0,
+      "upload_mb": 0.0,
+      "download_mb": 0.0,
+      "quality_tier": "medium"
+    },
+    "CFG_REMOTE_STRONG": {
+      "compute_latency_ms": 100.0,
+      "onboard_energy_j": 1.0,
+      "upload_mb": 1.5,
+      "download_mb": 0.05,
+      "quality_tier": "high"
+    }
+  }
+}

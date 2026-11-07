@@ -1,0 +1,231 @@
+{
+  "suite_schema_version": "0.1",
+  "base_scenario": "intent_visual_scenario.json",
+  "routers": [
+    {
+      "name": "static:CFG_V4_LIGHT",
+      "parameters": {}
+    },
+    {
+      "name": "static:CFG_V4_STRONG",
+      "parameters": {}
+    },
+    {
+      "name": "static:CFG_V4_REMOTE",
+      "parameters": {}
+    },
+    {
+      "name": "rule_based",
+      "parameters": {}
+    },
+    {
+      "name": "budget_planner",
+      "parameters": {}
+    },
+    {
+      "name": "intent_visual",
+      "parameters": {}
+    },
+    {
+      "name": "intent_only",
+      "parameters": {}
+    },
+    {
+      "name": "visual_only",
+      "parameters": {}
+    },
+    {
+      "name": "resource_only",
+      "parameters": {}
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "nominal",
+      "description": "Reference: 8-second fixed flight with 10-second deadline headroom.",
+      "scenario_overrides": {},
+      "contract_overrides": {}
+    },
+    {
+      "case_id": "low_battery",
+      "description": "Only initial battery changes; reserve remains binding.",
+      "scenario_overrides": {
+        "mission": {
+          "initial_battery_frac": 0.114
+        }
+      },
+      "contract_overrides": {}
+    },
+    {
+      "case_id": "tight_deadline",
+      "description": "Deadline shorter than the fixed required flight window.",
+      "scenario_overrides": {},
+      "contract_overrides": {
+        "deadline_s": 6.0
+      }
+    },
+    {
+      "case_id": "high_recall",
+      "description": "Require every target, including ones not encountered by this flight.",
+      "scenario_overrides": {},
+      "contract_overrides": {
+        "quality_threshold": 1.0
+      }
+    },
+    {
+      "case_id": "high_precision",
+      "description": "Change intent to high detection precision.",
+      "scenario_overrides": {},
+      "contract_overrides": {
+        "quality_metric": "detection_precision",
+        "quality_threshold": 0.95
+      }
+    },
+    {
+      "case_id": "limited_upload",
+      "description": "Constrain cumulative transmitted data.",
+      "scenario_overrides": {},
+      "contract_overrides": {
+        "communication_budget_mb": 1.0
+      }
+    },
+    {
+      "case_id": "local_privacy",
+      "description": "Forbid raw RGB offloading.",
+      "scenario_overrides": {},
+      "contract_overrides": {
+        "privacy_level": "local_only"
+      }
+    },
+    {
+      "case_id": "network_loss",
+      "description": "Link drops at mission second 4.",
+      "scenario_overrides": {
+        "network_trace": [
+          {
+            "regime_id": "good",
+            "start_s": 0,
+            "uplink_mbps": 20,
+            "downlink_mbps": 20,
+            "rtt_ms": 20,
+            "packet_loss_frac": 0
+          },
+          {
+            "regime_id": "lost",
+            "start_s": 4,
+            "uplink_mbps": 0,
+            "downlink_mbps": 0,
+            "rtt_ms": 0,
+            "packet_loss_frac": 0
+          }
+        ]
+      },
+      "contract_overrides": {}
+    },
+    {
+      "case_id": "deadline_equal_flight",
+      "description": "Only deadline changes from 10 to 8 seconds; reproduces continuous pressure.",
+      "scenario_overrides": {},
+      "contract_overrides": {
+        "deadline_s": 8.0
+      }
+    },
+    {
+      "case_id": "higher_altitude",
+      "description": "Commanded flight altitude increases from 4 to 6 metres; separate physics recording.",
+      "scenario_overrides": {
+        "world": {
+          "initial_position_m": [
+            0,
+            0,
+            6
+          ],
+          "objects": [
+            {
+              "object_id": "target_1",
+              "label": 1,
+              "position_m": [
+                0,
+                0,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "target_2",
+              "label": 2,
+              "position_m": [
+                3,
+                1,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "target_3",
+              "label": 3,
+              "position_m": [
+                6,
+                -1,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            }
+          ],
+          "waypoints": [
+            {
+              "start_s": 0,
+              "position_m": [
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "start_s": 5,
+              "position_m": [
+                3,
+                1,
+                6
+              ]
+            }
+          ]
+        }
+      },
+      "contract_overrides": {}
+    }
+  ]
+}

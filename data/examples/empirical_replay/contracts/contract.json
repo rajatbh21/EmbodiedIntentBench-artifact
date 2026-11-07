@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "EMPIRICAL_EXAMPLE_CONTRACT",
+  "task_id": "HUMAN_SEARCH_SEGMENTATION",
+  "evidence_type": "instance_mask_set",
+  "quality_metric": "target_recall",
+  "quality_operator": ">=",
+  "quality_threshold": 0.50,
+  "deadline_s": 3.0,
+  "communication_budget_mb": 100.0,
+  "min_final_battery_frac": 0.10,
+  "privacy_level": "remote_allowed"
+}

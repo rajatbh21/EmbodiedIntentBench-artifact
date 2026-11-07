@@ -1,0 +1,11 @@
+{
+  "prep_plan_version": "1.0",
+  "note": "Deterministic cleaning plan for owner-supplied synthetic humans (src/v2_img/human). Classification was done by visual inspection of image content, not filenames. v2_human5 (rear-view standing; possibly intended as a lying figure) is registered as conventional/ambiguous and EXCLUDED from the first controlled experiment.",
+  "assets": [
+    { "source_path": "src/v2_img/human/v2_human1.png", "processed_name": "person_conventional_standing_001.png" },
+    { "source_path": "src/v2_img/human/v2_human2.png", "processed_name": "person_aerial_standing_001.png" },
+    { "source_path": "src/v2_img/human/v2_human3.png", "processed_name": "person_aerial_walking_001.png" },
+    { "source_path": "src/v2_img/human/v2_human4.png", "processed_name": "person_aerial_crouching_001.png" },
+    { "source_path": "src/v2_img/human/v2_human5.png", "processed_name": "person_conventional_standing_back_001.png" }
+  ]
+}

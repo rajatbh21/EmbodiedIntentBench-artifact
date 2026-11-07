@@ -1,0 +1,9 @@
+{
+  "depot_rows_sha256": "58b258ca92cf292077e02a1fd780cd6f135e76ba6844d287e332b7bb583f8f40",
+  "depot_summary_sha256": "09129d6ec4452254be1120796f5f3aaf9468cf19e1b4ecd45fcaf2c93bd3f13c",
+  "figure_data_sha256": "17f1c44352b382583e195c0467eb340e34f14f951741018a07f67e25060825ec",
+  "original_captions_sha256": "c11fb251c6af0274df3958cd836b3e1c1067c376f69ffb298c2230998f96173d",
+  "original_renderer_sha256": "9412bbcce6470f965009126f4b926e531df5f17bb51c3b87a85a8aee27d3fb8a",
+  "schema_version": 1,
+  "scope": "Original scientific figure data preserved byte-for-byte. Renderer changed only for portable output paths, font fallback and anonymous metadata. Validation sources are reused from ../validation/."
+}

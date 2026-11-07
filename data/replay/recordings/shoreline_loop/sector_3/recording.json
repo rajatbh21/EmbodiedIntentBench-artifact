@@ -1,0 +1,961 @@
+{
+  "capture_schedule": {
+    "end_ns": 44000000000,
+    "epoch_ns": 2000000000,
+    "interval_ns": 2000000000
+  },
+  "frames": [
+    {
+      "body_pose": {
+        "position_m": [
+          165.332022217571,
+          -40.71796326088089,
+          39.13786309531146
+        ],
+        "quaternion_xyzw": [
+          -2.429497810710109e-33,
+          2.0529197419536444e-17,
+          -1.794602436630439e-18,
+          1.0
+        ],
+        "timestamp_ns": 2000000000
+      },
+      "file": "frame_00000.npz",
+      "sha256": "cf5a109778cc5abc1b843f73c3155f01607b8df912cea122670c2c9c3c82e258",
+      "timestamp_ns": 2000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.33162683893727,
+          -40.52202079453291,
+          39.2093503335779
+        ],
+        "quaternion_xyzw": [
+          -0.011475794622073083,
+          -3.565175940844149e-05,
+          8.296216038374942e-07,
+          0.999934150264934
+        ],
+        "timestamp_ns": 4000000000
+      },
+      "file": "frame_00001.npz",
+      "sha256": "7ed0469ba0efbc80fe0d8bae6d9f9072eb46523b9b4a4426d07e4b47bd97325b",
+      "timestamp_ns": 4000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.32965562114367,
+          -39.65261359769283,
+          39.19790455566764
+        ],
+        "quaternion_xyzw": [
+          -0.010848923333216777,
+          -3.587529865606506e-07,
+          9.413253133002201e-06,
+          0.9999411486551456
+        ],
+        "timestamp_ns": 6000000000
+      },
+      "file": "frame_00002.npz",
+      "sha256": "46559ee6b6f7e3552014677dcedca276fd8d4660772cfd7c29c6b3f9c5b489e9",
+      "timestamp_ns": 6000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.32788418290826,
+          -38.24309739927133,
+          39.18790558376984
+        ],
+        "quaternion_xyzw": [
+          -0.011561915648767483,
+          -1.1317656862865478e-06,
+          2.5088316792145872e-05,
+          0.9999331585040203
+        ],
+        "timestamp_ns": 8000000000
+      },
+      "file": "frame_00003.npz",
+      "sha256": "9fb51ab68425893a8d93800eec46cedf417773e66efd1fefb1724d04f016703c",
+      "timestamp_ns": 8000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.3264595734649,
+          -36.38458105380168,
+          39.180362886598836
+        ],
+        "quaternion_xyzw": [
+          -0.012090745236469224,
+          -1.245827749647132e-06,
+          4.377471953841874e-05,
+          0.9999269033093612
+        ],
+        "timestamp_ns": 10000000000
+      },
+      "file": "frame_00004.npz",
+      "sha256": "e70de7cebee372bfffa04c5e49343089e536e3755cc00f642343897af5ab6816",
+      "timestamp_ns": 10000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.3252626898256,
+          -34.15046018028967,
+          39.173723763300615
+        ],
+        "quaternion_xyzw": [
+          -0.012347056681643192,
+          -1.0266593587224205e-07,
+          6.337821920118244e-05,
+          0.9999237701817529
+        ],
+        "timestamp_ns": 12000000000
+      },
+      "file": "frame_00005.npz",
+      "sha256": "f9ba52106fc3bb8fb6fcb80ff54f40662d9168ee3eea4dcc5b3c219edb47e883",
+      "timestamp_ns": 12000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.32429408176844,
+          -31.614754708657365,
+          39.16869365561104
+        ],
+        "quaternion_xyzw": [
+          -0.012340444301479169,
+          9.404443475716419e-07,
+          8.178184188369909e-05,
+          0.9999238504732688
+        ],
+        "timestamp_ns": 14000000000
+      },
+      "file": "frame_00006.npz",
+      "sha256": "c1bc1a817fad4ff20c5c585daac201fa6573154a797e947f896652e71c0159b9",
+      "timestamp_ns": 14000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.3235552297677,
+          -28.851558934104148,
+          39.165642683743755
+        ],
+        "quaternion_xyzw": [
+          -0.012071332943979633,
+          1.9064998641053648e-06,
+          9.725446322406681e-05,
+          0.9999271340747236
+        ],
+        "timestamp_ns": 16000000000
+      },
+      "file": "frame_00007.npz",
+      "sha256": "3aae04e991bcb055a00369d0eaeb2946a762587f736eed5db72f2d82d8363e9b",
+      "timestamp_ns": 16000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.32304584197078,
+          -25.93495762185006,
+          39.164740683065396
+        ],
+        "quaternion_xyzw": [
+          -0.011539724698177262,
+          2.786788572924508e-06,
+          0.00010849635049950839,
+          0.9999334092701704
+        ],
+        "timestamp_ns": 18000000000
+      },
+      "file": "frame_00008.npz",
+      "sha256": "cac0cb3ac08b19bd5aaa553c3546b2ec86ec7957d63284efed0a5e21f4a753b2",
+      "timestamp_ns": 18000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.32276567406595,
+          -22.939027945879342,
+          39.16602227884581
+        ],
+        "quaternion_xyzw": [
+          -0.010746753693461975,
+          3.559726237830641e-06,
+          0.00011465306834164867,
+          0.99994224539573
+        ],
+        "timestamp_ns": 20000000000
+      },
+      "file": "frame_00009.npz",
+      "sha256": "4505bee6a2a0537ce78c11fa90e3a786a555307dce491c58421ee198e4c89025",
+      "timestamp_ns": 20000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.32271469884108,
+          -19.93781438047149,
+          39.169503927238985
+        ],
+        "quaternion_xyzw": [
+          -0.009688970046150174,
+          4.269983465092892e-06,
+          0.00011524224828732201,
+          0.9999530541782631
+        ],
+        "timestamp_ns": 22000000000
+      },
+      "file": "frame_00010.npz",
+      "sha256": "a1a441b87818725dc8d7741b8d47423382e22af8f0796db0b9c6f8531e842a4c",
+      "timestamp_ns": 22000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.3228935727644,
+          -17.005415571422798,
+          39.17491479661413
+        ],
+        "quaternion_xyzw": [
+          -0.008369878672098293,
+          4.866439351598297e-06,
+          0.00011006993838064076,
+          0.9999649658822757
+        ],
+        "timestamp_ns": 24000000000
+      },
+      "file": "frame_00011.npz",
+      "sha256": "46634b288b53aeb049463cba161ca773d88d08c358bad57a2d3731fa94ae3e27",
+      "timestamp_ns": 24000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.32330144261027,
+          -14.215894426621292,
+          39.18173487858519
+        ],
+        "quaternion_xyzw": [
+          -0.00678808943733167,
+          5.4272658654432225e-06,
+          9.966234200727368e-05,
+          0.9999769556743561
+        ],
+        "timestamp_ns": 26000000000
+      },
+      "file": "frame_00012.npz",
+      "sha256": "c584f1892d50f7c01078910cc8f94c7d456d43d656bfb30d33debd6806d988b5",
+      "timestamp_ns": 26000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.32393832041188,
+          -11.643305681938289,
+          39.18941531513445
+        ],
+        "quaternion_xyzw": [
+          -0.0049434750079675824,
+          5.976884010848117e-06,
+          8.483549768320762e-05,
+          0.9999877773363336
+        ],
+        "timestamp_ns": 28000000000
+      },
+      "file": "frame_00013.npz",
+      "sha256": "d7c3e32a3c26e65c61d9ada24e1cca17aca5c73e6c7ebbc8b3c5865be23a1083",
+      "timestamp_ns": 28000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.32480435488793,
+          -9.361705900469113,
+          39.197265464321845
+        ],
+        "quaternion_xyzw": [
+          -0.0028359267784315405,
+          6.554699988531846e-06,
+          6.681515802502932e-05,
+          0.9999959764979447
+        ],
+        "timestamp_ns": 30000000000
+      },
+      "file": "frame_00014.npz",
+      "sha256": "24297007a35e5a8af795690c371e1b57f38c403e15a57f98dc0aa2c28b39789c",
+      "timestamp_ns": 30000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.3258997054261,
+          -7.445153748957671,
+          39.20444462113366
+        ],
+        "quaternion_xyzw": [
+          -0.0004653099666056895,
+          7.196153389980992e-06,
+          4.724833673567086e-05,
+          0.9999998906012405
+        ],
+        "timestamp_ns": 32000000000
+      },
+      "file": "frame_00015.npz",
+      "sha256": "aac1660f511ee8344bce5c63aa0bfd7fd83bc7dc4ee5edaac03bee61c344fd8e",
+      "timestamp_ns": 32000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.32722455863762,
+          -5.967713088251596,
+          39.20996574976986
+        ],
+        "quaternion_xyzw": [
+          0.002168491554616224,
+          7.922571970957755e-06,
+          2.8204402916336125e-05,
+          0.999997648390296
+        ],
+        "timestamp_ns": 34000000000
+      },
+      "file": "frame_00016.npz",
+      "sha256": "440b97c30fce086732706fbf9d7c7ebdd766bd90fa698086bccd440bc5678f1b",
+      "timestamp_ns": 34000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.3287790926907,
+          -5.0034574040316135,
+          39.21269526282473
+        ],
+        "quaternion_xyzw": [
+          0.005065540689580224,
+          8.731226334613906e-06,
+          1.217555896796017e-05,
+          0.9999871699542168
+        ],
+        "timestamp_ns": 36000000000
+      },
+      "file": "frame_00017.npz",
+      "sha256": "252c991135991ed2f2788d75f82d72ea6d735072e5b84485f1dac591d381e098",
+      "timestamp_ns": 36000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.3305634260413,
+          -4.626474891215099,
+          39.21135280525366
+        ],
+        "quaternion_xyzw": [
+          0.008225818944666985,
+          9.583162670867471e-06,
+          2.0767968730578114e-06,
+          0.999966167330945
+        ],
+        "timestamp_ns": 38000000000
+      },
+      "file": "frame_00018.npz",
+      "sha256": "85fdc9d54afa2b1f9c565d8e313516e05a98f8f3663de4ba34a63481f023a2c7",
+      "timestamp_ns": 38000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.33215931722725,
+          -4.7038511146185895,
+          39.208209532313454
+        ],
+        "quaternion_xyzw": [
+          -0.0015743248594686397,
+          -2.942551278242202e-05,
+          6.38376203195694e-07,
+          0.9999987603167159
+        ],
+        "timestamp_ns": 40000000000
+      },
+      "file": "frame_00019.npz",
+      "sha256": "87ded26d129132f494715d3c97184b92f5ebbf2ae3cf6d656212b679bd3340e4",
+      "timestamp_ns": 40000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          165.33212225523678,
+          -4.718684463839423,
+          39.208271727829356
+        ],
+        "quaternion_xyzw": [
+          -5.916096769540713e-05,
+          2.234593901136123e-06,
+          3.199171091476307e-08,
+          0.9999999982474927
+        ],
+        "timestamp_ns": 42000000000
+      },
+      "file": "frame_00020.npz",
+      "sha256": "888045cf56be639f74c66b567c934c6f1008c22c67af47dd888adc84ba4d07d7",
+      "timestamp_ns": 42000000000
+    }
+  ],
+  "provenance": {
+    "backend": "live_gazebo_continuous_trajectory",
+    "controller": "Hermite trajectory + feed-forward velocity + ideal-odometry position feedback",
+    "controller_update_s": 0.1,
+    "declared_duration_s": 42.0,
+    "full_declared_mission": true,
+    "gazebo_version": "8.14.0",
+    "no_model_inference_performed": true,
+    "physical_pose_teleportation": false,
+    "physical_route_passed": true,
+    "privacy": "RGB, semantic object IDs and body poses are acquisition/evaluator data; expose only public RGB to routers",
+    "recorded_duration_s": 42.0
+  },
+  "recording_identity": "38365f7d8139bb12f433a644f4fa6941b2f9461815c70b2c6ebd0ceb64156774",
+  "recording_schema_version": "0.1",
+  "release_derivation": {
+    "excluded_settle_capture_ids": [
+      18,
+      19,
+      20
+    ],
+    "included_capture_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "metadata_changes": "Removed machine paths, render assets and acquisition source descriptors. Recorded pixels, labels, poses, clocks and IDs are unchanged.",
+    "original_recording_sha256": "3e63985e2485b1dbc567f80e50f590c72d6e8c2dea8550476c4942aca86b600b"
+  },
+  "world": {
+    "camera_pitch_rad": 1.2,
+    "objects": [
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 1,
+        "object_id": "shoreline_loop_sector_1_person_1",
+        "position_m": [
+          -189.83579088118037,
+          -26.198916483173605,
+          3.98259416295097
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 2,
+        "object_id": "shoreline_loop_sector_1_person_2",
+        "position_m": [
+          -190.8385405231451,
+          -21.300499069810428,
+          2.8472863875280083
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 3,
+        "object_id": "shoreline_loop_sector_1_person_3",
+        "position_m": [
+          -191.84129016510983,
+          -16.40208165644725,
+          1.8263886000515157
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 4,
+        "object_id": "shoreline_loop_sector_2_person_1",
+        "position_m": [
+          -14.74374411495878,
+          -23.24068756505062,
+          6.361489676905122
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 5,
+        "object_id": "shoreline_loop_sector_2_person_2",
+        "position_m": [
+          -10.387497257270256,
+          -12.253394895035452,
+          6.362981595257762
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 6,
+        "object_id": "shoreline_loop_sector_2_person_3",
+        "position_m": [
+          -8.031250399581733,
+          -10.266102225020282,
+          6.357198472261447
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 7,
+        "object_id": "shoreline_loop_sector_3_person_1",
+        "position_m": [
+          173.4894501609029,
+          -27.714258022933546,
+          17.20828624190563
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 8,
+        "object_id": "shoreline_loop_sector_3_person_2",
+        "position_m": [
+          174.29699587883775,
+          -22.71796326088089,
+          16.006398570800666
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 9,
+        "object_id": "shoreline_loop_sector_3_person_3",
+        "position_m": [
+          174.1045415967726,
+          -17.721668498828233,
+          14.932848330399992
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 10,
+        "object_id": "shoreline_loop_sector_4_person_1",
+        "position_m": [
+          359.6335020146868,
+          -63.10674101570801,
+          47.90351029404069
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 11,
+        "object_id": "shoreline_loop_sector_4_person_2",
+        "position_m": [
+          361.5295001466262,
+          -54.03081230928988,
+          48.86584792558935
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 12,
+        "object_id": "shoreline_loop_sector_4_person_3",
+        "position_m": [
+          361.4254982785656,
+          -46.954883602871746,
+          48.61923573696981
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 13,
+        "object_id": "shoreline_loop_sector_5_person_1",
+        "position_m": [
+          289.8947081940452,
+          -170.367230254136,
+          34.93635354544291
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 14,
+        "object_id": "shoreline_loop_sector_5_person_2",
+        "position_m": [
+          296.1782021551411,
+          -174.81533719188363,
+          33.84272042199576
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 15,
+        "object_id": "shoreline_loop_sector_5_person_3",
+        "position_m": [
+          299.46169611623696,
+          -177.26344412963127,
+          33.434311994416056
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 16,
+        "object_id": "shoreline_loop_sector_6_person_1",
+        "position_m": [
+          110.69553620114995,
+          -211.1310926505269,
+          34.22002187704709
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 17,
+        "object_id": "shoreline_loop_sector_6_person_2",
+        "position_m": [
+          110.88215979865815,
+          -216.12760859995137,
+          33.42352475002615
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 18,
+        "object_id": "shoreline_loop_sector_6_person_3",
+        "position_m": [
+          111.06878339616635,
+          -221.12412454937584,
+          32.65544428785406
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 19,
+        "object_id": "shoreline_loop_sector_7_person_1",
+        "position_m": [
+          -72.47672903667495,
+          -204.55904319423144,
+          20.47318429581144
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 20,
+        "object_id": "shoreline_loop_sector_7_person_2",
+        "position_m": [
+          -72.90372937521138,
+          -209.54077689956833,
+          20.91614211083513
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 21,
+        "object_id": "shoreline_loop_sector_7_person_3",
+        "position_m": [
+          -73.33072971374781,
+          -214.52251060490522,
+          21.468587336849748
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 22,
+        "object_id": "shoreline_loop_sector_8_person_1",
+        "position_m": [
+          -247.12362780700468,
+          -159.7896091381308,
+          13.588277260208528
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 23,
+        "object_id": "shoreline_loop_sector_8_person_2",
+        "position_m": [
+          -249.6238875405006,
+          -164.1195861894625,
+          14.879547329079813
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 24,
+        "object_id": "shoreline_loop_sector_8_person_3",
+        "position_m": [
+          -251.1241472739965,
+          -168.4495632407942,
+          16.17449668161843
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      }
+    ]
+  }
+}

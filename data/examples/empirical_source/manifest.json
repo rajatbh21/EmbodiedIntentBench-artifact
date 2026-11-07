@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "bundle_id": "EMPIRICAL_SOURCE_EXAMPLE",
+  "frame_stream_id": "EXAMPLE_SOURCE_STREAM",
+  "task_id": "HUMAN_SEARCH_SEGMENTATION",
+  "image_width": 8,
+  "image_height": 8,
+  "data_origin": "hand_authored_fixture",
+  "coverage": "strict",
+  "frames": [
+    { "frame_id": 0, "timestamp_s": 0.0 },
+    { "frame_id": 1, "timestamp_s": 1.0 },
+    { "frame_id": 2, "timestamp_s": 2.0 }
+  ],
+  "ground_truth_source": "ground_truth.json",
+  "configurations": [
+    {
+      "config_id": "CFG_LOCAL_STRONG",
+      "model_id": "EXAMPLE_STRONG_SEG",
+      "placement": "local",
+      "precision": "fp16",
+      "quality_tier": "high",
+      "prediction_source": "predictions_strong.jsonl",
+      "measurement_source": "measurements_strong.csv",
+      "prediction_provenance": "hand_authored",
+      "measurement_provenance": "estimated"
+    },
+    {
+      "config_id": "CFG_LOCAL_LIGHT",
+      "model_id": "EXAMPLE_LIGHT_SEG",
+      "placement": "local",
+      "precision": "int8",
+      "quality_tier": "low",
+      "prediction_source": "predictions_light.jsonl",
+      "measurement_source": "measurements_light.csv",
+      "prediction_provenance": "hand_authored",
+      "measurement_provenance": "estimated"
+    }
+  ],
+  "contract": {
+    "quality_metric": "target_recall",
+    "quality_operator": ">=",
+    "quality_threshold": 0.50,
+    "deadline_s": 3.0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "cost_profile": "../../results/v4_pool_calibration_20261013.json",
+  "entries": [
+    {
+      "cache": "../../results/v4_pool_park_cache_20261013",
+      "case_id": "park",
+      "family_id": "park",
+      "probe": "../../results/v4_model_pool_probe_20261013",
+      "recording": "../../results/v4_park_recording_verified_20261013",
+      "scenario": "../../results/v4_model_pool_ready_20261013/scenario.json"
+    },
+    {
+      "cache": "../../results/v4_pool_person_cache_20261013",
+      "case_id": "oblique",
+      "family_id": "oblique",
+      "probe": "../../results/v4_model_pool_person_probe_20261013",
+      "recording": "../../results/v4_person_recording_20261013",
+      "scenario": "../../results/v4_model_pool_person_20261013/scenario.json"
+    }
+  ],
+  "study_schema_version": "0.1"
+}

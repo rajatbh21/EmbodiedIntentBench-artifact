@@ -1,0 +1,24 @@
+{
+  "mission_profiles_schema_version": "0.1",
+  "scope": "Editable development examples, not operational SAR standards",
+  "profiles": [
+    {
+      "case_id": "rapid_search",
+      "description": "Find at least half the targets and make a first correct report within 0.5 s; no added precision floor.",
+      "contract_overrides": {"quality_metric": "target_recall", "quality_threshold": 0.5},
+      "scenario_overrides": {"mission_requirements": {"require_detection": true, "first_correct_report_deadline_s": 0.5}}
+    },
+    {
+      "case_id": "careful_search",
+      "description": "Find at least half the targets with precision >= 0.95; no extra first-report deadline.",
+      "contract_overrides": {"quality_metric": "target_recall", "quality_threshold": 0.5},
+      "scenario_overrides": {"mission_requirements": {"min_detection_precision": 0.95, "require_detection": true}}
+    },
+    {
+      "case_id": "timely_confirmation",
+      "description": "Combine recall >= 0.5, precision >= 0.95, and a first correct report within 1 s.",
+      "contract_overrides": {"quality_metric": "target_recall", "quality_threshold": 0.5},
+      "scenario_overrides": {"mission_requirements": {"min_detection_precision": 0.95, "require_detection": true, "first_correct_report_deadline_s": 1.0}}
+    }
+  ]
+}

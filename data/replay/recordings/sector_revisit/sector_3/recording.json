@@ -1,0 +1,961 @@
+{
+  "capture_schedule": {
+    "end_ns": 44000000000,
+    "epoch_ns": 2000000000,
+    "interval_ns": 2000000000
+  },
+  "frames": [
+    {
+      "body_pose": {
+        "position_m": [
+          331.32793682951444,
+          -644.2127389054126,
+          99.68921357858271
+        ],
+        "quaternion_xyzw": [
+          2.0186079711757126e-17,
+          4.3248055063146774e-17,
+          2.919374438058541e-18,
+          1.0
+        ],
+        "timestamp_ns": 2000000000
+      },
+      "file": "frame_00000.npz",
+      "sha256": "8bab7cf9f9a2933da6ef220653c1844b66686231c6148b2f45840e5a0fb622af",
+      "timestamp_ns": 2000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.32754145088086,
+          -644.0167964390647,
+          99.76070081684915
+        ],
+        "quaternion_xyzw": [
+          -0.011475794622071466,
+          -3.565175941590687e-05,
+          8.296216039767088e-07,
+          0.9999341502649342
+        ],
+        "timestamp_ns": 4000000000
+      },
+      "file": "frame_00001.npz",
+      "sha256": "4919e762e9e249a5a4cbf516fc401cca9d40f8a16a4c971bbe503f9565b21046",
+      "timestamp_ns": 4000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.325570233087,
+          -643.1473892422254,
+          99.74925503893881
+        ],
+        "quaternion_xyzw": [
+          -0.01084892333324808,
+          -3.587529780807756e-07,
+          9.41325313288962e-06,
+          0.9999411486551453
+        ],
+        "timestamp_ns": 6000000000
+      },
+      "file": "frame_00002.npz",
+      "sha256": "4f5058eb2a92903e038f89109984afc2bd1540e76f8d098553e0c577a4276829",
+      "timestamp_ns": 6000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.32379879485154,
+          -641.7378730438036,
+          99.73925606704104
+        ],
+        "quaternion_xyzw": [
+          -0.011561915648770512,
+          -1.1317656761645763e-06,
+          2.5088316791993457e-05,
+          0.9999331585040203
+        ],
+        "timestamp_ns": 8000000000
+      },
+      "file": "frame_00003.npz",
+      "sha256": "85a5081fa4b2898fe6f9989681b86c751899b920a446e4abe9be142384c06778",
+      "timestamp_ns": 8000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3223741854082,
+          -639.8793566983334,
+          99.7317133698701
+        ],
+        "quaternion_xyzw": [
+          -0.012090745236468884,
+          -1.2458277423502497e-06,
+          4.37747195383105e-05,
+          0.9999269033093612
+        ],
+        "timestamp_ns": 10000000000
+      },
+      "file": "frame_00004.npz",
+      "sha256": "db22540e7dcd5ddadd255be768876e238a93ede44e024d6e3f916648f475d83b",
+      "timestamp_ns": 10000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.32117730176884,
+          -637.645235824821,
+          99.72507424657195
+        ],
+        "quaternion_xyzw": [
+          -0.012347056681646073,
+          -1.0266593702508841e-07,
+          6.337821920134348e-05,
+          0.9999237701817529
+        ],
+        "timestamp_ns": 12000000000
+      },
+      "file": "frame_00005.npz",
+      "sha256": "451b087838fd159501f8b7889ebc8ab04de2889ee3c4494cceeeaa651defbcb3",
+      "timestamp_ns": 12000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3202086937117,
+          -635.1095303531889,
+          99.72004413888223
+        ],
+        "quaternion_xyzw": [
+          -0.012340444301478702,
+          9.404443489536249e-07,
+          8.178184188363791e-05,
+          0.9999238504732688
+        ],
+        "timestamp_ns": 14000000000
+      },
+      "file": "frame_00006.npz",
+      "sha256": "8111c805a2e140194c5e258594f37e046d70fb6e85bdc38bdc01458cb391e761",
+      "timestamp_ns": 14000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3194698417109,
+          -632.346334578636,
+          99.716993167015
+        ],
+        "quaternion_xyzw": [
+          -0.012071332943982266,
+          1.9064998684393437e-06,
+          9.725446322400645e-05,
+          0.9999271340747236
+        ],
+        "timestamp_ns": 16000000000
+      },
+      "file": "frame_00007.npz",
+      "sha256": "4b9f825b2f2877c0f524c5db322296a59fc527e375405b81d8cc136133ced2b1",
+      "timestamp_ns": 16000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3189604539142,
+          -629.4297332663814,
+          99.71609116633668
+        ],
+        "quaternion_xyzw": [
+          -0.011539724698145723,
+          2.786788575416436e-06,
+          0.00010849635049943424,
+          0.9999334092701707
+        ],
+        "timestamp_ns": 18000000000
+      },
+      "file": "frame_00008.npz",
+      "sha256": "841117a54d5a5d2038cdb8e78e81f0987f898d3806289a028ed41d9125eabcdc",
+      "timestamp_ns": 18000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3186802860096,
+          -626.4338035904112,
+          99.71737276211701
+        ],
+        "quaternion_xyzw": [
+          -0.010746753693458438,
+          3.5597262345094137e-06,
+          0.00011465306834169049,
+          0.9999422453957301
+        ],
+        "timestamp_ns": 20000000000
+      },
+      "file": "frame_00009.npz",
+      "sha256": "a624a9cfe7d16894c7dad3622b8b464125f31c96a3c7a64d578f993ee0fe77ee",
+      "timestamp_ns": 20000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3186293107844,
+          -623.4325900250027,
+          99.72085441051033
+        ],
+        "quaternion_xyzw": [
+          -0.009688970046142612,
+          4.269983466511772e-06,
+          0.00011524224828745753,
+          0.9999530541782631
+        ],
+        "timestamp_ns": 22000000000
+      },
+      "file": "frame_00010.npz",
+      "sha256": "9b8e812b3df71c5d6f33d143a134b10794aca3cd3e50bf6126c92ecc98a4d844",
+      "timestamp_ns": 22000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.31880818470785,
+          -620.5001912159541,
+          99.72626527988542
+        ],
+        "quaternion_xyzw": [
+          -0.008369878672079655,
+          4.866439344612175e-06,
+          0.00011006993838067601,
+          0.9999649658822759
+        ],
+        "timestamp_ns": 24000000000
+      },
+      "file": "frame_00011.npz",
+      "sha256": "473544c654c22978557ef8f88e861506cffb9d152cea91daad27cc9d5d6f7caa",
+      "timestamp_ns": 24000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3192160545537,
+          -617.710670071153,
+          99.73308536185647
+        ],
+        "quaternion_xyzw": [
+          -0.006788089437326327,
+          5.427265866852484e-06,
+          9.966234200728158e-05,
+          0.9999769556743562
+        ],
+        "timestamp_ns": 26000000000
+      },
+      "file": "frame_00012.npz",
+      "sha256": "3c33a3c90a19564a3dcdec66503857f707a91a7199cd1357dc6092d7f689c196",
+      "timestamp_ns": 26000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3198529323554,
+          -615.13808132647,
+          99.74076579840566
+        ],
+        "quaternion_xyzw": [
+          -0.004943475007951384,
+          5.976884021331176e-06,
+          8.483549768321324e-05,
+          0.9999877773363337
+        ],
+        "timestamp_ns": 28000000000
+      },
+      "file": "frame_00013.npz",
+      "sha256": "dc66a4ff66b8980c2ed0582ae0fd45477b902d19a9c923b4c311a20b08ccaad3",
+      "timestamp_ns": 28000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3207189668313,
+          -612.8564815450011,
+          99.74861594759312
+        ],
+        "quaternion_xyzw": [
+          -0.002835926778433008,
+          6.554699986139948e-06,
+          6.681515802511012e-05,
+          0.9999959764979447
+        ],
+        "timestamp_ns": 30000000000
+      },
+      "file": "frame_00014.npz",
+      "sha256": "1d2766199a4fdfa182d9338b9ea7eba3e23cbc45cb8abde427f623b876e1d65e",
+      "timestamp_ns": 30000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3218143173695,
+          -610.9399293934893,
+          99.75579510440495
+        ],
+        "quaternion_xyzw": [
+          -0.00046530996660579894,
+          7.1961533939012655e-06,
+          4.72483367356694e-05,
+          0.9999998906012405
+        ],
+        "timestamp_ns": 32000000000
+      },
+      "file": "frame_00015.npz",
+      "sha256": "a8a0a2442ae97783cac3ab4e7f38c55dfd6647589cf983e6343b3115c9b8cbe8",
+      "timestamp_ns": 32000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.32313917058127,
+          -609.4624887327835,
+          99.76131623304109
+        ],
+        "quaternion_xyzw": [
+          0.00216849155460365,
+          7.922571973587542e-06,
+          2.8204402916332093e-05,
+          0.999997648390296
+        ],
+        "timestamp_ns": 34000000000
+      },
+      "file": "frame_00016.npz",
+      "sha256": "ba2bcd146104465165f5cbdd69555c06d1b35fa6ee730950d3905b5536ff5eb7",
+      "timestamp_ns": 34000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3246937046339,
+          -608.4982330485637,
+          99.76404574609596
+        ],
+        "quaternion_xyzw": [
+          0.0050655406895766635,
+          8.731226344826333e-06,
+          1.217555896807876e-05,
+          0.9999871699542168
+        ],
+        "timestamp_ns": 36000000000
+      },
+      "file": "frame_00017.npz",
+      "sha256": "08cda5167983419d3dd2e79426fa05368dc0e5403cd981d47655d55446a59d6b",
+      "timestamp_ns": 36000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.3264780379848,
+          -608.1212505357466,
+          99.76270328852497
+        ],
+        "quaternion_xyzw": [
+          0.00822581894467884,
+          9.583162667880513e-06,
+          2.0767968730259384e-06,
+          0.9999661673309449
+        ],
+        "timestamp_ns": 38000000000
+      },
+      "file": "frame_00018.npz",
+      "sha256": "1812c5a7ca8b9330d520dd528ecd94792bc885237ff20815c49da8da7be4819d",
+      "timestamp_ns": 38000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.32807392917067,
+          -608.1986267591508,
+          99.75956001558477
+        ],
+        "quaternion_xyzw": [
+          -0.0015743248594819882,
+          -2.9425512777830177e-05,
+          6.383762031623563e-07,
+          0.9999987603167159
+        ],
+        "timestamp_ns": 40000000000
+      },
+      "file": "frame_00019.npz",
+      "sha256": "ba4400acccbd299ec4eb2b3c40021ab6a5be56e14107732692d74119506d8a10",
+      "timestamp_ns": 40000000000
+    },
+    {
+      "body_pose": {
+        "position_m": [
+          331.32803686718023,
+          -608.2134601083707,
+          99.75962221110075
+        ],
+        "quaternion_xyzw": [
+          -5.916096766802225e-05,
+          2.2345938987474285e-06,
+          3.199171088194308e-08,
+          0.9999999982474927
+        ],
+        "timestamp_ns": 42000000000
+      },
+      "file": "frame_00020.npz",
+      "sha256": "133c4ebf28464cfe84ceb96f6372a1b4bdd018de3d7e846aa0ab1c364731607f",
+      "timestamp_ns": 42000000000
+    }
+  ],
+  "provenance": {
+    "backend": "live_gazebo_continuous_trajectory",
+    "controller": "Hermite trajectory + feed-forward velocity + ideal-odometry position feedback",
+    "controller_update_s": 0.1,
+    "declared_duration_s": 42.0,
+    "full_declared_mission": true,
+    "gazebo_version": "8.14.0",
+    "no_model_inference_performed": true,
+    "physical_pose_teleportation": false,
+    "physical_route_passed": true,
+    "privacy": "RGB, semantic object IDs and body poses are acquisition/evaluator data; expose only public RGB to routers",
+    "recorded_duration_s": 42.0
+  },
+  "recording_identity": "c9494100ea8bd08f9a6482f18f0f32d88ae48eac668c2278f879cf3ed1e7b75c",
+  "recording_schema_version": "0.1",
+  "release_derivation": {
+    "excluded_settle_capture_ids": [
+      18,
+      19,
+      20
+    ],
+    "included_capture_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "metadata_changes": "Removed machine paths, render assets and acquisition source descriptors. Recorded pixels, labels, poses, clocks and IDs are unchanged.",
+    "original_recording_sha256": "a19e63186070b543aabd9f1ea9fc303240cabbbc5b0ed01119eb47654df1f701"
+  },
+  "world": {
+    "camera_pitch_rad": 1.2,
+    "objects": [
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 1,
+        "object_id": "sector_revisit_sector_1_person_1",
+        "position_m": [
+          -427.95235166541494,
+          -236.05018241490393,
+          150.2700933521552
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 2,
+        "object_id": "sector_revisit_sector_1_person_2",
+        "position_m": [
+          -427.0354524127859,
+          -238.9579829103301,
+          150.45720871836795
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 3,
+        "object_id": "sector_revisit_sector_1_person_3",
+        "position_m": [
+          -421.11855316015686,
+          -244.86578340575625,
+          148.9961321096085
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 4,
+        "object_id": "sector_revisit_sector_2_person_1",
+        "position_m": [
+          -216.59769752881004,
+          -698.5008628190312,
+          61.49525710675774
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 5,
+        "object_id": "sector_revisit_sector_2_person_2",
+        "position_m": [
+          -213.81851734615736,
+          -694.3444030859952,
+          61.432307445661756
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 6,
+        "object_id": "sector_revisit_sector_2_person_3",
+        "position_m": [
+          -211.03933716350468,
+          -690.1879433529591,
+          61.75305502448436
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 7,
+        "object_id": "sector_revisit_sector_3_person_1",
+        "position_m": [
+          344.06664740716394,
+          -631.1974157062434,
+          72.1667352116328
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 8,
+        "object_id": "sector_revisit_sector_3_person_2",
+        "position_m": [
+          338.3262184545458,
+          -629.8794055720792,
+          73.89992429891866
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 9,
+        "object_id": "sector_revisit_sector_3_person_3",
+        "position_m": [
+          340.5857895019277,
+          -617.561395437915,
+          77.75963672517689
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 10,
+        "object_id": "sector_revisit_sector_4_person_1",
+        "position_m": [
+          260.36507268812767,
+          -89.26421353020909,
+          33.65012244404562
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 11,
+        "object_id": "sector_revisit_sector_4_person_2",
+        "position_m": [
+          258.10651035223634,
+          -93.72503141204344,
+          34.65117008058496
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 12,
+        "object_id": "sector_revisit_sector_4_person_3",
+        "position_m": [
+          255.84794801634501,
+          -98.18584929387778,
+          35.109621905091174
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 13,
+        "object_id": "sector_revisit_sector_5_person_1",
+        "position_m": [
+          -328.6345319051011,
+          -188.9273657163298,
+          48.95951664034882
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 14,
+        "object_id": "sector_revisit_sector_5_person_2",
+        "position_m": [
+          -321.83625313183074,
+          -191.1789927491434,
+          50.07210484562009
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 15,
+        "object_id": "sector_revisit_sector_5_person_3",
+        "position_m": [
+          -319.0379743585604,
+          -193.43061978195698,
+          50.52787583161663
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 16,
+        "object_id": "sector_revisit_sector_6_person_1",
+        "position_m": [
+          -256.6564497765862,
+          -678.6894206668109,
+          63.879522012795825
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 17,
+        "object_id": "sector_revisit_sector_6_person_2",
+        "position_m": [
+          -257.935771166836,
+          -669.4944346236341,
+          61.69132536910498
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 18,
+        "object_id": "sector_revisit_sector_6_person_3",
+        "position_m": [
+          -252.21509255708577,
+          -665.2994485804574,
+          59.33507496239434
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 19,
+        "object_id": "sector_revisit_sector_7_person_1",
+        "position_m": [
+          301.38949066443683,
+          -557.7083452472036,
+          109.41368302732
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 20,
+        "object_id": "sector_revisit_sector_7_person_2",
+        "position_m": [
+          296.57553819576,
+          -560.4751167420291,
+          110.90577001974435
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 21,
+        "object_id": "sector_revisit_sector_7_person_3",
+        "position_m": [
+          296.7615857270831,
+          -553.2418882368545,
+          111.70481995436802
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 22,
+        "object_id": "sector_revisit_sector_8_person_1",
+        "position_m": [
+          290.1692254390894,
+          -44.52181547969996,
+          18.745012452727806
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 23,
+        "object_id": "sector_revisit_sector_8_person_2",
+        "position_m": [
+          287.9948427666246,
+          -49.02426592292359,
+          19.39870224091198
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      },
+      {
+        "color_rgba": [
+          0.9,
+          0.15,
+          0.1,
+          1
+        ],
+        "is_target": true,
+        "label": 24,
+        "object_id": "sector_revisit_sector_8_person_3",
+        "position_m": [
+          285.8204600941597,
+          -53.52671636614722,
+          20.417398066863726
+        ],
+        "size_m": [
+          0.6,
+          0.6,
+          0.8
+        ]
+      }
+    ]
+  }
+}

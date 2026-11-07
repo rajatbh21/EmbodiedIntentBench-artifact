@@ -1,0 +1,24 @@
+{
+  "asset_schema_version": "1.0",
+  "_template_note": "RENAME to manifest.json after filling every field truthfully. This template itself is NOT a valid manifest (the loader rejects unknown fields like this note and missing files). See README.md for the asset policy.",
+  "assets": [
+    {
+      "asset_id": "person_standard_001",
+      "asset_path": "person_standard_001.png",
+      "mask_source": "alpha",
+      "category": "person",
+      "view_type": "conventional",
+      "source": {
+        "provider": "FILL: e.g. project-owned photograph",
+        "creator": "FILL or null",
+        "source_url": "FILL or null",
+        "license": "FILL: e.g. CC0-1.0",
+        "permitted_use": "FILL: what the license allows for this project",
+        "redistribution_allowed": false
+      },
+      "physical": { "nominal_width_m": 0.6, "nominal_height_m": 1.75 },
+      "rendering": { "anchor": "center", "default_rotation_deg": 0 },
+      "checksum_sha256": "FILL: shasum -a 256 <file>"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+ "declared": null,
+ "orin_15wv2_cuda": {
+  "CFG_MASKRCNN_1280": {
+   "latency_s": 0.5996195546500026,
+   "power_w": 14.288412054794522
+  },
+  "CFG_YOLO11S_960_ROT0": {
+   "latency_s": 0.08144327890000011,
+   "power_w": 13.371446857142857
+  },
+  "CFG_CABINET_UAVID_1280": {
+   "latency_s": 0.11531601965000178,
+   "power_w": 12.709277159763312
+  }
+ }
+}

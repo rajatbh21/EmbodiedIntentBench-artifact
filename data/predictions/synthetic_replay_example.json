@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "record_set_id": "SYNTHETIC_REPLAY_EXAMPLE",
+  "episode_id": "EPISODE_REPLAY_EXAMPLE",
+  "records": [
+    {
+      "frame_id": 0,
+      "config_id": "CFG_LOCAL_LIGHT",
+      "success": true,
+      "latency_ms": 100.0,
+      "onboard_energy_j": 3.0,
+      "prediction": {
+        "instances": []
+      }
+    },
+    {
+      "frame_id": 0,
+      "config_id": "CFG_REMOTE_STRONG",
+      "success": true,
+      "latency_ms": 750.0,
+      "onboard_energy_j": 1.0,
+      "upload_mb": 1.5,
+      "download_mb": 0.05,
+      "prediction": {
+        "instances": [
+          {
+            "prediction_id": "P0",
+            "predicted_target_id": "T_A",
+            "confidence": 0.91
+          }
+        ]
+      }
+    },
+    {
+      "frame_id": 1,
+      "config_id": "CFG_LOCAL_LIGHT",
+      "success": true,
+      "latency_ms": 100.0,
+      "onboard_energy_j": 3.0,
+      "prediction": {
+        "instances": [
+          {
+            "prediction_id": "P1",
+            "predicted_target_id": "T_A",
+            "confidence": 0.62
+          }
+        ]
+      }
+    },
+    {
+      "frame_id": 1,
+      "config_id": "CFG_REMOTE_STRONG",
+      "success": false,
+      "latency_ms": 2000.0,
+      "onboard_energy_j": 1.0,
+      "failure_reason": "network_unavailable"
+    }
+  ]
+}

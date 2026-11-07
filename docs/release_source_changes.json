@@ -1,0 +1,10 @@
+{
+  "schema_version": "release_source_changes_v1",
+  "files": {
+    "figures.py": {
+      "original_sha256": "1be678f93144c59de143e7f8705811acc7800772480b6913859ddfa066afa83a",
+      "released_sha256": "4de1a464c58761eb9e236d11cc30725a3390f729cbc8f3546076b5b8118e0dc0",
+      "reason": "Replace a legacy project name in the deterministic SVG identifier salt with the anonymous package name. Plot values, experiment algorithms and original published reference artifacts are unchanged."
+    }
+  }
+}

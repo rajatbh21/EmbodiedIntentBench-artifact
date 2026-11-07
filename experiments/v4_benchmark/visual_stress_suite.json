@@ -1,0 +1,407 @@
+{
+  "suite_schema_version": "0.1",
+  "base_scenario": "intent_visual_scenario.json",
+  "routers": [
+    {
+      "name": "static:CFG_V4_LIGHT",
+      "parameters": {}
+    },
+    {
+      "name": "static:CFG_V4_STRONG",
+      "parameters": {}
+    },
+    {
+      "name": "static:CFG_V4_REMOTE",
+      "parameters": {}
+    },
+    {
+      "name": "rule_based",
+      "parameters": {}
+    },
+    {
+      "name": "budget_planner",
+      "parameters": {}
+    },
+    {
+      "name": "intent_visual",
+      "parameters": {}
+    },
+    {
+      "name": "intent_only",
+      "parameters": {}
+    },
+    {
+      "name": "visual_only",
+      "parameters": {}
+    },
+    {
+      "name": "resource_only",
+      "parameters": {}
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "nominal",
+      "description": "Reference: 8-second fixed flight with 10-second deadline headroom.",
+      "scenario_overrides": {},
+      "contract_overrides": {}
+    },
+    {
+      "case_id": "occlusion",
+      "description": "Add an opaque panel above target 1.",
+      "scenario_overrides": {
+        "world": {
+          "initial_position_m": [
+            0,
+            0,
+            4
+          ],
+          "objects": [
+            {
+              "object_id": "target_1",
+              "label": 1,
+              "position_m": [
+                0,
+                0,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "target_2",
+              "label": 2,
+              "position_m": [
+                3,
+                1,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "target_3",
+              "label": 3,
+              "position_m": [
+                6,
+                -1,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "occluder",
+              "label": 4,
+              "position_m": [
+                0,
+                0,
+                1.2
+              ],
+              "size_m": [
+                2,
+                2,
+                0.2
+              ],
+              "color_rgba": [
+                0.35,
+                0.35,
+                0.35,
+                1
+              ],
+              "is_target": false
+            }
+          ],
+          "waypoints": [
+            {
+              "start_s": 0,
+              "position_m": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "start_s": 5,
+              "position_m": [
+                3,
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      },
+      "contract_overrides": {}
+    },
+    {
+      "case_id": "distractor",
+      "description": "Add a non-target box with the same target color.",
+      "scenario_overrides": {
+        "world": {
+          "initial_position_m": [
+            0,
+            0,
+            4
+          ],
+          "objects": [
+            {
+              "object_id": "target_1",
+              "label": 1,
+              "position_m": [
+                0,
+                0,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "target_2",
+              "label": 2,
+              "position_m": [
+                3,
+                1,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "target_3",
+              "label": 3,
+              "position_m": [
+                6,
+                -1,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "distractor",
+              "label": 4,
+              "position_m": [
+                1.5,
+                0,
+                0.4
+              ],
+              "size_m": [
+                0.8,
+                0.8,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": false
+            }
+          ],
+          "waypoints": [
+            {
+              "start_s": 0,
+              "position_m": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "start_s": 5,
+              "position_m": [
+                3,
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      },
+      "contract_overrides": {}
+    },
+    {
+      "case_id": "distractor_precision",
+      "description": "Same distractor scene with precision >= 0.95 instead of recall >= 0.5.",
+      "scenario_overrides": {
+        "world": {
+          "initial_position_m": [
+            0,
+            0,
+            4
+          ],
+          "objects": [
+            {
+              "object_id": "target_1",
+              "label": 1,
+              "position_m": [
+                0,
+                0,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "target_2",
+              "label": 2,
+              "position_m": [
+                3,
+                1,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "target_3",
+              "label": 3,
+              "position_m": [
+                6,
+                -1,
+                0.4
+              ],
+              "size_m": [
+                0.6,
+                0.6,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": true
+            },
+            {
+              "object_id": "distractor",
+              "label": 4,
+              "position_m": [
+                1.5,
+                0,
+                0.4
+              ],
+              "size_m": [
+                0.8,
+                0.8,
+                0.8
+              ],
+              "color_rgba": [
+                0.9,
+                0.15,
+                0.1,
+                1
+              ],
+              "is_target": false
+            }
+          ],
+          "waypoints": [
+            {
+              "start_s": 0,
+              "position_m": [
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "start_s": 5,
+              "position_m": [
+                3,
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      },
+      "contract_overrides": {
+        "quality_metric": "detection_precision",
+        "quality_threshold": 0.95
+      }
+    }
+  ]
+}

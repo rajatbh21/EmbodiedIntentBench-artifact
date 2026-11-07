@@ -1,0 +1,4 @@
+frame_id,success,latency_s,compute_energy_j,upload_mb,download_mb,failure_reason
+0,true,0.090,2.0,0.0,0.0,
+1,true,0.090,2.0,0.0,0.0,
+2,true,0.090,2.0,0.0,0.0,

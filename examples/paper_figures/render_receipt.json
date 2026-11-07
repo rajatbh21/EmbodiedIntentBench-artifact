@@ -1,0 +1,25 @@
+{
+ "canvas_width_in": 16.0,
+ "figure_data_sha256": "17f1c44352b382583e195c0467eb340e34f14f951741018a07f67e25060825ec",
+ "font": {
+  "file": "Times.TTF",
+  "print_size_pt": 8.75,
+  "requested": "Times New Roman",
+  "sha256": "4e98adeff8ccc8ef4e3ece8d4547e288ff85fdc9c7ca711a4599c234874bbe86",
+  "size_pt": 20,
+  "used": "Times New Roman"
+ },
+ "matplotlib": "3.11.2",
+ "outputs": {
+  "fig4.pdf": "1da61fde2b88ec10266cf4f114d3da3648354c1d0640a55c1764cc632cc11e24",
+  "fig4.png": "fef7cd3212a1e4214b1bca8dca093194e7de852c3e621ed502b937589871250d",
+  "fig5.pdf": "c0e44486e4752ba3b6628bb934d0321077a6607e6103b764640aab5cb3115f60",
+  "fig5.png": "f792e698e4f6d9e312d572ef2dfd9f61d8988f2afea528ee0c3e91c3ce23f502",
+  "fig6.pdf": "cc21a168d6663c07cb5e8a54fb8b19f899b654163dec7e081e45189796e2fc7a",
+  "fig6.png": "56b8afae0fce52581f35aa0a4aa215973f4aaf0497f11233596e124524a60242",
+  "fig7.pdf": "3071bcd4bc7e69d1c3eda71e82970de52257fe010659d52e358b17bfd84ed413",
+  "fig7.png": "78bd3dea97057009ffe04ac07e2f32f0ae3a3583ceff5dbe7547c8aeb8af18d7"
+ },
+ "print_width_in": 7.0,
+ "renderer_sha256": "d3692cc0e08e4c48386e4db859a34f96dcde73b13503c010b94f16d2f3c54686"
+}

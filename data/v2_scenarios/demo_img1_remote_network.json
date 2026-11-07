@@ -1,0 +1,203 @@
+{
+  "scenario_schema_version": "2.0",
+  "scenario_id": "V2_DEMO_IMG1_REMOTE_NETWORK",
+  "random_seed": 7,
+  "world": {
+    "image_path": "src/v2_img/img_1.tif",
+    "source_id": "img_1",
+    "meters_per_pixel": 0.0295,
+    "invalid_pixel_rule": "all_zero",
+    "valid_region_m": [260.0, 210.0, 360.0, 270.0]
+  },
+  "drone": {
+    "initial_position_m": [280.0, 240.0],
+    "altitude_m": 40.0,
+    "speed_mps": 4.0,
+    "battery_capacity_wh": 5.0,
+    "flight_power_w": 120.0
+  },
+  "trajectory": {
+    "type": "lawnmower",
+    "region_m": [280.0, 240.0, 340.0, 246.75],
+    "lane_spacing_m": 6.75
+  },
+  "camera": {
+    "projection": "orthographic",
+    "footprint_width_m": 24.0,
+    "footprint_height_m": 18.0,
+    "output_width_px": 256,
+    "output_height_px": 192
+  },
+  "simulation": {
+    "observation_interval_s": 1.0,
+    "fallback_config_id": "local_fast",
+    "matching_iou_threshold": 0.3,
+    "network": {
+      "bandwidth_mbps": 20.0,
+      "rtt_ms": 30.0,
+      "packet_loss_frac": 0.0
+    },
+    "network_trace": [
+      {
+        "regime_id": "5g_good",
+        "start_s": 0.0,
+        "uplink_mbps": 100.0,
+        "downlink_mbps": 200.0,
+        "rtt_ms": 20.0,
+        "packet_loss_frac": 0.0
+      },
+      {
+        "regime_id": "lte_degraded",
+        "start_s": 12.0,
+        "uplink_mbps": 2.0,
+        "downlink_mbps": 5.0,
+        "rtt_ms": 150.0,
+        "packet_loss_frac": 0.05
+      },
+      {
+        "regime_id": "disconnected",
+        "start_s": 20.0,
+        "uplink_mbps": 0.0,
+        "downlink_mbps": 0.0,
+        "rtt_ms": 0.0,
+        "packet_loss_frac": 1.0
+      },
+      {
+        "regime_id": "recovered",
+        "start_s": 28.0,
+        "uplink_mbps": 50.0,
+        "downlink_mbps": 100.0,
+        "rtt_ms": 30.0,
+        "packet_loss_frac": 0.0
+      }
+    ]
+  },
+  "objects": [
+    {
+      "object_id": "TGT_1",
+      "class_id": "rescue_target",
+      "is_target": true,
+      "position_m": [296.0, 240.5],
+      "width_m": 6.0,
+      "height_m": 3.0,
+      "rotation_deg": 10.0,
+      "z_order": 10,
+      "appearance": {
+        "shape": "rect",
+        "body_rgb": [230, 70, 20],
+        "stripe": true,
+        "stripe_rgb": [255, 140, 40],
+        "alpha": 1.0
+      }
+    },
+    {
+      "object_id": "TGT_2",
+      "class_id": "rescue_target",
+      "is_target": true,
+      "position_m": [326.0, 245.9],
+      "width_m": 6.0,
+      "height_m": 3.0,
+      "rotation_deg": -25.0,
+      "z_order": 11,
+      "appearance": {
+        "shape": "ellipse",
+        "body_rgb": [235, 80, 25],
+        "stripe": false,
+        "alpha": 1.0
+      }
+    },
+    {
+      "object_id": "TGT_3",
+      "class_id": "rescue_target",
+      "is_target": true,
+      "position_m": [336.0, 241.2],
+      "width_m": 6.0,
+      "height_m": 3.0,
+      "rotation_deg": 40.0,
+      "z_order": 12,
+      "appearance": {
+        "shape": "rect",
+        "body_rgb": [228, 72, 22],
+        "stripe": true,
+        "stripe_rgb": [255, 145, 45],
+        "alpha": 1.0
+      }
+    },
+    {
+      "object_id": "DIS_DEBRIS",
+      "class_id": "debris",
+      "is_target": false,
+      "position_m": [312.0, 243.0],
+      "width_m": 6.0,
+      "height_m": 3.0,
+      "rotation_deg": 20.0,
+      "z_order": 5,
+      "appearance": {
+        "shape": "rect",
+        "body_rgb": [146, 95, 100],
+        "stripe": false,
+        "alpha": 1.0
+      }
+    }
+  ],
+  "executor_configs": [
+    {
+      "config_id": "local_fast",
+      "model_strategy_id": "T_FAST_WEAK",
+      "kind": "fast_weak",
+      "mission_latency_s": 0.4,
+      "energy_j_per_call": 4.0,
+      "communication_mb_per_call": 0.0,
+      "quality_tier": "low",
+      "parameters": { "downsample": 2 }
+    },
+    {
+      "config_id": "local_strong",
+      "model_strategy_id": "T_SLOW_STRONG",
+      "kind": "slow_strong",
+      "mission_latency_s": 1.4,
+      "energy_j_per_call": 14.0,
+      "communication_mb_per_call": 0.0,
+      "quality_tier": "medium",
+      "parameters": { "min_component_px": 6 }
+    },
+    {
+      "config_id": "remote_strong",
+      "model_strategy_id": "T_REMOTE_STRONG",
+      "kind": "simulated_remote",
+      "mission_latency_s": 0.9,
+      "energy_j_per_call": 0.0,
+      "communication_mb_per_call": 2.0,
+      "quality_tier": "high",
+      "parameters": {
+        "backend_kind": "slow_strong",
+        "backend_min_component_px": 6,
+        "remote_compute_s": 0.25,
+        "timeout_s": 3.0,
+        "fallback_config_id": "local_fast",
+        "download_mb_per_call": 0.05,
+        "uplink_energy_j_per_mb": 2.0,
+        "downlink_energy_j_per_mb": 1.0,
+        "radio_activation_j": 0.5
+      }
+    }
+  ],
+  "mission_contract": {
+    "contract_id": "V2_REMOTE_NETWORK_CONTRACT",
+    "quality_metric": "target_recall",
+    "quality_operator": ">=",
+    "quality_threshold": 0.6,
+    "deadline_s": 45.0,
+    "communication_budget_mb": 30.0,
+    "min_final_battery_frac": 0.2,
+    "privacy_level": "remote_allowed"
+  },
+  "provenance": {
+    "label": "V3 P1 remote-inference network demo (synthetic markers, simulated transport)",
+    "network": "named regimes are CONFIGURED simulation parameters, not radio measurements",
+    "remote": "simulated_remote runs the slow_strong strategy in-process behind the deployment transport boundary; latency is DERIVED from the capture-time network snapshot (Model A) plus configured stage components; communication energy is CONFIGURED J/MB",
+    "note": "results are integration diagnostics, never real UAV, radio, or Jetson performance",
+    "source_registry": "data/v2_scenarios/aerial_sources.json"
+  },
+  "evaluation_purpose": "integration_diagnostic"
+}

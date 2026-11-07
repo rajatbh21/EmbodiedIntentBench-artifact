@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "ground_truth_id": "SYNTHETIC_GT_STREAM_001",
+  "frame_stream_id": "STREAM_001",
+  "task_id": "HUMAN_SEARCH_SEGMENTATION",
+  "targets": [
+    { "track_id": "GT_L1", "first_frame_id": 40, "last_frame_id": 95, "note": "sustained; any configuration finds this" },
+    { "track_id": "GT_L2", "first_frame_id": 360, "last_frame_id": 415, "note": "sustained, 8 Mbps segment" },
+    { "track_id": "GT_L3", "first_frame_id": 690, "last_frame_id": 745, "note": "sustained, 2 Mbps segment" },
+    { "track_id": "GT_L4", "first_frame_id": 300, "last_frame_id": 350, "note": "sustained, spans the 320 s degradation" },
+
+    { "track_id": "GT_M1", "first_frame_id": 130, "last_frame_id": 138, "note": "brief, 20 Mbps segment" },
+    { "track_id": "GT_M2", "first_frame_id": 210, "last_frame_id": 218, "note": "brief, 20 Mbps segment" },
+    { "track_id": "GT_M3", "first_frame_id": 450, "last_frame_id": 458, "note": "brief, 8 Mbps segment" },
+    { "track_id": "GT_M4", "first_frame_id": 560, "last_frame_id": 568, "note": "brief, 8 Mbps segment" },
+    { "track_id": "GT_M5", "first_frame_id": 660, "last_frame_id": 668, "note": "brief, 2 Mbps segment" },
+    { "track_id": "GT_M6", "first_frame_id": 820, "last_frame_id": 828, "note": "brief, 2 Mbps segment" },
+
+    { "track_id": "GT_F01", "first_frame_id": 110, "last_frame_id": 110, "note": "single frame; one look, one chance" },
+    { "track_id": "GT_F02", "first_frame_id": 175, "last_frame_id": 176, "note": "fleeting, 20 Mbps segment" },
+    { "track_id": "GT_F03", "first_frame_id": 265, "last_frame_id": 265, "note": "single frame, 20 Mbps segment" },
+    { "track_id": "GT_F04", "first_frame_id": 395, "last_frame_id": 395, "note": "single frame, 8 Mbps segment" },
+    { "track_id": "GT_F05", "first_frame_id": 490, "last_frame_id": 491, "note": "fleeting, 8 Mbps segment" },
+    { "track_id": "GT_F06", "first_frame_id": 610, "last_frame_id": 610, "note": "single frame, 8 Mbps segment" },
+    { "track_id": "GT_F07", "first_frame_id": 700, "last_frame_id": 700, "note": "single frame, 2 Mbps segment; a policy still uploading here will never see it" },
+    { "track_id": "GT_F08", "first_frame_id": 770, "last_frame_id": 771, "note": "fleeting, 2 Mbps segment" },
+    { "track_id": "GT_F09", "first_frame_id": 855, "last_frame_id": 855, "note": "single frame, 2 Mbps segment" },
+    { "track_id": "GT_F10", "first_frame_id": 880, "last_frame_id": 881, "note": "fleeting, 2 Mbps segment" }
+  ]
+}
